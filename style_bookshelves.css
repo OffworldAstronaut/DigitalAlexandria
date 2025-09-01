@@ -19,33 +19,28 @@ header {
 }
 
 .shelves {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-.shelves_table {
-    width: 100%;
-    table-layout: fixed;
-    border-collapse: collapse;
-}
-
-.shelves_table td {
+.shelves_buttons {
+    display: flex;
+    gap: 5px;
     padding: 2px;
+}
+
+.shelves_buttons a {
     text-align: center;
-}
-
-.shelves_table td a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    padding: 20px 10px;
+    display: flex;
+    flex: 1;
+    min-height: 60px;
+    align-items: center;
+    justify-content: center;
     background-color: #1a1919;
-    box-sizing: border-box;
     transition: 200ms;
-
 }
 
-.shelves_table td a:hover {
+.shelves_buttons a:hover {
     background-color: #2a2828;
     cursor: pointer;
     transition: 200ms;
