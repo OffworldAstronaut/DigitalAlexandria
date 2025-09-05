@@ -19,19 +19,30 @@ header {
     padding-right: 20px;
 }
 
-.book { 
+.book {
     padding-top: 10px;
     text-align: justify;
 }
 
-.book p { 
+.book p {
     line-height: 130%;
 }
 
 .callout-box {
-  padding: 20px;
-  border: 2px solid #2a2828;
-  background-color: #0c0c0c; 
-  margin: 20px; 
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border: 2px solid #2a2828;
+    background-color: #0c0c0c;
+    margin: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.callout-box-table {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #2a2828;
+    background-color: #0c0c0c;
+    margin: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
