@@ -9,6 +9,9 @@ header {
     text-align: left;
     padding-top: 1px;
     line-height: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .main {
@@ -45,4 +48,18 @@ header {
     background-color: #0c0c0c;
     margin: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+button { 
+    border: none;
+    padding: 15px;
+    color: #faf9f6;
+    background-color: #1a1919;
+    transition: 200ms;
+}
+
+button:hover { 
+    background-color: #2a2828;
+    cursor: pointer;
+    transition: 200ms;
 }
