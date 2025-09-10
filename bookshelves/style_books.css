@@ -50,6 +50,16 @@ header {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
+.image { 
+    text-align: center;
+    font-size: small;
+    padding: 2px;
+}
+
+.image img { 
+    width: 50%;
+}
+
 button { 
     border: none;
     padding: 15px;
