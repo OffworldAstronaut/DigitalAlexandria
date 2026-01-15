@@ -1,0 +1,11 @@
+{
+  "name": "digitalalexandria",
+  "type": "module",
+  "scripts": {
+    "build": "node build-books.js"
+  },
+  "dependencies": {
+    "marked": "^11.0.0",
+    "gray-matter": "^4.0.3"
+  }
+}

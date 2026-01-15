@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{TITLE}}</title>
+    <link rel="stylesheet" href="/public/css/style_books.css" />
+    <script
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"
+    ></script>
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [["\\(", "\\)"]],
+          displayMath: [["\\[", "\\]"]],
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div class="main">
+      <header>
+        <h1>{{TITLE}}</h1>
+        <button onclick="history.back()">Voltar</button>
+      </header>
+
+      <div class="book-content">{{CONTENT}}</div>
+    </div>
+  </body>
+</html>

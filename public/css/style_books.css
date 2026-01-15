@@ -1,0 +1,86 @@
+body {
+    color: #faf9f6;
+    background-color: #0c0c0c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: left;
+    padding-top: 1px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: larger;
+}
+
+.main {
+    width: 100%;
+    max-width: 800px;
+    margin: 10% auto 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.book-content {
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.book-content p {
+    line-height: 130%;
+}
+
+.book-content img { 
+    width: 65%;
+    margin: auto;
+    display: block;
+    padding: 20px;
+}
+
+mjx-container[display="true"] { 
+    font-size: 22px !important;
+}
+
+.book-content h1, h2, h3, h4, h5, h6 { 
+    margin-bottom: 12px;
+}
+
+.book-content hr { 
+    color: #2a2828;
+}
+
+aside {
+    padding: 20px;
+    border: 2px solid #2a2828;
+    background-color: #0c0c0c;
+    margin: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.callout-box-table {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #2a2828;
+    background-color: #0c0c0c;
+    margin: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+button { 
+    border: none;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #faf9f6;
+    background-color: #1a1919;
+    transition: 200ms;
+}
+
+button:hover { 
+    background-color: #2a2828;
+    cursor: pointer;
+    transition: 200ms;
+}
