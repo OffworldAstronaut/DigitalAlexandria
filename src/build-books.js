@@ -77,4 +77,6 @@ for (const file of walk(BOOKS)) {
   const outImages = path.join(path.dirname(outPath), "images");
 
   copyDir(srcImages, outImages);
+
+  console.log("Generated:", outPath);
 }
