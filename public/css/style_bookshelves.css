@@ -5,8 +5,7 @@ body {
 }
 
 .main {
-    width: 100%;
-    max-width: 800px;
+    max-width: 50%;
     margin: 10% auto 0 auto;
     padding-left: 20px;
     padding-right: 20px;
@@ -16,17 +15,31 @@ header {
     text-align: left;
     padding-top: 1px;
     line-height: 150%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    background-color: #1a1919;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+h1 { 
+    margin-left: 25px;
+    font-size: xxx-large;
+}
+
+.header-content p {
+    margin-left: 25px;
+    opacity: 85%;
 }
 
 button { 
+    font-size: medium;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border: none;
-    padding: 15px;
+    padding: 20px;
     color: #faf9f6;
     background-color: #1a1919;
     transition: 200ms;
+    border-radius: 15px;
 }
 
 button:hover { 

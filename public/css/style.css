@@ -14,27 +14,50 @@ body {
 
 header {
     text-align: left;
+    background-color: #1a1919;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+h1 { 
+    margin-left: 25px;
+    font-size: xxx-large;
+}
+
+#tda { 
+    margin-bottom: 3%;
+}
+
+#tagline { 
+    margin-left: 25px;
+    opacity: 85%;
 }
 
 .introduction {
     margin-right: 0;
-    text-align: justify;
+    text-align: center;
 }
 
 .introduction p {
-    max-width: 600px;
+    text-align: justify;
+    max-width: 100%;
     line-height: 150%;
+    background-color: #1a1919;
+    padding: 35px;
+    border-radius: 15px;
 }
 
-.introduction a {
+.introduction button {
+    font-size: medium;
+    border-style: none;
     padding: 20px;
     background-color: #1a1919;
-    text-align: center;
-    display: inline-block;
     transition: 200ms;
+    border-radius: 15px;
+
 }
 
-.introduction a:hover {
+.introduction button:hover {
     background-color: #2a2828;
     transition: 200ms;
 }
@@ -45,5 +68,8 @@ a {
 }
 
 footer {
-    margin-top: 30%;
+    padding: 25px;
+    margin-top: 20%;
+    border-radius: 15px;
+    background-color: #1a1919;
 }
