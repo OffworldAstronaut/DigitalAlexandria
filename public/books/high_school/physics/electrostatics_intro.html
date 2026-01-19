@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Introdução à Eletrostática</title>
+    <link rel="stylesheet" href="/css/style_books.css" />
+    <script
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"
+    ></script>
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [["\\(", "\\)"]],
+          displayMath: [["\\[", "\\]"]],
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div class="main">
+      <header>
+        <h1>Introdução à Eletrostática</h1>
+        <button onclick="history.back()">Voltar</button>
+      </header>
+
+      <div class="book-content"><h1>Carga elétrica</h1>
+<hr>
+<p>Para iniciarmos os estudos de eletrostática, é fundamental entender o conceito de <strong>carga elétrica</strong>, e para isso, é importante revisarmos os modelos atômicos, mais especificamente o <strong>modelo atômico de Rutherford-Bohr</strong>. </p>
+<p>Nesse modelo atômico, o átomo é dividido em duas regiões, o <strong>núcleo</strong>, formado por prótons e nêutrons, e a <strong>eletrosfera</strong>, formada por elétrons. Essas partículas possuem uma propriedade chamada <strong>carga elétrica</strong>, podendo ser positiva (+), negativa (-) ou neutra (0), no caso dos prótons, elétrons e nêutrons, respectivamente. </p>
+<aside>
+<img src="https://www.notion.so/icons/science_gray.svg" alt="https://www.notion.so/icons/science_gray.svg" width="40px" />
+
+<p><em>“A carga elétrica é a propriedade básica da matéria realizada por algumas partículas elementares que governam como partículas são afetadas por um campo elétrico ou magnético.”</em> <a href="https://www.britannica.com/science/electric-charge"><strong>(Encyclopaedia Brittanica - Electric Charge</strong></a></p>
+</aside>
+
+<p>É interessante mencionarmos ainda que medimos a carga elétrica dos corpos em <strong>Coulombs \((\text C)\)</strong>, com a do elétron e do próton sendo denominada <strong>carga elétrica elementar \((e)\),</strong> valendo \(\pm1.6×10^{−19} \text{ C}\), positiva no caso do próton e negativa no caso do elétron. Por ser a carga elétrica de uma única partícula, é impossível um corpo possuir uma carga elétrica menor que a carga elétrica elementar. </p>
+<h1>Princípios da Eletrostática</h1>
+<hr>
+<p>Além disso, temos dois fenômenos que são fundamentais para toda a Eletrostática, fenômenos esses que acontecem em relação às cargas elétricas: o <strong>princípio da atração e repulsão</strong> e a <strong>quantização das cargas elétricas</strong>. </p>
+<h2>Princípio da Atração e Repulsão</h2>
+<hr>
+<p>Esse princípio é muito conhecido pela máxima <strong>“os opostos se atraem”</strong>.</p>
+<p>Cargas elétricas de sinais iguais tendem a se repelir com uma força chamada <strong>força coulombiana</strong>, que será discorrida sobre mais à frente, enquanto cargas elétricas de sinais opostos tendem a se atrair por ação da mesma força. </p>
+<aside>
+<img src="https://www.notion.so/icons/science_gray.svg" alt="https://www.notion.so/icons/science_gray.svg" width="40px" />
+
+<p><strong>Cargas de sinais iguais tendem a ficar o mais longe possível uma da outra!</strong></p>
+<p>Além disso, cargas de sinais opostos tendem a se aproximar o máximo possível.</p>
+</aside>
+
+<h2>Quantização das cargas elétricas</h2>
+<hr>
+<p>A quantidade de cargas elétricas num corpo não pode ser fracionária, já que não é possível ter meio elétron, ou três quartos de elétron, ou dois prótons e meio, por exemplo. </p>
+<p>Dizemos de forma concisa que <strong>a carga elétrica de qualquer corpo é sempre quantizada</strong>, ou seja, é sempre um múltiplo natural da carga elementar. </p>
+<p>Podemos representar essa relação por uma equação matemática, </p>
+<p>\[
+Q=en
+\]</p>
+<p>onde \(Q\) é a carga elétrica de um corpo, \(e\) é a carga elementar e \(n\) é um natural. </p>
+<h1>Corpos</h1>
+<hr>
+<p>Os corpos possuem um papel central na Eletrostática, afinal, eles são formados por átomos, com estes sendo formados por partículas que possuem carga elétrica: são eles que armazenam as cargas e as transmitem ou impedem sua passagem para outros corpos. </p>
+<h2>Corpos neutros e eletrizados</h2>
+<hr>
+<p>Dizemos que um dado corpo é <strong>neutro</strong> se ele possui a mesma quantidade de cargas negativas e cargas positivas em sua composição, enquanto um corpo <strong>eletrizado</strong> possui uma assimetria na sua distribuição de cargas: se possui mais cargas negativas, se torna um <strong>corpo eletrizado negativamente</strong>, caso contrário é um <strong>corpo eletrizado positivamente</strong>. </p>
+<p>Algo importante de se ter em mente, e <strong>consequência do primeiro princípio fundamental</strong>, é que <strong>corpos neutros sempre são atraídos por corpos carregados</strong>.</p>
+<p><img src="Introdu%C3%A7%C3%A3o%20%C3%A0%20Eletrost%C3%A1tica/image.png" alt="O cilindro (+) é um corpo eletrizado positivamente: perceba a reorganização no condutor e o pouco movimento das cargas no isolante! No segundo caso dizemos que as cargas foram **polarizadas** pelo corpo eletrizado. "></p>
+<p><em>O cilindro (+) é um corpo eletrizado positivamente: perceba a reorganização no condutor e o pouco movimento das cargas no isolante! No segundo caso dizemos que as cargas foram <strong>polarizadas</strong> pelo corpo eletrizado.</em> </p>
+<h2>Condutores e isolantes</h2>
+<hr>
+<p>De forma bem simples, <strong>materiais condutores</strong> possuem <strong>grande facilidade</strong> na <strong>transmissão de cargas</strong> pelos seus átomos, enquanto <strong>materiais isolantes</strong> são o caso oposto: cargas elétricas possuem uma certa dificuldade de se mover por corpos formados por esses materiais. </p>
+<p>Podemos citar alguns materiais condutores comuns, como cobre e estanho, e isolantes, como madeira e borracha. </p>
+<h1>Processos de Eletrização</h1>
+<hr>
+<p><strong>Eletrizar</strong> um corpo é fazer com que um corpo neutro se torne eletrizado, ou seja, um <strong>processo de eletrização</strong> é uma maneira de fornecermos ou retirarmos elétrons de um corpo. </p>
+<aside>
+<img src="https://www.notion.so/icons/science_gray.svg" alt="https://www.notion.so/icons/science_gray.svg" width="40px" />
+
+<p>Na Eletrostática, sempre consideramos a movimentação de <strong>elétrons</strong>! 
+Não é possível fornecer prótons a um material tão facilmente: só podemos retirar ou adicionar prótons a um átomo com <strong>reações nucleares</strong>! (é <strong>extremamente</strong> difícil)</p>
+</aside>
+
+<h2>Eletrização por atrito</h2>
+<hr>
+<p>Ao <strong>atritarmos</strong> dois corpos <strong>neutros</strong> de <strong>materiais diferentes</strong>, um dos corpos irá transferir alguns de seus elétrons para o outro corpo, já que fornecemos energia a eles por meio do atrito! </p>
+<p>Esse acontecimento é chamado de <strong>efeito triboelétrico</strong>, e por conta disso temos a chamada <strong>série triboelétrica</strong>, uma <strong>tabela</strong> com diferentes materiais que pode nos ajudar a prever o comportamento elétrico de dois materiais quando atritados. </p>
+<table>
+<thead>
+<tr>
+<th><strong>Pele humana seca</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Couro</strong></td>
+</tr>
+<tr>
+<td><strong>Vidro</strong></td>
+</tr>
+<tr>
+<td><strong>Cabelo humano</strong></td>
+</tr>
+<tr>
+<td><strong>Náilon</strong></td>
+</tr>
+<tr>
+<td><strong>Chumbo</strong></td>
+</tr>
+<tr>
+<td><strong>Seda</strong></td>
+</tr>
+<tr>
+<td><strong>Papel</strong></td>
+</tr>
+<tr>
+<td><strong>Madeira</strong></td>
+</tr>
+</tbody></table>
+<p>Quanto mais <strong>acima</strong> na série um material está, ele tem uma maior tendência de <strong>perder elétrons</strong>, e quanto mais <strong>abaixo</strong> ele está, ele tem uma maior tendência de <strong>ganhar elétrons</strong> ao ser atritado. À medida que atritamos materiais cada vez mais distantes entre si na série triboelétrica, mais elétrons vão ser transferidos entre esses corpos. </p>
+<h2>Eletrização por contato</h2>
+<hr>
+<p>Se tivermos um <strong>corpo eletrizado</strong> em <strong>contato</strong> <strong>externo</strong> com um <strong>corpo neutro</strong>, <strong>cargas</strong> irão <strong>fluir</strong> entre os dois corpos de forma que o corpo anteriormente neutro <strong>se torne</strong> também um <strong>corpo eletrizado</strong>.</p>
+<p>É interessante saber que a quantidade de carga que irá fluir entre os corpos depende de seu volume: quanto <strong>maior</strong> um corpo <strong>neutro</strong>, <strong>maior</strong> será a sua <strong>capacidade</strong> de absorver ou ceder carga ao corpo eletrizado. O caso mais simples é o de <strong>dois corpos idênticos</strong>: a quantidade de carga excedente em cada um será <strong>idêntica</strong> e <strong>metade</strong> da <strong>carga</strong> do <strong>corpo eletrizado original</strong>. </p>
+<p><img src="Introdu%C3%A7%C3%A3o%20%C3%A0%20Eletrost%C3%A1tica/image%201.png" alt="Duas esferas de metal. Note que as cargas negativas foram distribuídas igualmente entre elas!"></p>
+<p><em>Duas esferas de metal. Note que as cargas negativas foram distribuídas igualmente entre elas!</em></p>
+<p>Agora, se tivermos um <strong>corpo eletrizado</strong> em <strong>contato interno</strong> com um corpo neutro, todas as cargas excedentes irão fluir entre os corpos de forma que o corpo eletrizado <strong>se tornará neutro</strong>.</p>
+<p><img src="Introdu%C3%A7%C3%A3o%20%C3%A0%20Eletrost%C3%A1tica/image%202.png" alt="Uma esfera de metal em contato interno com uma panela de metal (estamos observando um corte 2D!): note que as cargas excedentes foram todas para a panela, enquanto a esfera se neutralizou!"></p>
+<p><em>Uma esfera de metal em contato interno com uma panela de metal (estamos observando um corte 2D!): note que as cargas excedentes foram todas para a panela, enquanto a esfera se neutralizou!</em></p>
+<h2>Eletrização por indução</h2>
+<hr>
+<p>Se tivermos um <strong>corpo neutro</strong> isolado eletricamente (chamado aqui de <em>induzido</em>) e aproximarmos dele um <strong>corpo eletrizado</strong> (chamado <em>indutor</em>), as cargas irão se redistribuir de forma a serem atraídas ou repulsas a ele. </p>
+<p>Ao aterrarmos esse corpo neutro, ele irá ceder ou devolver elétrons à Terra, conforme as cargas que foram repulsas. Assim, se <strong>isolarmos</strong> o corpo novamente e depois <strong>afastarmos o indutor</strong>, veremos que o corpo induzido agora foi eletrizado. </p>
+<p><img src="Introdu%C3%A7%C3%A3o%20%C3%A0%20Eletrost%C3%A1tica/image%203.png" alt="Primeiro, aproximamos o corpo indutor positivo da esfera metálica aterrada. Esse corpo atrai os elétrons da esfera, criando regiões de carga positiva (deficiência de elétrons). Essas regiões atraem os elétrons livres da Terra, que sobem para o as regiões positivas do corpo induzido. Depois, ao cortarmos o aterramento e em seguida afastando o corpo indutor da esfera metálica, finalizamos o processo. Eletrizamos negativamente a esfera! "></p>
+<p><em>Primeiro, aproximamos o corpo indutor positivo da esfera metálica aterrada. Esse corpo atrai os elétrons da esfera, criando regiões de carga positiva (deficiência de elétrons). Essas regiões atraem os elétrons livres da Terra, que sobem para o as regiões positivas do corpo induzido. Depois, ao cortarmos o aterramento e em seguida afastando o corpo indutor da esfera metálica, finalizamos o processo. Eletrizamos negativamente a esfera!</em> </p>
+<p>Ainda há uma outra maneira de eletrizarmos um corpo por indução, <strong>sem aterramento</strong>! </p>
+<p>Se colocarmos dois corpos isolados eletricamente da Terra <strong>em contato</strong>, e aproximarmos um corpo indutor de um deles, as <strong>cargas elétricas</strong> de um <strong>corpo</strong> irão <strong>ser atraídas ou repulsas</strong> para <strong>outro</strong>. Depois, <strong>basta afastarmos</strong> os dois corpos e depois <strong>afastarmos o indutor</strong>!</p>
+<h2>Eletroscópio</h2>
+<hr>
+<p>Um <strong>eletroscópio</strong> é um instrumento que permite verificar se um corpo está <strong>neutro</strong> ou <strong>eletrizado</strong>. </p>
+<p>Seu tipo mais comum, o <strong>eletroscópio de folhas</strong>, é formado por uma esfera metálica conectada a um bastão metálico, que por sua vez está conectado a duas folhas, também metálicas (ou de qualquer outro material condutor). </p>
+<p>Caso esse instrumento esteja neutro, o ato de aproximar um corpo eletrizado causará uma <strong>redistribuição de cargas</strong>, <strong>afastando as folhas de metal</strong> uma da outra. </p>
+<p>Se o <strong>eletroscópio</strong> estiver <strong>eletrizado</strong>, a depender da carga do corpo aproximado, as <strong>folhas irão se abrir</strong> mais ainda <strong>ou se fechar</strong>, também por conta da <strong>redistribuição de cargas</strong>.</p>
+<p><img src="Introdu%C3%A7%C3%A3o%20%C3%A0%20Eletrost%C3%A1tica/image%204.png" alt="Você consegue descobrir a carga do eletroscópio eletrizado só pelo experimento executado?"></p>
+<p><em>Você consegue descobrir a carga do eletroscópio eletrizado só pelo experimento executado?</em></p>
+<h1>Lei de Coulomb</h1>
+<hr>
+<p>A <strong>Lei de Coulomb</strong>, descrita pelo físico francês Charles Augustin de Coulomb (ele também recebe em homenagem o <strong>nome da unidade de carga elétrica</strong>!), nos permite quantificar a força de atração ou repulsão entre as cargas elétricas, cuja existência é garantida pelo primeiro princípio da eletrostática. </p>
+<p>Coulomb percebeu que a força de repulsão (ou atração) entre essas duas cargas é diretamente proporcional ao produto as cargas e inversamente proporcional ao quadrado da distância entre elas. </p>
+<p>Matematicamente, podemos expressar a Lei de Coulomb, para duas cargas \(Q_1\) e \(Q_2\), separadas por uma distância \(d\) dessa forma: </p>
+<p>\[
+F_C=k\frac{Q_1Q_2}{d^2}
+\]</p>
+<aside>
+<img src="https://www.notion.so/icons/science_gray.svg" alt="https://www.notion.so/icons/science_gray.svg" width="40px" />
+
+<p>Soa <a href="https://pt.wikipedia.org/wiki/Lei_da_gravita%C3%A7%C3%A3o_universal">familiar</a>?</p>
+<p><img src="Introdu%C3%A7%C3%A3o%20%C3%A0%20Eletrost%C3%A1tica/image%205.png" alt="image.png"></p>
+</aside>
+
+<p>Além disso, é importante perceber que a constante \(k\), da lei de Coulomb, a chamada <strong>constante eletrostática</strong>, possui o valor de aproximadamente \(8.99 × 10^9 \text{ N}\cdot \text{m}^2/\text{C}^2\). </p>
+<h1>Veja também</h1>
+<hr>
+<p><a href="https://www.notion.so/Potencial-El-trico-1449f4125a3280ec9db4f97704dd86d7?pvs=21">Potencial Elétrico</a></p>
+<p><a href="https://www.notion.so/F-sica-1de9f4125a3280da86a1d1a42595a54b?pvs=21">Física</a></p>
+<p>Próximo volume</p>
+<p>Índice geral</p>
+</div>
+    </div>
+  </body>
+</html>
