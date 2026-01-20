@@ -2,8 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>{{TITLE}}</title>
     <link rel="stylesheet" href="/css/style_books.css" />
+    <link rel="stylesheet" href="../../../css/style_books.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libertinus+Math&display=swap" rel="stylesheet">
     <script
       id="MathJax-script"
       async
@@ -21,9 +26,11 @@
   <body>
     <div class="main">
       <header>
-        <h1>{{TITLE}}</h1>
-        <button onclick="history.back()">Voltar</button>
+        <h1>Introdução à Eletrodinâmica</h1>
       </header>
+      <nav class="nav-back">
+        <button onclick="history.back()"><strong>Voltar</strong></button>
+      </nav>
 
       <div class="book-content">{{CONTENT}}</div>
     </div>
