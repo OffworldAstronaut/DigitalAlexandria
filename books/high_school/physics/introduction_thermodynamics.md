@@ -162,8 +162,8 @@ Partindo de que a expressão para o trabalho de uma força paralela ao deslocame
 
 $$
 \begin{align*}
-\tau &= Fd \\ 
-\tau &= PAd \\ 
+\tau &= Fd \\\\ 
+\tau &= PAd \\\\
 \tau &= P \Delta V
 \end{align*}
 $$
@@ -259,7 +259,7 @@ Este ciclo termodinâmico pode ser descrito de forma didática em seis passos.
 
 1. **Entrada de ar** no motor; 
 2. **Compressão adiabática** do ar pelo pistão;
-3. **Injeção de combustível**, ****que se mistura com o ar comprimido, detonando-se e empurrando o pistão numa expansão isobárica;
+3. **Injeção de combustível**, que se mistura com o ar comprimido, detonando-se e empurrando o pistão numa expansão isobárica;
 4. Com o fim da combustão de todo o combustível, **o gás** quente **continua** **expandindo-se abiabaticamente;** 
 5. **Válvula de escape aberta,** queda abrupta da pressão no interior do cilindro, que equaliza-se com a pressão atmosférica; 
 6. **Expulsão de resíduos** e do gás do interior do cilindro;
