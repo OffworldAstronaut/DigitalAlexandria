@@ -1,35 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Estantes</title>
+    <title>📖 Estantes</title>
     <link rel="stylesheet" href="css/style_bookshelves.css" />
   </head>
   <body>
-    <div class="main">
-      <header>
-        <div class="header-content">
-          <h1>Estantes</h1>
-            <p>
-              <i>
-                A biblioteca é dividida em seções, com cada seção possuindo suas
-                estantes. Cada estante, livros.
-              </i>
-            </p>
-        </div>
+    <main class="main">
+      <header class="header">
+        <h1>📖 Estantes</h1>
+        <p class="subtitle">
+          A biblioteca é dividida em seções, com cada seção possuindo suas
+          estantes. Cada estante, livros.
+        </p>
       </header>
-      <button onclick="history.back()"><b>Voltar</b></button>
-      <div class="shelves">
-        <h2>Ensino médio</h2>
-        <h3>Física</h3>
-        <div class="shelves_buttons">
-          <a href="/books/high_school/physics/electrostatics_intro.html">Introdução à Eletrostática</a>
-          <a href="/books/high_school/physics/electrodynamics_intro.html">Introdução à Eletrodinâmica</a>
+
+      <nav class="nav-back">
+        <button onclick="history.back()"><strong>Voltar</strong></button>
+      </nav>
+
+      <section class="shelves">
+        <div class="section-title">
+          <h2>⚜ Ensino médio ⚜</h2><br>
+          <h3>⚛ Física ⚛</h3>
         </div>
+
+        <div class="shelf">
+          <a class="book" href="/books/high_school/physics/electrostatics_intro.html">
+            <span class="book-title">Introdução à Eletrostática</span>
+          </a>
+
+          <a class="book" href="/books/high_school/physics/electrodynamics_intro.html">
+            <span class="book-title">Introdução à Eletrodinâmica</span>
+          </a>
         </div>
-      </div>
-      </div>
-    </div>
+        <div class="section-title">
+          <h3>⚗ Química ⚗</h3>
+        </div>
+
+        <div class="shelf">
+          <a class="book" href="#">
+            <span class="book-title">Introdução à Química Orgânica</span>
+          </a>
+
+          <a class="book" href="#">
+            <span class="book-title">Hidrocarbonetos</span>
+          </a>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

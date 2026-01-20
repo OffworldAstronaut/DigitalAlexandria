@@ -1,82 +1,116 @@
 body {
+    margin: 0;
     color: #faf9f6;
     background-color: #0c0c0c;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.main {
-    max-width: 50%;
-    margin: 10% auto 0 auto;
-    padding-left: 20px;
-    padding-right: 20px;
+main {
+    max-width: 900px;
+    margin: 8vh auto;
+    padding: 0 24px;
 }
 
-header {
-    text-align: left;
-    padding-top: 1px;
-    line-height: 150%;
+
+.header {
     background-color: #1a1919;
-    padding: 15px;
-    border-radius: 15px;
+    padding: 25px;
+    border-radius: 16px;
 }
 
-h1 { 
-    margin-left: 25px;
-    font-size: xxx-large;
+.header h1 {
+    margin-left: 20px;
+    font-size: 3rem;
 }
 
-.header-content p {
-    margin-left: 25px;
-    opacity: 85%;
-}
-
-button { 
-    font-size: medium;
+.subtitle {
+    margin-left: 20px;
     margin-top: 10px;
-    margin-bottom: 10px;
-    border: none;
-    padding: 20px;
-    color: #faf9f6;
-    background-color: #1a1919;
-    transition: 200ms;
-    border-radius: 15px;
+    opacity: 0.8;
+    line-height: 1.5;
+    font-style: italic;
 }
 
-button:hover { 
-    background-color: #2a2828;
-    cursor: pointer;
-    transition: 200ms;
+
+.nav-back {
+    margin: 16px 0 32px 0;
 }
+
+button {
+    background-color: #2a2828;
+    border: #151515;
+    border-radius: 10px;
+    color: #faf9f6;
+    font-size: 0.9rem;
+    opacity: 0.7;
+    cursor: pointer;
+    padding: 10px;
+}
+
+button:hover {
+    opacity: 1;
+}
+
 
 .shelves {
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.shelves_buttons {
-    display: flex;
-    gap: 5px;
-    padding: 2px;
-}
-
-.shelves_buttons a {
+    display: block;
     text-align: center;
+}
+
+.section-title {
+    background-color: #151515;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 40px 0 12px 0;
+}
+
+.section-title h2 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.section-title h3 {
+    margin: 4px 0 0 0;
+    font-size: 1.6rem;
+    opacity: 0.9;
+}
+
+
+.shelf {
     display: flex;
-    flex: 1;
-    min-height: 60px;
+    align-items: flex-end;
+    gap: 14px;
+    padding: 18px 14px 12px 14px;
+    background-color: #151515;
+    border-radius: 14px;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.book {
+    padding: 20px 0px 20px 0px;
+    width: 70px;
+    height: 170px;
+    background-color: #1a1919;
+    border-radius: 6px;
+    display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #1a1919;
-    transition: 200ms;
-}
-
-.shelves_buttons a:hover {
-    background-color: #2a2828;
-    cursor: pointer;
-    transition: 200ms;
-}
-
-a {
-    color: #faf9f6;
     text-decoration: none;
+    transition: transform 200ms, background-color 200ms;
+}
+
+.book:hover {
+    background-color: #2a2828;
+    transform: translateY(-6px);
+}
+
+.book-title {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 1.0rem;
+    text-align: center;
+    color: #faf9f6;
+    opacity: 0.9;
+    line-height: 1.2;
 }
