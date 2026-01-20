@@ -6,91 +6,102 @@ body {
 }
 
 main {
-    max-width: 900px;
-    margin: 8vh auto;
+    max-width: min(900px, 92vw);
+    margin: clamp(32px, 6vh, 96px) auto;
     padding: 0 24px;
 }
 
+/* ---------- Header ---------- */
 
 .header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #1a1919;
-    padding: 25px;
+    padding: 24px;
     border-radius: 16px;
 }
 
 .header h1 {
-    margin-left: 20px;
-    font-size: 3rem;
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3rem);
 }
 
 .subtitle {
-    margin-left: 20px;
     margin-top: 10px;
     opacity: 0.8;
     line-height: 1.5;
     font-style: italic;
 }
 
+/* ---------- Navigation ---------- */
 
 .nav-back {
     margin: 16px 0 32px 0;
 }
 
 button {
-    background-color: #2a2828;
-    border: #151515;
+    background-color: #1a1919;
+    border: none;
     border-radius: 10px;
     color: #faf9f6;
     font-size: 0.9rem;
-    opacity: 0.7;
+    padding: 12px 20px;
+    opacity: 0.8;
     cursor: pointer;
-    padding: 10px;
 }
 
 button:hover {
     opacity: 1;
 }
 
+/* ---------- Sections ---------- */
 
 .shelves {
-    display: block;
-    text-align: center;
+    text-align: left;
 }
 
 .section-title {
+    
+    text-align: center;
+    margin: 40px 0 12px 0;
+    border-bottom: 1px solid #2a2828;
     background-color: #151515;
     border-radius: 15px;
     padding: 30px;
-    margin: 40px 0 12px 0;
 }
 
 .section-title h2 {
     margin: 0;
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 3vw, 2rem);
 }
 
 .section-title h3 {
-    margin: 4px 0 0 0;
-    font-size: 1.6rem;
+    margin-top: 6px;
+    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
     opacity: 0.9;
+    margin-bottom: auto;
 }
 
+/* ---------- Shelf ---------- */
 
 .shelf {
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-end;
     gap: 14px;
-    padding: 18px 14px 12px 14px;
+    padding: 18px 14px 12px;
     background-color: #151515;
     border-radius: 14px;
-    margin-bottom: 24px;
-    position: relative;
+    margin-bottom: 20px;
 }
 
+/* ---------- Books ---------- */
+
 .book {
-    padding: 20px 0px 20px 0px;
-    width: 70px;
-    height: 170px;
+    width: clamp(52px, 14vw, 70px);
+    height: clamp(130px, 32vw, 170px);
     background-color: #1a1919;
     border-radius: 6px;
     display: flex;
@@ -100,17 +111,18 @@ button:hover {
     transition: transform 200ms, background-color 200ms;
 }
 
-.book:hover {
-    background-color: #2a2828;
-    transform: translateY(-6px);
+@media (hover: hover) {
+    .book:hover {
+        background-color: #2a2828;
+        transform: translateY(-6px);
+    }
 }
 
 .book-title {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
-    font-size: 1.0rem;
+    font-size: clamp(0.75rem, 2vw, 1rem);
     text-align: center;
     color: #faf9f6;
     opacity: 0.9;
-    line-height: 1.2;
 }
