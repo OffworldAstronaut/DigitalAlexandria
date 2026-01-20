@@ -1,69 +1,128 @@
 body {
+    margin: 0;
     color: #faf9f6;
     background-color: #0c0c0c;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.main {
-    width: 100%;
-    max-width: 800px;
-    margin: 10% auto 0 auto;
-    padding-left: 20px;
-    padding-right: 20px;
+main {
+    max-width: min(900px, 92vw);
+    margin: clamp(32px, 6vh, 96px) auto;
+    padding: 0 24px;
 }
 
-header {
-    text-align: left;
-    padding-top: 1px;
-    line-height: 150%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+/* ---------- Header ---------- */
 
-button { 
-    border: none;
-    padding: 15px;
-    color: #faf9f6;
-    background-color: #1a1919;
-    transition: 200ms;
-}
-
-button:hover { 
-    background-color: #2a2828;
-    cursor: pointer;
-    transition: 200ms;
-}
-
-.shelves {
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.shelves_buttons {
-    display: flex;
-    gap: 5px;
-    padding: 2px;
-}
-
-.shelves_buttons a {
+.header {
     text-align: center;
     display: flex;
-    flex: 1;
-    min-height: 60px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1a1919;
+    padding: 24px;
+    border-radius: 16px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.subtitle {
+    margin-top: 10px;
+    opacity: 0.8;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+/* ---------- Navigation ---------- */
+
+.nav-back {
+    margin: 16px 0 32px 0;
+}
+
+button {
+    background-color: #1a1919;
+    border: none;
+    border-radius: 10px;
+    color: #faf9f6;
+    font-size: 0.9rem;
+    padding: 12px 20px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+/* ---------- Sections ---------- */
+
+.shelves {
+    text-align: left;
+}
+
+.section-title {
+    
+    text-align: center;
+    margin: 40px 0 12px 0;
+    border-bottom: 1px solid #2a2828;
+    background-color: #151515;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.section-title h2 {
+    margin: 0;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
+.section-title h3 {
+    margin-top: 6px;
+    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+    opacity: 0.9;
+    margin-bottom: auto;
+}
+
+/* ---------- Shelf ---------- */
+
+.shelf {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 14px;
+    padding: 18px 14px 12px;
+    background-color: #151515;
+    border-radius: 14px;
+    margin-bottom: 20px;
+}
+
+/* ---------- Books ---------- */
+
+.book {
+    width: clamp(52px, 14vw, 70px);
+    height: clamp(130px, 32vw, 170px);
+    background-color: #1a1919;
+    border-radius: 6px;
+    display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #1a1919;
-    transition: 200ms;
-}
-
-.shelves_buttons a:hover {
-    background-color: #2a2828;
-    cursor: pointer;
-    transition: 200ms;
-}
-
-a {
-    color: #faf9f6;
     text-decoration: none;
+    transition: transform 200ms, background-color 200ms;
+}
+
+@media (hover: hover) {
+    .book:hover {
+        background-color: #2a2828;
+        transform: translateY(-6px);
+    }
+}
+
+.book-title {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: clamp(0.75rem, 2vw, 1rem);
+    text-align: center;
+    color: #faf9f6;
+    opacity: 0.9;
 }

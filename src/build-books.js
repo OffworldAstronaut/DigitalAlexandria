@@ -3,9 +3,19 @@ import path from "path";
 import matter from "gray-matter";
 import { marked } from "marked";
 
-const BOOKS = "books";
-const TEMPLATE = fs.readFileSync("templates/book.html", "utf8");
-const OUT = "public/books";
+import { fileURLToPath } from "url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const ROOT = path.resolve(__dirname, "..");
+
+const BOOKS = path.join(ROOT, "books");
+const TEMPLATE = fs.readFileSync(
+  path.join(ROOT, "templates", "book.html"),
+  "utf8"
+);
+const OUT = path.join(ROOT, "public", "books");
 
 function convertMathDelimiters(md) {
   md = md.replace(

@@ -1,86 +1,109 @@
 body {
+    margin: 0;
     color: #faf9f6;
     background-color: #0c0c0c;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Libertinus Math", system-ui;
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
 }
 
-header {
-    text-align: left;
-    padding-top: 1px;
-    line-height: 150%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: larger;
-}
+/* ---------- Layout ---------- */
 
 .main {
     width: 100%;
-    max-width: 800px;
-    margin: 10% auto 0 auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    max-width: min(900px, 92vw);
+    margin: clamp(32px, 8vh, 96px) auto;
+    padding: 0 20px;
 }
 
+/* ---------- Header ---------- */
+
+header {
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: #151515;
+    padding: 16px;
+}
+
+header h1 {
+    font-size: clamp(1.6rem, 4vw, 2.2rem);
+    margin: 0;
+    text-align: center;
+}
+
+/* ---------- Navigation ---------- */
+
+.nav-back {
+    margin: 16px 0 32px 0;
+}
+
+button {
+    background-color: #1a1919;
+    border: none;
+    border-radius: 10px;
+    color: #faf9f6;
+    font-size: 0.9rem;
+    padding: 12px 20px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+/* ---------- Book Content ---------- */
+
 .book-content {
-    padding-top: 10px;
+    padding-top: 12px;
     text-align: justify;
 }
 
 .book-content p {
-    line-height: 130%;
+    line-height: 1.7;
+    margin-bottom: 1em;
 }
 
-.book-content img { 
-    width: 65%;
-    margin: auto;
+.book-content h1,
+.book-content h2,
+.book-content h3,
+.book-content h4,
+.book-content h5,
+.book-content h6 {
+    margin-top: 1.6em;
+    margin-bottom: 0.6em;
+}
+
+/* ---------- Images ---------- */
+
+.book-content img {
+    width: min(100%, 520px);
+    margin: 24px auto;
     display: block;
-    padding: 20px;
 }
 
-mjx-container[display="true"] { 
-    font-size: 22px !important;
+/* ---------- MathJax ---------- */
+
+mjx-container[display="true"] {
+    font-size: clamp(1.1rem, 3vw, 1.4rem) !important;
 }
 
-.book-content h1, h2, h3, h4, h5, h6 { 
-    margin-bottom: 12px;
-}
+/* ---------- Callouts ---------- */
 
-.book-content hr { 
-    color: #2a2828;
-}
-
-aside {
-    padding: 20px;
-    border: 2px solid #2a2828;
-    background-color: #0c0c0c;
-    margin: 20px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-}
-
+aside,
 .callout-box-table {
-    display: flex;
-    justify-content: center;
-    text-align: center;
     padding: 20px;
+    margin: 24px auto;
     border: 2px solid #2a2828;
     background-color: #0c0c0c;
-    margin: 20px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+    max-width: 100%;
 }
 
-button { 
-    border: none;
-    padding: 15px;
-    padding-left: 25px;
-    padding-right: 25px;
-    color: #faf9f6;
-    background-color: #1a1919;
-    transition: 200ms;
-}
+/* ---------- Small screens ---------- */
 
-button:hover { 
-    background-color: #2a2828;
-    cursor: pointer;
-    transition: 200ms;
+@media (max-width: 480px) {
+    .book-content {
+        text-align: left;
+    }
 }
