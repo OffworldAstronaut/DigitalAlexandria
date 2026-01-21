@@ -1,4 +1,4 @@
-# Dilatação Térmica
+# Dilatação térmica
 
 # Dilatação
 
