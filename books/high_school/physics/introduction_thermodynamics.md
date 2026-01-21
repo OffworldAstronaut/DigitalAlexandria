@@ -42,7 +42,6 @@ A relação, conhecida por ser uma **equação de estado**, — pois relaciona a
 
 $$
 PV=nRT=nk_BT=nk_BN_AT
-
 $$
 
 Essas variações existem em consideração dos diferentes objetivos que uma medição ou um cálculo pode ter, com a constante do gás ideal mais utilizada em escala macroscópica e a constante de Boltzmann empregada em análises na escala de partículas, como será exemplificado na próxima seção. 
