@@ -1,3 +1,5 @@
+# Leis de Newton
+
 # Mudança de referencial
 
 ---
@@ -128,7 +130,7 @@ O próximo passo é associar essa aceleração a sua respectiva força explicita
 
 $$
 \begin{align}
-F_{TM} &= K_M \cdot \dfrac{M}{R_T^2} \\ 
+F_{TM} &= K_M \cdot \dfrac{M}{R_T^2} \\\\ 
 F_{TL} &= K_L \cdot \dfrac{M_L}{R_L^2}
 \end{align}
 $$

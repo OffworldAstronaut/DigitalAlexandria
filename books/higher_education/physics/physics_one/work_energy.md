@@ -1,4 +1,4 @@
-# Trabalho e Energia Cinética
+# Trabalho e Energia
 
 # As origens do trabalho 
 
@@ -71,8 +71,26 @@ Por fim, perceba que ao final chegamos numa expressão em que estamos **integran
 
 ## Potência
 
-...
+---
+
+Definimos a grandeza **potência** como a **taxa da realização de trabalho ao longo do tempo** de uma força. Como foi demonstrado pelo Teorema anterior, é possível também descrevê-la como a **taxa de transferência energética** de uma força.
+
+Durante o ensino médio, entramos em contato com a chamada **potência média**, definida por:
+
+$$
+P_{M} = \dfrac{\Delta W}{\Delta t}
+$$
+
+Entretanto, a chamada **potência instantânea**, ou simplesmente **potência**, é expressa como a derivada do trabalho em relação ao tempo. Pelas propriedades do Cálculo, podemos também expressar o trabalho como a integral da potência.
+
+$$
+P = \dfrac{dW}{dt} \Longleftrightarrow  W = \int P \ dt
+$$
 
 # Energia Potencial e a Conservação da Energia
 
-...
+---
+
+<aside>
+<i>Em construção...</i>
+</aside>
