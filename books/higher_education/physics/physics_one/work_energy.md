@@ -33,7 +33,7 @@ $$
 \begin{align*}
 ma \Delta x &= \dfrac{1}{2}m(\Delta v)^2 \\\\ 
 F \Delta x &= \dfrac{1}{2}m(\Delta v)^2 \\\\ 
-&= \boxed{\dfrac{1}{2}mv_f^2} - \dfrac{1}{2}mv_0^2 \\\\ 
+&= \boxed{\dfrac{1}{2}mv_2^2} - \dfrac{1}{2}mv_1^2 \\\\ 
 \end{align*}
 $$
 
@@ -91,6 +91,57 @@ $$
 
 ---
 
+Uma motivação para o conceito de **energia potencial** vem de um dos passos que tomamos para a definição da energia cinética. Vamos revisitá-lo, mais precisamente, a **constante de movimento**. 
+
+$$
+\dfrac{1}{2}v_2^2 - ax_2 = \dfrac{1}{2}v_1^2 - ax_1
+$$
+
+Ao multiplicarmos ambos os membros pela massa do corpo, $m$, chegamos na expressão: 
+
+$$
+\dfrac{1}{2}mv_2^2 - m \cdot ax_2 = \dfrac{1}{2}mv_1^2 - m \cdot ax_1
+$$
+
+Perceba que os termos que dependem da velocidade são a nossa conhecida **energia cinética**, mas e os outros dois? Essa nova grandeza não depende da velocidade de um corpo, mas sim de sua **posição**.
+
+Dessa forma, é possível reescrever essa equação em termos de suas funções $T(v)$ e $U(x)$. A essa soma, chamamos **energia mecânica total** do sistema, e à grandeza que depende da posição, **energia potencial**.
+
+$$
+T(v_2) + U(x_2) = T(v_1) + U(x_1)
+$$
+
+<aside>
+
+O termo energia "potencial", de fato, faz uma referência ao conceito de "ato" e "potência" de Aristóteles. Temos uma energia no sistema que "não se concretizou", mas existe como uma "possibilidade de entrar em ação". 
+
+</aside>
+
+Esse princípio, enunciado na equação acima, é chamado de **conservação da energia**, com os sistemas que o obedecem chamados **sistemas conservativos**. Vale mencionar que em hipótese alguma a energia é "destruída" se ela não for conservada, ela apenas se dissipa para fora do sistema estudado. 
+
+Dessa base também é possível definir o que chamamos de **forças conservativas**, isto é, forças cuja atuação depende apenas da **posição de um corpo** e nunca de sua velocidade. Para essas forças, é possível traçar a relação: 
+
+$$ 
+W = \int F \ dx= - \Delta U
+$$
+
+Por exemplo, sabendo que a força peso é escrita da forma $F=mg$, sua energia potencial associada (gravitacional) pode ser encontrada a partir de algumas operações. Vamos dizer que estamos comparando dois pontos, $x_1$ e $x_2$, a uma altura $x$ um do outro.
+
+$$
+\begin{align*}
+    \int_{x_1}^{x_2} F \ dx &= mg(x_2 - x_1) = -\Delta U \\\\
+    &= \Delta U = -mg(x_2 - x_1)
+\end{align*}
+$$
+
+Dessa forma, definindo $x_2 - x_1 = h$, nossa altura,  conseguimos demonstrar a tão conhecida $U(h) = mgh$. 
+
+Retornando à distinção entre forças conservativas e não-conservativas (também chamadas de forças **dissipativas**), uma diferença notável entre as duas encerra-se no trabalho: o trabalho de uma força conservativa independe do caminho atravessado pelo móvel, mas apenas das suas posições iniciais e finais. O contrário é dito das dissipativas, em que a "trajetória", a "história" do móvel importa. 
+
+Como exemplos de forças conservativas, podemos citar, além da força peso, a força elástica e a força elétrica.
+
+## Estabilidade
+
 <aside>
 <i>Em construção...</i>
-</aside>
+<aside>
