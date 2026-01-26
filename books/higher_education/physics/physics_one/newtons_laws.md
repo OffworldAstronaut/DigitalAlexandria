@@ -60,13 +60,13 @@ Formuladas por Isaac Newton, as Leis de Newton inauguraram uma nova era no estud
 
 <aside>
 
-**1ª Lei (Inércia)** — ****Todo corpo persiste em seu estado de repouso, ou de movimento retilíneo uniforme, a menos que seja compelido a modificar este estado pela ação de forças impressas sobre ele;
+**1ª Lei (Inércia)** — Todo corpo persiste em seu estado de repouso, ou de movimento retilíneo uniforme, a menos que seja compelido a modificar este estado pela ação de forças impressas sobre ele;
 
 </aside>
 
 <aside>
 
-**2ª Lei (Princípio Fundamental da Dinâmica)** — ****A variação do momento é proporcional à força impressa e tem a direção da força aplicada. A quantidade de movimento é a medida do mesmo, que se origina conjuntamente da velocidade e da massa.
+**2ª Lei (Princípio Fundamental da Dinâmica)** — A variação do **momento** é proporcional à força impressa e tem a direção da força aplicada. A "quantidade de movimento" (momento) de um corpo depende de sua massa e de sua velocidade. Mais sobre o momento pode ser visto <a href="/books/higher_education/physics/physics_one/momentum_collisions.html">aqui</a>.
 
 $$
 \begin{align*}
