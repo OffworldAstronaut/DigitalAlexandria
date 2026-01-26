@@ -125,6 +125,12 @@ $$
 W = \int F \ dx= - \Delta U
 $$
 
+<aside>
+
+Podemos justificar essa expressão ao escrever $E = T + U$, derivar a equação em relação ao tempo e reorganizar os termos. 
+
+</aside>
+
 Por exemplo, sabendo que a força peso é escrita da forma $F=mg$, sua energia potencial associada (gravitacional) pode ser encontrada a partir de algumas operações. Vamos dizer que estamos comparando dois pontos, $x_1$ e $x_2$, a uma altura $x$ um do outro.
 
 $$
@@ -140,8 +146,57 @@ Retornando à distinção entre forças conservativas e não-conservativas (tamb
 
 Como exemplos de forças conservativas, podemos citar, além da força peso, a força elástica e a força elétrica.
 
-## Estabilidade
+## Gráficos de estabilidade
+
+É possível representar um sistema físico a partir de um gráfico de sua energia potencial em função de sua posição, com tal representação sendo extremamente útil na análise de algumas situações, permitindo a extração de diversas informações. 
+
+Um exemplo inicial simples é o de um objeto em queda livre (ou lançamento vertical). 
+
+![Gráfico retirado do livro OpenStax University Physics (CC-BY-NC-SA)](images/work_energy_potential_energy_freefall.png)
+
+*Gráfico retirado do livro OpenStax University Physics (CC-BY-NC-SA).*
+
+Perceba que o gráfico é uma linha reta de inclinação $mg$, com sua altura sendo sua energia potencial em uma dada posição e a "altura restante" até a reta assinalada sua **energia cinética**, com a soma dos dois comprimentos constante para todo $y \in [y_0, y_{max}]$. 
+
+A partir do gráfico é possível encontrar a altura máxima, por exemplo: 
+
+$$
+\begin{align*}
+
+U(y_{max}) &= E - K(y_{max}) \\\\
+mg y_{max} &= E - \dfrac{1}{2}mv_f^2 \\\\ 
+E &= mg y_{max} \\\\
+\dfrac{E}{mg} &= y_{max}
+
+\end{align*}
+$$
+
+Essa mesma relação pode ser explorada para encontrar a velocidade inicial, $v_0$, necessária para alcançar essa altura máxima. Vale notar se $v_0$ é a velocidade necessária para alcançar a altura máxima, $-v_0$ é a velocidade de encontro com o solo.
+
+$$ 
+\begin{align*}
+    
+mgy_0 &= E - \dfrac{1}{2}mv_0^2 \\\\
+E &= \dfrac{1}{2}mv_0^2 \\\\
+v_0 &= \sqrt{\dfrac{2E}{m}}
+
+\end{align*}
+$$
+
+Um outro exemplo, um pouco mais complexo, que pode ser analisado é o chamado **sistema massa-mola** simples, sem atrito nem qualquer tipo de força dissipativa. 
+
+![Sistema massa mola](images/work_energy_spring_mass_system.gif)
+
+*Um sistema massa mola. Por Chetvorno, via <a href="https://commons.wikimedia.org/wiki/File:Animated-mass-spring-faster.gif">Wikimedia Commons</a>.*
+
+Esse sistema é interessante por nos introduzir pela primeira vez ao chamado **poço de potencial**. Observando seu gráfico de energia potencial em função da posição do objeto conectado à mola, é possível deduzir todas as informações do sistema anterior. 
+
+![](images/work_energy_potential_graph_springmass.png)
+
+*Gráfico retirado do livro OpenStax University Physics (CC-BY-NC-SA).*
+
+O "poço de potencial" mencionado é a concavidade do gráfico: um sistema massa-mola com uma energia potencial $E$ nunca irá poder ter uma oscilação maior do que $x_{max}$, com todas as posições possíveis oscilando nessa parábola. 
 
 <aside>
-<i>Em construção...</i>
-<aside>
+Experimente imaginar um gráfico de potencial diferente e explorar as limitações de movimento de um sistema, com base na sua energia inicial! Um exemplo interessante pode ser encontrado <a href="">aqui</a>.
+</aside>

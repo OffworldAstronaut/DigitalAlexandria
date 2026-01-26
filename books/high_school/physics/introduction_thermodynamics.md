@@ -151,7 +151,7 @@ $$
 
 ---
 
-O **trabalho termodinâmico**, também conhecido pela denominação **trabalho volume-pressão**, ****é o trabalho exercido pela compressão ou expansão de fluidos, e acontece sempre em transformações isobáricas. 
+O **trabalho termodinâmico**, também conhecido pela denominação **trabalho volume-pressão**, é o trabalho exercido pela compressão ou expansão de fluidos, e acontece sempre em transformações isobáricas. 
 
 Durante a execução desse trabalho por máquinas, tanto a compressão quanto a expansão do fluido pode ocorrer. Nos momentos de compressão, o gás ganha energia (com trabalho sendo realizado **sobre ele**); nos momentos de expansão, o gás cede energia **realizando trabalho**.
 
