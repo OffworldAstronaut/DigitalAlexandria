@@ -162,20 +162,24 @@ Perceba que o gráfico é uma linha reta de inclinação $mg$, com sua altura se
 
 A partir do gráfico é possível encontrar a altura máxima, por exemplo: 
 
-$$\begin{align*}
-U(y_{max}) &= E - K(y_{max}) \\\\
-mg y_{max} &= E - \dfrac{1}{2}mv_f^2 \\\\ 
-E &= mg y_{max} \\\\
-\dfrac{E}{mg} &= y_{max}
-\end{align*}$$
+$$
+\begin{align*}
+    U(y_{max}) &= E - K(y_{max}) \\\\
+    mg y_{max} &= E - \dfrac{1}{2}mv_f^2 \\\\ 
+    E &= mg y_{max} \\\\
+    \dfrac{E}{mg} &= y_{max}
+\end{align*}
+$$
 
 Essa mesma relação pode ser explorada para encontrar a velocidade inicial, $v_0$, necessária para alcançar essa altura máxima. Vale notar se $v_0$ é a velocidade necessária para alcançar a altura máxima, $-v_0$ é a velocidade de encontro com o solo.
 
-$$\begin{align*}
-mgy_0 &= E - \dfrac{1}{2}mv_0^2 \\\\
-E &= \dfrac{1}{2}mv_0^2 \\\\
-v_0 &= \sqrt{\dfrac{2E}{m}}
-\end{align*}$$
+$$
+\begin{align*}
+    mgy_0 &= E - \dfrac{1}{2}mv_0^2 \\\\
+    E &= \dfrac{1}{2}mv_0^2 \\\\
+    v_0 &= \sqrt{\dfrac{2E}{m}}
+\end{align*}
+$$
 
 Um outro exemplo, um pouco mais complexo, que pode ser analisado é o chamado **sistema massa-mola** simples, sem atrito nem qualquer tipo de força dissipativa. 
 
