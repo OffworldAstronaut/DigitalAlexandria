@@ -6,7 +6,7 @@
 
 O que é **trabalho**? O conceito de trabalho na Física está intimamente ligado aos conceitos de **energia** e **força**, também. Para ilustrar a origem dessa curiosa grandeza, vamos imaginar uma situação simples: um bloquinho num plano inclinado. 
 
-![Plano inclinado](images/work_energy_planoinclinado.jpeg)
+![Plano inclinado](images/work_energy/work_energy_planoinclinado.jpeg)
 
 *Acima podemos ver um plano inclinado utilizado em universidades do século XVIII (Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Piano_inclinato_inv_1041_IF_21341.jpg">Wikimedia Commons</a>).*
 
@@ -154,7 +154,7 @@ Como exemplos de forças conservativas, podemos citar, além da força peso, a f
 
 Um exemplo inicial simples é o de um objeto em queda livre (ou lançamento vertical). 
 
-![Gráfico retirado do livro OpenStax University Physics (CC-BY-NC-SA)](images/work_energy_potential_energy_freefall.png)
+![Gráfico retirado do livro OpenStax University Physics (CC-BY-NC-SA)](images/work_energy/work_energy_potential_energy_freefall.png)
 
 *Gráfico retirado do livro OpenStax University Physics (CC-BY-NC-SA).*
 
@@ -183,13 +183,13 @@ $$
 
 Um outro exemplo, um pouco mais complexo, que pode ser analisado é o chamado **sistema massa-mola** simples, sem atrito nem qualquer tipo de força dissipativa. 
 
-![Sistema massa mola](images/work_energy_spring_mass_system.gif)
+![Sistema massa mola](images/work_energy/work_energy_spring_mass_system.gif)
 
 *Um sistema massa mola. Por Chetvorno, via <a href="https://commons.wikimedia.org/wiki/File:Animated-mass-spring-faster.gif">Wikimedia Commons</a>.*
 
 Esse sistema é interessante por nos introduzir pela primeira vez ao chamado **poço de potencial**. Observando seu gráfico de energia potencial em função da posição do objeto conectado à mola, é possível deduzir todas as informações do sistema anterior. 
 
-![](images/work_energy_potential_graph_springmass.png)
+![](images/work_energy/work_energy_potential_graph_springmass.png)
 
 *Gráfico retirado do livro OpenStax University Physics (CC-BY-NC-SA).*
 

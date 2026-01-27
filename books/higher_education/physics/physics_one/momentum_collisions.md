@@ -38,7 +38,7 @@ Podemos classificar as colisões entre corpos em **perfeitamente elásticas**, *
 
 Nas colisões inelásticas, as mais comuns, temos a dissipação de energia cinética no sistema ao compararmos o antes e o depois das colisões. Um exemplo desta categoria seria o quicar deu uma bola no chão sucessivas vezes. É visível que a cada quicar, a bola sobe cada vez menos. 
 
-![Fotografia estroboscópica de uma bola de basquete quicando no chão. Perceba que as alturas máximas ficam cada vez menores.](images/momentum_collisions_ball_bounce.jpg)
+![Fotografia estroboscópica de uma bola de basquete quicando no chão. Perceba que as alturas máximas ficam cada vez menores.](images/momentum_collisions/momentum_collisions_ball_bounce.jpg)
 
 <i>Fotografia estroboscópica de uma bola de basquete quicando no chão. Perceba que as alturas máximas ficam cada vez menores. CC-BY-SA via <a href="https://commons.wikimedia.org/wiki/File:Bouncing_ball_strobe_edit.jpg">Wikimedia Commons</a></i>.
 
