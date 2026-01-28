@@ -46,6 +46,6 @@ A terceira lei afirma que, à medida que a temperatura de um material se aproxim
 
 Esse estado de mínima energia é denominado **estado fundamental**. 
 
-![*A figura à direita (A) ilustra um cristal à 0K (zero absoluto, impossível). CC-BY-SA, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Figure_Showing_Entropy_at_0_K.png).*](images/laws_thermodynamics/laws_thermodynamics_entropy.png)
+![*A figura à direita (A) ilustra um cristal à 0K (zero absoluto, impossível). CC-BY-SA, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Figure_Showing_Entropy_at_0_K.png).*](../images/laws_thermodynamics/laws_thermodynamics_entropy.png)
 
 *A figura à direita (A) ilustra um cristal à 0K (zero absoluto, impossível). CC-BY-SA, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Figure_Showing_Entropy_at_0_K.png).*

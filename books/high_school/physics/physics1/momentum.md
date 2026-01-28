@@ -96,9 +96,9 @@ $$
 v_2 = \frac{2m_1}{m_1+m_2}u_1+\frac{m_2-m_1}{m_1+m_2}u_2
 $$
 
-![Exemplo de uma colisão perfeitamente elástica entre massas iguais.](images/momentum/colisao_elastica1.gif)
+![Exemplo de uma colisão perfeitamente elástica entre massas iguais.](../images/momentum/colisao_elastica1.gif)
 
-![Exemplo de uma colisão perfeitamente elástica entre duas massas diferentes.](images/momentum/colisao_elastica2.gif)
+![Exemplo de uma colisão perfeitamente elástica entre duas massas diferentes.](../images/momentum/colisao_elastica2.gif)
 
 *Acima: exemplos de colisões perfeitamente elásticas. GIFs retirados [daqui](https://en.wikipedia.org/wiki/Elastic_collision).*
 
@@ -110,7 +110,7 @@ Nas colisões inelásticas, a energia cinética do sistema **não** é completam
 
 Quando uma colisão é **perfeitamente inelástica**, o máximo valor possível de energia cinética é perdido, “colando” os dois corpos num só, com ambos possuindo a mesma velocidade final.
 
-![Exemplo de uma colisão perfeitamente inelástica entre duas massas iguais.](images/momentum/colisao_inelastica.gif)
+![Exemplo de uma colisão perfeitamente inelástica entre duas massas iguais.](../images/momentum/colisao_inelastica.gif)
 
 *Acima: exemplo de uma colisão perfeitamente inelástica. GIF retirado [daqui](https://en.wikipedia.org/wiki/Inelastic_collision).*
 
@@ -122,7 +122,7 @@ $$
 
 Para deduzir essa expressão, trabalhe com a **conservação do momento** (e o fato de que os corpos estão como um corpo só depois da colisão) e rearrange a expressão!
 
-Você pode achar essa dedução <a href="/books/high_school/physics/collisions_study.pdf">neste PDF</a>!
+Você pode achar essa dedução <a href="/books/high_school/physics/physics1/collisions_study.pdf">neste PDF</a>!
 
 ### Coeficiente de restituição
 
