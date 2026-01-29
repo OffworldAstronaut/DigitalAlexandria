@@ -37,10 +37,10 @@ Por meio da regra da mão direita, podemos saber que, quando $q < 0$, a carga so
 De forma mais complexa, podemos nos utilizar de álgebra linear para considerar a equação da força de Lorentz de forma vetorial: 
 
 $$
-\bold F = q(\bold E + \bold v \times \bold B)
+\bold{F} = q(\bold{E} + \bold{v} \times \bold{B})
 $$
 
-Assim, escolhendo os vetores velocidade $(\bold v)$, campo elétrico $(\bold E)$ e campo magnético $(\bold B)$, podemos encontrar o vetor da força de Lorentz e ver que ele não muda a magnitude do vetor velocidade, apenas a sua direção. 
+Assim, escolhendo os vetores velocidade $(\bold{v})$, campo elétrico $(\bold{E})$ e campo magnético $(\bold{B})$, podemos encontrar o vetor da força de Lorentz e ver que ele não muda a magnitude do vetor velocidade, apenas a sua direção. 
 
 ## Trajetórias
 
