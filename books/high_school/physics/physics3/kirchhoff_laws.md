@@ -1,4 +1,4 @@
-# Leis de Kirchoff
+# Leis de Kirchhoff
 
 # Introdução
 
