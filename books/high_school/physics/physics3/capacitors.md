@@ -9,7 +9,9 @@ Imagine que você tem duas placas metálicas separadas por uma distância $d$, i
 Ao conectar uma das placas no terminal positivo e outra placa no terminal negativo, uma placa irá ficar deficiente em elétrons (com carga líquida positiva) e outra irá ficar excedente em elétrons (com carga líquida negativa): um campo elétrico uniforme de uma placa para outra irá surgir! 
 
 <aside>
+
 Não precisamos saber como uma bateria funciona aqui! Isso será explorado mais tarde… 
+
 </aside>
 
 Perceba que se desconectarmos nosso conjunto de placas da bateria e o conectarmos num circuito elétrico, os elétrons acumulados vão fluir e completar o circuito, *descarregando* as placas até que elas estejam neutras novamente. As placas formaram um **capacitor**. 
@@ -35,7 +37,9 @@ $$
 $$
 
 <aside>
-A unidade da capacitância é o **Farad** $(\text F)$ em homenagem ao **Michael Faraday!** 
+
+A unidade da capacitância é o <b>Farad</b> $(\text{F})$ em homenagem a Michael Faraday.
+
 </aside>
 
 Ou seja, quanto de carga é possível guardar nesse condutor para cada **1 volt** de aumento do potencial elétrico? Se podemos guardar muita carga nesse capacitor com pouco aumento do potencial, esse condutor possui uma capacitância **alta**. 
@@ -63,9 +67,10 @@ $$
 onde $\kappa$ é a **constante dielétrica** do material.
 
 <aside>
-
-1. **Todo material isolante é dielétrico**, porém alguns são melhores dielétricos que outros!
-2. Colocar um dielétrico entre as placas permite maior capacitância pois diminui a diferença de potencial entre as duas placas! (As cargas polarizadas “forçam” o campo elétrico a alcançá-las ao invés da outra placa)
+<ol>
+    <li>Todo material isolante é dielétrico, porém alguns são melhores dielétricos que outros!</li>
+    <li>Colocar um dielétrico entre as placas permite maior capacitância pois diminui a diferença de potencial entre as duas placas! (As cargas polarizadas “forçam” o campo elétrico a alcançá-las ao invés da outra placa)</li>
+</ol>
 </aside>
 
 ### Energia potencial num capacitor
@@ -85,7 +90,9 @@ A prova disso pode ser feita utilizando **integração**! Você pode ver a seç�
 ### Provando a fórmula
 
 <aside>
+
 Em breve.
+
 </aside>
 
 ## Numa esfera condutora
@@ -118,7 +125,7 @@ Agora, vamos analizar um caso interessante.
 
 Se temos uma esfera $E_1$ eletrizada (aqui, negativamente) e uma esfera $E_2$ eletricamente neutra, e as conectarmos por meio de um fio, por exemplo, as cargas irão fluir, correto? 
 
-![image.png](../images/capacitors/capacitores_esferas.png)
+![image.png](/books/high_school/physics/images/capacitors/capacitores_esferas.png)
 
 Ok, nós já estudamos isso antes, lá nos [**processos de eletrização**](/books/high_school/physics/physics3/introduction_electrostatics.html), porém lá não tínhamos uma informação importante: **as cargas fluem de acordo com a diferença de potencial** (DDP). 
 
