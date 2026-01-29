@@ -73,7 +73,7 @@ Isso será visto com mais detalhes no próximo livreto: **resistência elétrica
 
 Suponha que temos um circuito com algumas baterias, com voltagens diferentes, em série, e não necessariamente na mesma orientação. 
 
-![Perceba que algumas baterias estão com o polo positivo (o de duas barrinhas) em orientações diferentes! ](../images/introduction_electrodynamics/introduction_electrodynamics_tensions.png)
+![Perceba que algumas baterias estão com o polo positivo (o de duas barrinhas) em orientações diferentes! ](./images/introduction_electrodynamics/introduction_electrodynamics_tensions.png)
 
 <i>Perceba que algumas baterias estão com o polo positivo (o de duas barrinhas) em orientações diferentes!</i>
 

@@ -38,7 +38,7 @@ O segundo estabelece que os polos de um dado ímã são atraídos por polos de s
 
 ---
 
-![Imagem retirada do PhET. Perceba as linhas de campo magnético dentro e fora do ímã!](../images/electromagnetism_fundamentals/electromagnetism_fundamentals_magnet.png)
+![Imagem retirada do PhET. Perceba as linhas de campo magnético dentro e fora do ímã!](./images/electromagnetism_fundamentals/electromagnetism_fundamentals_magnet.png)
 
 <i>Imagem retirada do PhET. Perceba as linhas de campo magnético dentro e fora do ímã!</i>
 

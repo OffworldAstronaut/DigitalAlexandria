@@ -51,7 +51,7 @@ Enquanto $\varepsilon$ representa a tensão total possível de ser gerada, $ri$ 
 
 Levando em conta essa tensão dissipada, podemos modelar um gerador de forma esquemática da seguinte forma: 
 
-![image.png](../images/generators_receptors/generators_receptors_generator.png)
+![image.png](./images/generators_receptors/generators_receptors_generator.png)
 
 Ou seja, temos uma fonte de tensão elétrica $U$ e um pequeno resistor, $r$, responsável por representar a dissipação no gerador. 
 

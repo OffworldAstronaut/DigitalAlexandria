@@ -89,5 +89,4 @@ for (const file of walk(BOOKS)) {
   copyDir(srcImages, outImages);
 
   console.log("Generated text:", outPath);
-  console.log("Generated image:", outImages);
 }

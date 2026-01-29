@@ -125,7 +125,7 @@ Agora, vamos analizar um caso interessante.
 
 Se temos uma esfera $E_1$ eletrizada (aqui, negativamente) e uma esfera $E_2$ eletricamente neutra, e as conectarmos por meio de um fio, por exemplo, as cargas irão fluir, correto? 
 
-![image.png](/books/high_school/physics/images/capacitors/capacitores_esferas.png)
+![image.png](./images/capacitors/capacitores_esferas.png)
 
 Ok, nós já estudamos isso antes, lá nos [**processos de eletrização**](/books/high_school/physics/physics3/introduction_electrostatics.html), porém lá não tínhamos uma informação importante: **as cargas fluem de acordo com a diferença de potencial** (DDP). 
 

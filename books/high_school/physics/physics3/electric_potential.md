@@ -42,7 +42,7 @@ Pela expressão matemática acima, podemos concluir que as superfícies equipote
 
 Por exemplo, na imagem da carga positiva acima: você percebe as circunferências cinzas? São regiões de mesmo potencial! 
 
-![Todos os pontos em cada uma das linhas (de cada cor) possuem o mesmo potencial! Perceba que as linhas equipotenciais são perpendiculares às linhas de força!](../images/electric_potential/electric_potential_forcelines.png)
+![Todos os pontos em cada uma das linhas (de cada cor) possuem o mesmo potencial! Perceba que as linhas equipotenciais são perpendiculares às linhas de força!](./images/electric_potential/electric_potential_forcelines.png)
 
 <i>Todos os pontos em cada uma das linhas (de cada cor) possuem o mesmo potencial. Perceba que as linhas equipotenciais são perpendiculares às linhas de força (Captura de tela deste <a href="https://icphysweb.z13.web.core.windows.net/simulation.html">simulador</a>).</i>
 
@@ -52,7 +52,7 @@ Por exemplo, na imagem da carga positiva acima: você percebe as circunferência
 
 E se formos calcular o potencial elétrico num dado ponto que está próximo de várias (mais de uma) cargas puntiforme, como no caso abaixo? 
 
-![Como calcular o potencial elétrico no ponto branco? ](../images/electric_potential/electric_potential_multiple_potentials.png)
+![Como calcular o potencial elétrico no ponto branco? ](./images/electric_potential/electric_potential_multiple_potentials.png)
 
 <i>Como calcular o potencial elétrico no ponto branco? (Captura de tela deste <a href="https://icphysweb.z13.web.core.windows.net/simulation.html">simulador</a>).</i>
 
@@ -84,7 +84,7 @@ Uma aplicação interessante, no dia a dia, da DDP é a medida da “voltagem”
 
 Agora, e se estivermos numa situação como a abaixo? 
 
-![Duas barras metálicas com cargas opostas, com um campo elétrico uniforme!](../images/electric_potential/electric_potential_bars.png)
+![Duas barras metálicas com cargas opostas, com um campo elétrico uniforme!](./images/electric_potential/electric_potential_bars.png)
 
 Duas barras metálicas com cargas opostas, com um campo elétrico uniforme.
 

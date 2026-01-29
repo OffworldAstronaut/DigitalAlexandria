@@ -172,7 +172,7 @@ Quando estamos analisando alguns circuitos, principalmente aqueles de associaç�
 
 Para entender o famoso “curto”, a passagem anormal de corrente elétrica por uma seção do circuito, e qual o seu perigo, vamos para um exemplo! 
 
-![image.png](../images/electric_resistance/electric_resistance_short_circuit.png)
+![image.png](./images/electric_resistance/electric_resistance_short_circuit.png)
 
 No circuito acima, desconsiderando o fio ideal de resistência nula, temos um circuito com uma corrente de $i=2 \text { A}$, porém, ao adicionarmos o fio no circuito, a energia elétrica irá seguir o caminho de **menor resistência**, ignorando completamente o resistor de $6 \text{ }\Omega$ e aumentando o fluxo de corrente para $i = 5 \text { A}$. 
 

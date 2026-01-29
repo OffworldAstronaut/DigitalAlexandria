@@ -14,7 +14,7 @@ Um corpo estar em equilíbrio eletrostático significa que suas cargas não est�
 3. Cargas distribuídas na superfície possuem campos elétricos perpendiculares à ela; 
 4. **Campos elétricos externos são anulados no interior do corpo**;
 
-![Uma esfera metálica carregada positivamente. Note as cargas distribuídas na superfície e o campo elétrico perpendicular. ](../images/electrostatic_equilibrium/electrostatic_equilibrium_esfera_carregada_positivamente.png)
+![Uma esfera metálica carregada positivamente. Note as cargas distribuídas na superfície e o campo elétrico perpendicular. ](./images/electrostatic_equilibrium/electrostatic_equilibrium_esfera_carregada_positivamente.png)
 
 Uma esfera metálica carregada positivamente. Note as cargas distribuídas na superfície e o campo elétrico perpendicular. 
 

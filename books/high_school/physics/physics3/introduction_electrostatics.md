@@ -62,7 +62,7 @@ Dizemos que um dado corpo é **neutro** se ele possui a mesma quantidade de carg
 
 Algo importante de se ter em mente, e **consequência do primeiro princípio fundamental**, é que **corpos neutros sempre são atraídos por corpos carregados**.
 
-![*O cilindro (+) é um corpo eletrizado positivamente: perceba a reorganização no condutor e o pouco movimento das cargas no isolante! No segundo caso dizemos que as cargas foram **polarizadas** pelo corpo eletrizado.*](../images/introduction_electrostatics/introducao_eletrostatica_condutor_isolante_eletrizado.png)
+![*O cilindro (+) é um corpo eletrizado positivamente: perceba a reorganização no condutor e o pouco movimento das cargas no isolante! No segundo caso dizemos que as cargas foram **polarizadas** pelo corpo eletrizado.*](./images/introduction_electrostatics/introducao_eletrostatica_condutor_isolante_eletrizado.png)
 
 *O cilindro (+) é um corpo eletrizado positivamente: perceba a reorganização no condutor e o pouco movimento das cargas no isolante! No segundo caso dizemos que as cargas foram **polarizadas** pelo corpo eletrizado.* 
 
@@ -114,13 +114,13 @@ Se tivermos um **corpo eletrizado** em **contato** **externo** com um **corpo ne
 
 É interessante saber que a quantidade de carga que irá fluir entre os corpos depende de seu volume: quanto **maior** um corpo **neutro**, **maior** será a sua **capacidade** de absorver ou ceder carga ao corpo eletrizado. O caso mais simples é o de **dois corpos idênticos**: a quantidade de carga excedente em cada um será **idêntica** e **metade** da **carga** do **corpo eletrizado original**. 
 
-![*Duas esferas de metal. Note que as cargas negativas foram distribuídas igualmente entre elas!*](../images/introduction_electrostatics/introducao_eletrostatica_eletrizacao_contato.png)
+![*Duas esferas de metal. Note que as cargas negativas foram distribuídas igualmente entre elas!*](./images/introduction_electrostatics/introducao_eletrostatica_eletrizacao_contato.png)
 
 *Duas esferas de metal. Note que as cargas negativas foram distribuídas igualmente entre elas!*
 
 Agora, se tivermos um **corpo eletrizado** em **contato interno** com um corpo neutro, todas as cargas excedentes irão fluir entre os corpos de forma que o corpo eletrizado **se tornará neutro**.
 
-![*Uma esfera de metal em contato interno com uma panela de metal (estamos observando um corte 2D!): note que as cargas excedentes foram todas para a panela, enquanto a esfera se neutralizou!*](../images/introduction_electrostatics/introducao_eletrostatica_eletrizacao_contato_interno.png)
+![*Uma esfera de metal em contato interno com uma panela de metal (estamos observando um corte 2D!): note que as cargas excedentes foram todas para a panela, enquanto a esfera se neutralizou!*](./images/introduction_electrostatics/introducao_eletrostatica_eletrizacao_contato_interno.png)
 
 *Uma esfera de metal em contato interno com uma panela de metal (estamos observando um corte 2D!): note que as cargas excedentes foram todas para a panela, enquanto a esfera se neutralizou!*
 
@@ -132,7 +132,7 @@ Se tivermos um **corpo neutro** isolado eletricamente (chamado aqui de *induzido
 
 Ao aterrarmos esse corpo neutro, ele irá ceder ou devolver elétrons à Terra, conforme as cargas que foram repulsas. Assim, se **isolarmos** o corpo novamente e depois **afastarmos o indutor**, veremos que o corpo induzido agora foi eletrizado. 
 
-![*Primeiro, aproximamos o corpo indutor positivo da esfera metálica aterrada. Esse corpo atrai os elétrons da esfera, criando regiões de carga positiva (deficiência de elétrons). Essas regiões atraem os elétrons livres da Terra, que sobem para o as regiões positivas do corpo induzido. Depois, ao cortarmos o aterramento e em seguida afastando o corpo indutor da esfera metálica, finalizamos o processo. Eletrizamos negativamente a esfera!* ](../images/introduction_electrostatics/introducao_eletrostatica_eletrizacao_inducao.png)
+![*Primeiro, aproximamos o corpo indutor positivo da esfera metálica aterrada. Esse corpo atrai os elétrons da esfera, criando regiões de carga positiva (deficiência de elétrons). Essas regiões atraem os elétrons livres da Terra, que sobem para o as regiões positivas do corpo induzido. Depois, ao cortarmos o aterramento e em seguida afastando o corpo indutor da esfera metálica, finalizamos o processo. Eletrizamos negativamente a esfera!* ](./images/introduction_electrostatics/introducao_eletrostatica_eletrizacao_inducao.png)
 
 *Primeiro, aproximamos o corpo indutor positivo da esfera metálica aterrada. Esse corpo atrai os elétrons da esfera, criando regiões de carga positiva (deficiência de elétrons). Essas regiões atraem os elétrons livres da Terra, que sobem para o as regiões positivas do corpo induzido. Depois, ao cortarmos o aterramento e em seguida afastando o corpo indutor da esfera metálica, finalizamos o processo. Eletrizamos negativamente a esfera!* 
 

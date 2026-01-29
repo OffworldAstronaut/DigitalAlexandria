@@ -14,13 +14,13 @@ Quando estudamos o campo elétrico, vemos que ele é um **campo vetorial**, assi
 
 No caso das cargas positivas, convencionamos que o vetor aponta radialmente “para fora”, enquanto das cargas negativas, o vetor aponta radialmente “para dentro”. 
 
-![image.png](../images/electric_field/campo_eletrico_cargas.png)
+![image.png](./images/electric_field/campo_eletrico_cargas.png)
 
 Visualmente, podemos “desenhar” o campo elétrico por meio das **linhas de força**, representações para os vetores de força de cada ponto do espaço considerado: a concatenação de vários vetores forma as linhas de força. Com vetores o suficiente, podemos desenhar “linhas” para representar o campo elétrico. 
 
 Vale deixar claro que embora elas sejam chamadas “linhas de força”, nenhuma força é exercida em lugar nenhum **se não houver nenhuma outra carga para interagir com o campo**!
 
-![Note como os vetores do campo elétrico mudam de direção de acordo com sua posição! Note também a intensidade do campo elétrico (ela decai de forma inversamente proporcional ao quadrado da distância). ](../images/electric_potential/electric_potential_forcelines.png)
+![Note como os vetores do campo elétrico mudam de direção de acordo com sua posição! Note também a intensidade do campo elétrico (ela decai de forma inversamente proporcional ao quadrado da distância). ](./images/electric_potential/electric_potential_forcelines.png)
 
 <i>Note como os vetores do campo elétrico mudam de direção de acordo com sua posição! Note também a intensidade do campo elétrico (ela decai de forma inversamente proporcional ao quadrado da distância). (Captura de tela desse <a href="https://icphysweb.z13.web.core.windows.net/simulation.html">simulador</a>).</i>
 
