@@ -8,7 +8,7 @@ Termodinâmica é o estudo de como o **calor** consegue realizar trabalho (isto 
 
 Esse exemplo foi uma das grandes razões pelo desenvolvimento acelerado da termodinâmica na ciência nos últimos séculos, começando pela Revolução Industrial, que foi impulsionada por máquinas à vapor. 
 
-![*Um motor à vapor, provavelmente o exemplo clássico da termodinâmica. A pressão exercida pelo vapor exerce uma força que move os pistões. GIF sob CC-BY, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Steam_engine_in_action.gif).*](images/introduction_thermodynamics/introduction_thermodynamics_steam_engine_2.gif)
+![*Um motor à vapor, provavelmente o exemplo clássico da termodinâmica. A pressão exercida pelo vapor exerce uma força que move os pistões. GIF sob CC-BY, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Steam_engine_in_action.gif).*](./images/introduction_thermodynamics/introduction_thermodynamics_steam_engine_2.gif)
 
 *Um motor à vapor, provavelmente o exemplo clássico da termodinâmica. A pressão exercida pelo vapor exerce uma força que move os pistões. GIF sob CC-BY, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Steam_engine_in_action.gif).*
 
@@ -26,7 +26,7 @@ Embora nenhum gás real possua essas características, o gás ideal se torna uma
 
 Geralmente em nossos estudos, utilizamos como aproximação o **gás ideal**, pela facilidade que isso nos oferece, embora em pesquisas mais sérias, essa aproximação se torna tão eficaz e novos métodos devem ser adotados.
 
-![*Se você pudesse ver um gás bem de perto, veria várias partículas “voando” livremente em colisões perfeitamente elásticas. Essa visão é explicada pela “Teoria Cinética dos Gases”. Domínio público, via Wikimedia Commons.* ](images/introduction_thermodynamics/introduction_thermodynamics_translational_motion.gif)
+![*Se você pudesse ver um gás bem de perto, veria várias partículas “voando” livremente em colisões perfeitamente elásticas. Essa visão é explicada pela “Teoria Cinética dos Gases”. Domínio público, via Wikimedia Commons.* ](./images/introduction_thermodynamics/introduction_thermodynamics_translational_motion.gif)
 
 *Se você pudesse ver um gás bem de perto, veria várias partículas “voando” livremente em colisões perfeitamente elásticas. Essa visão é explicada pela “Teoria Cinética dos Gases”. Domínio público, via Wikimedia Commons.* 
 
@@ -70,7 +70,7 @@ $$
 
 </aside>
 
-![*As panelas de pressão se utilizam dessa propriedade, e seu efeito nos pontos de ebulição, para economizar gás durante o cozimento. Imagem sob CC-BY-SA, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pressure_cooker_-_Hawkins,_Contura_Model_-_3_litres_-_4.jpg).*](images/introduction_thermodynamics/introduction_thermodynamics_pressuredcooker.jpeg)
+![*As panelas de pressão se utilizam dessa propriedade, e seu efeito nos pontos de ebulição, para economizar gás durante o cozimento. Imagem sob CC-BY-SA, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pressure_cooker_-_Hawkins,_Contura_Model_-_3_litres_-_4.jpg).*](./images/introduction_thermodynamics/introduction_thermodynamics_pressuredcooker.jpeg)
 
 *As panelas de pressão se utilizam dessa propriedade, e seu efeito nos pontos de ebulição, para economizar gás durante o cozimento. Imagem sob CC-BY-SA, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pressure_cooker_-_Hawkins,_Contura_Model_-_3_litres_-_4.jpg).*
 
@@ -151,7 +151,7 @@ $$
 
 ---
 
-O **trabalho termodinâmico**, também conhecido pela denominação **trabalho volume-pressão**, ****é o trabalho exercido pela compressão ou expansão de fluidos, e acontece sempre em transformações isobáricas. 
+O **trabalho termodinâmico**, também conhecido pela denominação **trabalho volume-pressão**, é o trabalho exercido pela compressão ou expansão de fluidos, e acontece sempre em transformações isobáricas. 
 
 Durante a execução desse trabalho por máquinas, tanto a compressão quanto a expansão do fluido pode ocorrer. Nos momentos de compressão, o gás ganha energia (com trabalho sendo realizado **sobre ele**); nos momentos de expansão, o gás cede energia **realizando trabalho**.
 
@@ -171,7 +171,7 @@ Dessa forma, percebemos que o trabalho realizado (ou sofrido) pelo gás está di
 
 Em casos mais gerais, em que essa expressão pode não se aplicar, o trabalho é dado como a “área sob a curva” de um gráfico pressão vs volume, a **integral**.
 
-![*Figura ilustrando o processo do trabalho volume-pressão. Imagem licensiada sob CC-BY, via [OpenStax Physics](https://openstax.org/books/physics/pages/12-2-first-law-of-thermodynamics-thermal-energy-and-work).*](images/introduction_thermodynamics/introduction_thermodynamics_pvwork.png)
+![*Figura ilustrando o processo do trabalho volume-pressão. Imagem licensiada sob CC-BY, via [OpenStax Physics](https://openstax.org/books/physics/pages/12-2-first-law-of-thermodynamics-thermal-energy-and-work).*](./images/introduction_thermodynamics/introduction_thermodynamics_pvwork.png)
 
 *Figura ilustrando o processo do trabalho volume-pressão. Imagem licensiada sob CC-BY, via [OpenStax Physics](https://openstax.org/books/physics/pages/12-2-first-law-of-thermodynamics-thermal-energy-and-work).*
 
@@ -187,7 +187,7 @@ Chamamos **ciclos termodinâmicos** as sequências de processos termodinâmicos 
 
 O **ciclo de Carnot**, nomeado em homenagem ao seu idealizador, o físico francês Sadi Carnot (1796 — 1832), é um ciclo termodinâmico ideal executado pela máquina de Carnot, a mais eficiente máquina térmica possível fisicamente, mas impossível de ser plenamente construída: o físico idealizou sua máquina como um padrão ideal para mensurar a eficiência de máquinas térmicas reais. 
 
-![*Carnot, ao desenhar seu ciclo, tinha em mente primariamente as máquinas térmicas dominantes de seu tempo — motores à vapor. GIF por MichaelFrey via Wikimedia Commons (CC-BY-SA)*](images/introduction_thermodynamics/introduction_thermodynamics_steam_engine.gif)
+![*Carnot, ao desenhar seu ciclo, tinha em mente primariamente as máquinas térmicas dominantes de seu tempo — motores à vapor. GIF por MichaelFrey via Wikimedia Commons (CC-BY-SA)*](./images/introduction_thermodynamics/introduction_thermodynamics_steam_engine.gif)
 
 *Carnot, ao desenhar seu ciclo, tinha em mente primariamente as máquinas térmicas dominantes de seu tempo — motores à vapor. GIF por MichaelFrey via Wikimedia Commons (CC-BY-SA)*
 
@@ -195,25 +195,25 @@ A máquina ideal de Carnot é dividida entre uma **fonte** **(ou “reservatóri
 
 O ciclo é dividido em quatro etapas — duas expansões e duas compressões — isotérmicas e adiabáticas. 
 
-![*Por “Blyumj”, via Wikimedia Commons (CC-BY-SA)*](images/introduction_thermodynamics/introduction_thermodynamics_carnot1.png)
+![*Por “Blyumj”, via Wikimedia Commons (CC-BY-SA)*](./images/introduction_thermodynamics/introduction_thermodynamics_carnot1.png)
 
 *Por “Blyumj”, via Wikimedia Commons (CC-BY-SA)*
 
 1. **Expansão isotérmica:** o gás sofre uma expansão isotérmica ao ser exposto à fonte quente. Nesse passo, o gás possui uma temperatura infinitesimalmente menor que essa fonte, permitindo uma absorção de calor com uma mudança negligível da temperatura do gás; 
 
-![*Por “Blyumj”, via Wikimedia Commons (CC-BY-SA)*](images/introduction_thermodynamics/introduction_thermodynamics_carnot2.png)
+![*Por “Blyumj”, via Wikimedia Commons (CC-BY-SA)*](./images/introduction_thermodynamics/introduction_thermodynamics_carnot2.png)
 
 *Por “Blyumj”, via Wikimedia Commons (CC-BY-SA)*
 
 1. **Expansão adiabática:** o gás é isolado da fonte quente e continua a se expandir num processo adiabático, exercendo trabalho no pistão. Esse trabalho causa o resfriamento do gás, que neste passo é resfriado até atingir uma temperatura infinitesimalmente maior que a temperatura da fonte fria; 
 
-![*Por “Blyumj”, via Wikimedia Commons (CC-BY-SA)*](images/introduction_thermodynamics/introduction_thermodynamics_carnot3.png)
+![*Por “Blyumj”, via Wikimedia Commons (CC-BY-SA)*](./images/introduction_thermodynamics/introduction_thermodynamics_carnot3.png)
 
 *Por “Blyumj”, via Wikimedia Commons (CC-BY-SA)*
 
 1. **Compressão isotérmica:** o gás cede calor para a fonte fria, estando isolado termicamente da fonte quente. Perdendo energia, sofre uma compressão isotérmica de forma semelhante ao passo 1. 
 
-![*Por “Blyumj”, via Wikimedia Commons (CC-BY-SA)*](images/introduction_thermodynamics/introduction_thermodynamics_carnot4.png)
+![*Por “Blyumj”, via Wikimedia Commons (CC-BY-SA)*](./images/introduction_thermodynamics/introduction_thermodynamics_carnot4.png)
 
 *Por “Blyumj”, via Wikimedia Commons (CC-BY-SA)*
 
@@ -235,7 +235,7 @@ Nomeado em homenagem ao engenheiro alemão Nicolaus Otto (1832 — 1891), o cicl
 
 Embora ele também possa ser descrito para motores “de dois tempos”, o ciclo abaixo descrito será o de quatro tempos.
 
-![Nicolaus Otto, c. 1868. O engenheiro fundou a *Deutz*, que fabrica motores até hoje. Seu filho, Gustav Otto, fundou uma das empresas precursoras da BMW.](images/introduction_thermodynamics/introduction_thermodynamics_ottoman.png)
+![Nicolaus Otto, c. 1868. O engenheiro fundou a *Deutz*, que fabrica motores até hoje. Seu filho, Gustav Otto, fundou uma das empresas precursoras da BMW.](./images/introduction_thermodynamics/introduction_thermodynamics_ottoman.png)
 
 *Nicolaus Otto, c. 1868. O engenheiro fundou a Deutz, que fabrica motores até hoje. Seu filho, Gustav Otto, fundou uma das empresas precursoras da BMW.*
 
@@ -244,7 +244,7 @@ Embora ele também possa ser descrito para motores “de dois tempos”, o ciclo
 3. **Expansão adiabática:** o gás exerce trabalho sobre o pistão do motor ao expandir-se sem trocar calor com o ambiente; 
 4. **Expulsão do calor e do combustível residual:** a energia térmica residual do processo, além do restante da mistura ar-combustível não detonada, é expulsa, com novo ar entrando no motor. O motor está de volta ao estado inicial pronto para voltar ao passo 1.
 
-![*Animação demonstrando o funcionamento do motor de quatro tempos. Por Zephyris, via Wikimedia Commons (CC-BY-SA)*](images/introduction_thermodynamics/introduction_thermodynamics_ottocycle.gif)
+![*Animação demonstrando o funcionamento do motor de quatro tempos. Por Zephyris, via Wikimedia Commons (CC-BY-SA)*](./images/introduction_thermodynamics/introduction_thermodynamics_ottocycle.gif)
 
 *Animação demonstrando o funcionamento do motor de quatro tempos. Por Zephyris, via Wikimedia Commons (CC-BY-SA)*
 
@@ -263,6 +263,6 @@ Este ciclo termodinâmico pode ser descrito de forma didática em seis passos.
 5. **Válvula de escape aberta,** queda abrupta da pressão no interior do cilindro, que equaliza-se com a pressão atmosférica; 
 6. **Expulsão de resíduos** e do gás do interior do cilindro;
 
-![*Funcionamento de um motor Diesel. Imagem original de* [https://www.sciencefacts.net/diesel-cycle.html](https://www.sciencefacts.net/diesel-cycle.html).](images/introduction_thermodynamics/introduction_thermodynamics_fourstroke.png)
+![*Funcionamento de um motor Diesel. Imagem original de* [https://www.sciencefacts.net/diesel-cycle.html](https://www.sciencefacts.net/diesel-cycle.html).](./images/introduction_thermodynamics/introduction_thermodynamics_fourstroke.png)
 
-*Funcionamento de um motor Diesel. Imagem original de* [https://www.sciencefacts.net/diesel-cycle.html](https://www.sciencefacts.net/diesel-cycle.html).
+<i>Funcionamento de um motor Diesel. Imagem original <a href="https://www.sciencefacts.net/diesel-cycle.html">daqui</a></i>.

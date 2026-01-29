@@ -4,7 +4,7 @@
 
 ---
 
-Chamamos **calorimetria** a área da termologia preocupada em estudar as trocas de calor, energia térmica, entre corpos. 
+Chamamos **calorimetria** a área da termologia preocupada em estudar as <a href="/books/high_school/physics/physics2/termology_fundaments.html">trocas de calor</a>, energia térmica, entre corpos. 
 
 Podemos classificar o calor em duas categorias, segundo seus efeitos: o calor **sensível** — que provoca o aumento de temperatura — e o calor **latente**, que provoca mudança de estado físico.
 
@@ -133,9 +133,9 @@ Desenvolvendo essa relação, considerando o índice 1 como a água quente e 2 c
 
 $$
 \begin{align*}
-m_1 c_1 \cdot \Delta \theta_1 + m_2c_2 \cdot \Delta \theta_2 &= 0 \\\\
-200 \cdot \Delta \theta_1 + 400 \cdot \Delta \theta _2 &= 0 \\\\ 
-200(\theta_{1_f} - 100) + 400(\theta_{2_f} - 20) &= 0
+    m_1 c_1 \cdot \Delta \theta_1 + m_2c_2 \cdot \Delta \theta_2 &= 0 \\\\
+    200 \cdot \Delta \theta_1 + 400 \cdot \Delta \theta _2 &= 0 \\\\
+    200(\theta_{1_f} - 100) + 400(\theta_{2_f} - 20) &= 0
 \end{align*}
 $$
 
@@ -143,11 +143,11 @@ Como estamos considerando o equilíbrio térmico, podemos assumir $\theta_{1_f} 
 
 $$
 \begin{align*}
-200(\theta_f - 100) + 400(\theta_f - 20) &= 0 \\\\
-2(\theta_f - 100) &= -4(\theta_f - 20) \\\\
-\theta_f - 100 &= -2 \theta_f + 40 \\\\
-3 \theta_f &= 140 \\\\
-\theta_f &= 46.\bar{6} \text{°C} \approx 46.7 \text{°C}
+    200(\theta_f - 100) + 400(\theta_f - 20) &= 0 \\\\
+    2(\theta_f - 100) &= -4(\theta_f - 20) \\\\
+    \theta_f - 100 &= -2 \theta_f + 40 \\\\
+    3 \theta_f &= 140 \\\\
+    \theta_f &= 46.\bar{6} \text{°C} \approx 46.7 \text{°C}
 \end{align*}
 $$
 

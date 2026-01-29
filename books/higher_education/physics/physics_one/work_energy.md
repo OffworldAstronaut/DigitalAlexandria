@@ -6,7 +6,7 @@
 
 O que é **trabalho**? O conceito de trabalho na Física está intimamente ligado aos conceitos de **energia** e **força**, também. Para ilustrar a origem dessa curiosa grandeza, vamos imaginar uma situação simples: um bloquinho num plano inclinado. 
 
-![Plano inclinado](images/work_energy_planoinclinado.jpeg)
+![Plano inclinado](images/work_energy/work_energy_planoinclinado.jpeg)
 
 *Acima podemos ver um plano inclinado utilizado em universidades do século XVIII (Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Piano_inclinato_inv_1041_IF_21341.jpg">Wikimedia Commons</a>).*
 
@@ -33,7 +33,7 @@ $$
 \begin{align*}
 ma \Delta x &= \dfrac{1}{2}m(\Delta v)^2 \\\\ 
 F \Delta x &= \dfrac{1}{2}m(\Delta v)^2 \\\\ 
-&= \boxed{\dfrac{1}{2}mv_f^2} - \dfrac{1}{2}mv_0^2 \\\\ 
+&= \boxed{\dfrac{1}{2}mv_2^2} - \dfrac{1}{2}mv_1^2 \\\\ 
 \end{align*}
 $$
 
@@ -91,6 +91,110 @@ $$
 
 ---
 
+Uma motivação para o conceito de **energia potencial** vem de um dos passos que tomamos para a definição da energia cinética. Vamos revisitá-lo, mais precisamente, a **constante de movimento**. 
+
+$$
+\dfrac{1}{2}v_2^2 - ax_2 = \dfrac{1}{2}v_1^2 - ax_1
+$$
+
+Ao multiplicarmos ambos os membros pela massa do corpo, $m$, chegamos na expressão: 
+
+$$
+\dfrac{1}{2}mv_2^2 - m \cdot ax_2 = \dfrac{1}{2}mv_1^2 - m \cdot ax_1
+$$
+
+Perceba que os termos que dependem da velocidade são a nossa conhecida **energia cinética**, mas e os outros dois? Essa nova grandeza não depende da velocidade de um corpo, mas sim de sua **posição**.
+
+Dessa forma, é possível reescrever essa equação em termos de suas funções $T(v)$ e $U(x)$. A essa soma, chamamos **energia mecânica total** do sistema, e à grandeza que depende da posição, **energia potencial**.
+
+$$
+T(v_2) + U(x_2) = T(v_1) + U(x_1)
+$$
+
 <aside>
-<i>Em construção...</i>
+
+O termo energia "potencial", de fato, faz uma referência ao conceito de "ato" e "potência" de Aristóteles. Temos uma energia no sistema que "não se concretizou", mas existe como uma "possibilidade de entrar em ação". 
+
+</aside>
+
+Esse princípio, enunciado na equação acima, é chamado de **conservação da energia**, com os sistemas que o obedecem chamados **sistemas conservativos**. Vale mencionar que em hipótese alguma a energia é "destruída" se ela não for conservada, ela apenas se dissipa para fora do sistema estudado. 
+
+Dessa base também é possível definir o que chamamos de **forças conservativas**, isto é, forças cuja atuação depende apenas da **posição de um corpo** e nunca de sua velocidade. Para essas forças, é possível traçar a relação: 
+
+$$ 
+W = \int F \ dx= - \Delta U
+$$
+
+<aside>
+
+Podemos justificar essa expressão ao escrever $E = T + U$, derivar a equação em relação ao tempo e reorganizar os termos. 
+
+</aside>
+
+Por exemplo, sabendo que a força peso é escrita da forma $F=mg$, sua energia potencial associada (gravitacional) pode ser encontrada a partir de algumas operações. Vamos dizer que estamos comparando dois pontos, $x_1$ e $x_2$, a uma altura $x$ um do outro.
+
+$$
+\begin{align*}
+    \int_{x_1}^{x_2} F \ dx &= mg(x_2 - x_1) = -\Delta U \\\\
+    &= \Delta U = -mg(x_2 - x_1)
+\end{align*}
+$$
+
+Dessa forma, definindo $x_2 - x_1 = h$, nossa altura,  conseguimos demonstrar a tão conhecida $U(h) = mgh$. 
+
+Retornando à distinção entre forças conservativas e não-conservativas (também chamadas de forças **dissipativas**), uma diferença notável entre as duas encerra-se no trabalho: o trabalho de uma força conservativa independe do caminho atravessado pelo móvel, mas apenas das suas posições iniciais e finais. O contrário é dito das dissipativas, em que a "trajetória", a "história" do móvel importa. 
+
+Como exemplos de forças conservativas, podemos citar, além da força peso, a força elástica e a força elétrica.
+
+## Gráficos de estabilidade
+
+---
+
+É possível representar um sistema físico a partir de um gráfico de sua energia potencial em função de sua posição, com tal representação sendo extremamente útil na análise de algumas situações, permitindo a extração de diversas informações. 
+
+Um exemplo inicial simples é o de um objeto em queda livre (ou lançamento vertical). 
+
+![Gráfico retirado do livro OpenStax University Physics (CC-BY-NC-SA)](images/work_energy/work_energy_potential_energy_freefall.png)
+
+*Gráfico retirado do livro OpenStax University Physics (CC-BY-NC-SA).*
+
+Perceba que o gráfico é uma linha reta de inclinação $mg$, com sua altura sendo sua energia potencial em uma dada posição e a "altura restante" até a reta assinalada sua **energia cinética**, com a soma dos dois comprimentos constante para todo $y \in [y_0, y_{max}]$. 
+
+A partir do gráfico é possível encontrar a altura máxima, por exemplo: 
+
+$$
+\begin{align*}
+    U(y_{max}) &= E - K(y_{max}) \\\\
+    mg y_{max} &= E - \dfrac{1}{2}mv_f^2 \\\\ 
+    E &= mg y_{max} \\\\
+    \dfrac{E}{mg} &= y_{max}
+\end{align*}
+$$
+
+Essa mesma relação pode ser explorada para encontrar a velocidade inicial, $v_0$, necessária para alcançar essa altura máxima. Vale notar se $v_0$ é a velocidade necessária para alcançar a altura máxima, $-v_0$ é a velocidade de encontro com o solo.
+
+$$
+\begin{align*}
+    mgy_0 &= E - \dfrac{1}{2}mv_0^2 \\\\
+    E &= \dfrac{1}{2}mv_0^2 \\\\
+    v_0 &= \sqrt{\dfrac{2E}{m}}
+\end{align*}
+$$
+
+Um outro exemplo, um pouco mais complexo, que pode ser analisado é o chamado **sistema massa-mola** simples, sem atrito nem qualquer tipo de força dissipativa. 
+
+![Sistema massa mola](images/work_energy/work_energy_spring_mass_system.gif)
+
+*Um sistema massa mola. Por Chetvorno, via <a href="https://commons.wikimedia.org/wiki/File:Animated-mass-spring-faster.gif">Wikimedia Commons</a>.*
+
+Esse sistema é interessante por nos introduzir pela primeira vez ao chamado **poço de potencial**. Observando seu gráfico de energia potencial em função da posição do objeto conectado à mola, é possível deduzir todas as informações do sistema anterior. 
+
+![](images/work_energy/work_energy_potential_graph_springmass.png)
+
+*Gráfico retirado do livro OpenStax University Physics (CC-BY-NC-SA).*
+
+O "poço de potencial" mencionado é a concavidade do gráfico: um sistema massa-mola com uma energia potencial $E$ nunca irá poder ter uma oscilação maior do que $x_{max}$, com todas as posições possíveis oscilando nessa parábola. 
+
+<aside>
+Experimente imaginar um gráfico de potencial diferente e explorar as limitações de movimento de um sistema, com base na sua energia inicial! Um exemplo interessante pode ser encontrado <a href="">aqui</a>.
 </aside>
