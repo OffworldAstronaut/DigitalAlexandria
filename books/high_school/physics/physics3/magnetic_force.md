@@ -40,7 +40,7 @@ $$
 \bf{F} = q(\bf{E} + \bf{v} \times \bf{B})
 $$
 
-Assim, escolhendo os vetores velocidade $(\bf{v})$, campo elétrico $(\bold{E})$ e campo magnético $(\bold{B})$, podemos encontrar o vetor da força de Lorentz e ver que ele não muda a magnitude do vetor velocidade, apenas a sua direção. 
+Assim, escolhendo os vetores velocidade $(\bf{v})$, campo elétrico $(\bf{E})$ e campo magnético $(\bf{B})$, podemos encontrar o vetor da força de Lorentz e ver que ele não muda a magnitude do vetor velocidade, apenas a sua direção. 
 
 ## Trajetórias
 
