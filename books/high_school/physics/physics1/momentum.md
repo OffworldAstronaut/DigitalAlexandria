@@ -104,6 +104,84 @@ $$
 
 *Acima: exemplos de colisões perfeitamente elásticas. GIFs retirados [daqui](https://en.wikipedia.org/wiki/Elastic_collision).*
 
+### Dedução das expressões
+
+---
+
+Pela conservação de momento, encontramos nossa equação $(1)$: 
+
+$$ 
+\begin{align*}
+    m_1 u_1 + m_2 u_2 &= m_1 v_1 + m_2 v_2 \\\\
+    m_1 u_1 - m_1 v_1 &= m_2 v_2 - m_2 u_2 \\\\
+    m1 (u_1 - v_1) &= m_2(v_2 - u_2)
+\end{align*}
+$$
+
+Pela conservação de energia cinética, encontramos nossa equação $(2)$: 
+
+$$
+\begin{align*}
+    \dfrac{1}{2}m_1 u_1^2 + \dfrac{1}{2} m_2 u_{2}^2 &= \dfrac{1}{2} m_1 v_{1}^2 + \dfrac{1}{2} m_2 v_{2}^2 \\\\
+    m_1 u_1^2 + m_2u_2^2 &= m_1v_1^2 + m_2v_2^2 \\\\
+    m_1u_1^2 - m_1v_1^2 &= m_2v_2^2 - m_2u_2^2 \\\\
+    m_1(u_1^2 - v_1^2) &= m_2(v_2^2 - u_2^2) \\\\
+    m_1(u_1 + v_1)(u_1 - v_1) &= m_2(v_2 + u_2)(v_2 - u_2)
+\end{align*}
+$$
+
+Dividir $(2)$ por $(1)$ nos fornece: 
+
+$$
+\begin{align*}
+    \dfrac{m_1(u_1+v_1)(u_1-v_1)}{m_1(u_1-v_1)} &= \dfrac{m_2(v_2+u_2)(v_2-u_2)}{m_2(v_2-u_2)} \\\\ 
+    u_1 + v_1 &= v_2 + u_2 \\\\
+    u_1 - u_2 &= v_2 - v_1 \\\\
+    -\Delta u &= \Delta v
+\end{align*}
+$$
+
+Uma primeira informação interessante. A velocidade de aproximação é igual em módulo à velocidade de afastamento entre os dois objetos.
+
+Podemos encontrar as fórmulas buscadas por meio da resolução de um sistema linear composto pelas equações $(1)$, oriunda da conservação do momento, e a relação de velocidade acima, que iremos chamar de $(3)$, oriunda da conservação da energia cinética. 
+
+$$ 
+\begin{cases}
+    m_1(u_1 - v_1) = m_2(v_2 - u_2) \\\\
+    u_1 + v_1 = u_2 + v_2 
+\end{cases}
+$$
+
+Podemos resolver esse sistema pelo método da substituição. Escrevendo $v_1 = u_2 + v_2 - u_1$ e substituindo na equação superior, temos: 
+
+$$ 
+\begin{align*}
+    m_1(u_1 - u_2 - v_2 + u_1) &= m_2(v_2 - u_2) \\\\
+    m_1(2u_1 - u_2 - v_2) &= m_2(v_2 - u_2) \\\\
+    2u_1m_1 - m_1u_2 - m_1v_2 &= m_2v_2 - m_2u_2 \\\\
+    2u_1m_1 &= m_2v_2 + m_1v_2 + m_1u_2 - m_2u_2 \\\\
+    2u_1m_1 &= v_2(m_1 + m_2) + u_2(m_1 - m_2) \\\\
+    v_2(m_1 + m_2) &= 2u_1m_1 - u_2(m_1 - m_2) \\\\
+    v_2 &= \dfrac{2u_1m_1 - u_2(m_1-m_2)}{m_1+m_2} \\\\
+    v_2 &= \dfrac{2m_1}{m_1+m_2}u_1 + \dfrac{m_2-m_1}{m_1+m_2}u_2
+\end{align*}
+$$
+
+Aplicando o método da substituição novamente, desta vez escrevendo $v_2 = u_1 + v_1 - u_2$, encontramos a expressão para $v_1$: 
+
+$$
+\begin{align*}
+    m_1(u_1 - v_1) &= m_2(u_1 + v_1 - u_2 - u_2) \\\\
+    m_1(u_1 - v_1) &= m_2(u_1 + v_1 - 2u_2) \\\\
+    m_1u_1 - m_1v_1 &= m_2u_1 + m_2v_1 - 2m_2u_2 \\\\
+    -m_1v_1 - m_2v_1 &= -m_1u_1 + m_2u_1 - 2m_2u_2 \\\\
+    -v_1(m_1 + m_2) &= u_1(m_2-m_1) - 2m_2u_2 \\\\
+    v_1(m_1+m_2) &= 2m_2u_2 - u_1(m_2-m_1) \\\\
+    v_1 &= \dfrac{2m_2u_2 - u_1(m_2-m_1)}{m_1+m_2} \\\\
+    v_1 &= \dfrac{m_1-m_2}{m_1+m_2}u_1 + \dfrac{2m_2}{m_1+m_2}u_2
+\end{align*}
+$$
+
 ## Colisões inelásticas
 
 ---
@@ -124,9 +202,63 @@ $$
 
 Para deduzir essa expressão, trabalhe com a **conservação do momento** (e o fato de que os corpos estão como um corpo só depois da colisão) e rearrange a expressão!
 
-Você pode achar essa dedução <a href="/books/high_school/physics/physics1/collisions_study.pdf">neste PDF</a>!
+### Dedução da expressão
 
-### Coeficiente de restituição
+---
+
+Pela conservação de momento, podemos escrever a igualdade:
+
+$$
+\begin{align*}
+    m_1u_1 + m_2u_2 &= m_1v_1 + m_2v_2 = P \\\\
+    m_1u_1 + m_2u_2 - m_2v_2 &= m_1v_1 = P - m_2v_2 \\\\
+    v_1 = \dfrac{P - m_2v_2}{m_1} &= \dfrac{m_1u_1 + m_2u_2 - m_2v_2}{m_1} \\\\
+\end{align*}
+$$
+
+Substituindo $v_1$ na expressão de energia final do corpo, $K_F$, obtemos: 
+
+$$
+\begin{align*}
+    K_F &= \dfrac{m_1v_1^2}{2} + \dfrac{m_2v_2^2}{2} \\\\ 
+    K_F &= \dfrac{m_1\left(\dfrac{P-m_2v_2}{m_1}\right)^2}{2} + \dfrac{m_2v_2^2}{2} \\\\
+    K_F &= \dfrac{m_1(P - m_2v_2)^2}{2m_1^2} + \dfrac{m_2v_2^2}{2} \\\\
+    K_F &= \dfrac{(P-m_2v_2)^2}{2m_1} + \dfrac{m_2v_2^2}{2} \\\\
+    K_F &= \dfrac{P^2 - 2Pm_2v_2 + m_2^2 v_2^2}{2m_1} + \dfrac{m_2v_2^2}{2} \\\\
+\end{align*}
+$$
+
+Com a energia cinética em função de $v_2$, podemos derivar em relação a essa variável. 
+
+$$
+\begin{align*}
+    \dfrac{dK_F}{dv_2} &= \dfrac{d}{dv_2}\left(\dfrac{P^2 - 2Pm_2v_2 + m_2^2v_2^2}{2m_1}\right) + \dfrac{d}{dv_2}\left(\dfrac{m_2v_2^2}{2}\right) \\\\
+    &= \dfrac{1}{2m_1} \dfrac{d}{dv_2}(P^2 - 2Pm_2v_2 + m_2^2 v_2^2) + m_2v_2 \\\\ 
+    &= \dfrac{2m_2^2 v_2 - 2Pm_2}{2m_1} + m_2v_2 \\\\
+    &= \dfrac{2(m_2^2 v_2 - Pm_2)}{2m_1} + m_2v_2 \\\\
+    &= \dfrac{m_2^2v_2-Pm_2}{m_1} + \dfrac{m_2v_2}{m_1} \\\\
+    &= \dfrac{m_2^2v_2-Pm_2+m_1m_2v_2}{m_1}
+\end{align*}
+$$
+
+Para encontrar o valor de $v_2$ que fornece o ponto mínimo da função quadrática, igualamos a derivada a zero. 
+
+$$
+\begin{align*}
+    \dfrac{m_2^2v_2-Pm_2+m_1m_2v_2}{m_1} &= 0 \\\\
+    m_2^2v_2-Pm_2+m_1m_2v_2 &= 0 \\\\
+    m_2^2v_2 + m_1m_2v_2 &= Pm_2 \\\\
+    v_2(m_2^2 + m_1m_2) &= Pm_2 \\\\
+    v_2 &= \dfrac{Pm_2}{m_2^2 + m_1m_2} \\\\
+    v_2 &= \dfrac{P}{m_1+m_2}
+\end{align*}
+$$
+
+O mesmo procedimento pode ser realizado substituindo $v_2$ a partir da conservação de momento na equação de energia cinética, derivando a encontrando o valor correspondente de $v_1$ para o mínimo da expressão. 
+
+Após isso, conclui-se que $v_1 = v_2 = \dfrac{P}{m_1+m_2} = \dfrac{m_1u_1 + m_2u_2}{m_1+m_2}$.
+
+## Coeficiente de restituição
 
 ---
 
