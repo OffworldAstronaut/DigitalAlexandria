@@ -2,13 +2,28 @@ body {
     margin: 0;
     color: #faf9f6;
     background-color: #0c0c0c;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Inter", sans-serif;
+}
+
+body::before { 
+    content: ""; 
+    position: fixed;
+    inset: 0; 
+    background-image: url('../The_School_of_Athens_by_Raffaello_Sanzio_da_Urbino_in_Vatican.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.06;
+    pointer-events: none;
+    z-index: 0;
 }
 
 main {
     max-width: min(900px, 92vw);
     margin: clamp(32px, 6vh, 96px) auto;
     padding: 0 24px;
+    position: relative;
+    z-index: 1;
 }
 
 /* ---------- Header ---------- */

@@ -201,4 +201,58 @@ $$
 \end{align*}
 $$
 
-Para encontrar estas velocidades no chamado "referencial do laboratório", centrado em nenhum dos corpos, basta adicionar a velocidade do referencial original, $V_R$, em ambas as velocidades deduzidas. 
+Partindo para o caso perfeitamente inelástico, podemos utilizar a mesma configuração exposta anteriormente, além de uma 
+adaptação da dedução previamente realizada no <a href="books/high_school/physics/physics1/momentum.html">livro correspondente do ensino médio</a>. 
+
+Adaptando a equação de conservação do momento $P$, produzimos duas equações:
+
+$$
+\begin{align*}
+    ||v_1'|| = \dfrac{m||v_1|| + m||v_2|| - m_2||v_2'||}{m_1} = \dfrac{P - m_2||v_2'||}{m_1} \\\\ 
+    ||v_2'|| = \dfrac{m||v_1|| + m||v_2|| - m_2||v_2'||}{m_1} = \dfrac{P - m_1||v_1'||}{m_2}
+\end{align*}
+$$
+
+Escrevendo a energia cinética após a colisão como $K_F$ e substituindo a expressão para $||v_1'||$ acima, podemos simplificar, produzindo: 
+
+$$
+\begin{align*}
+    K_F &= \dfrac{1}{2}m_1 \left(\dfrac{P - m_2||v_2'||}{m_1}\right)^2 + \dfrac{1}{2}m_2 ||v_2'||^2 \\\\
+    &= \dfrac{1}{2} \dfrac{P^2 - 2Pm_2 ||v_2'|| + m_2^2 ||v_2'||^2}{m_1} + \dfrac{1}{2} m_2 ||v_2'||^2 \\\\
+    &= \dfrac{1}{2} \left[\dfrac{P^2 - 2Pm_2||v_2'|| + m_2^2 ||v_2'||^2 + m_1m_2 ||v_2'||^2}{m_1}\right] \\\\
+    &= \dfrac{1}{2m_1} (P^2 - 2Pm_2||v_2'|| + m_2^2 ||v_2'||^2 + m_1m_2 ||v_2'||^2)
+\end{align*}
+$$
+
+Derivando $K_F$ em relação a $||v_2'||$ e igualando a zero, encontramos o valor da velocidade pós-colisão do corpo dois 
+que minimiza a energia cinética final. Substituindo a outra equação e realizando o mesmo procedimento, chegamos no resultado final que $||v_1'|| = ||v_2'|| = \dfrac{P}{m_1 + m_2}$. Ou seja, o valor absoluto das velocidades pós-colisão perfeitamente inelástica de ambos os corpos é idêntico. 
+
+E quanto às direções? Novamente, adotando as mesmas convenções e condições do caso elástico, podemos escrever a energia cinética final e substituir a norma dos vetores, produzindo: 
+
+$$
+\begin{align*}
+    K_F &= \dfrac{1}{2}m_1||v_1'||^2 + \dfrac{1}{2}2m_2||v_2'||^2 \\\\
+    &= \dfrac{1}{2}\left|\left|v_1 + \dfrac{\lambda}{m_1}\vec{\hat{n}}\right|\right|^2 + \dfrac{1}{2}m_2\left|\left|- \dfrac{\lambda}{m_2}\vec{\hat{n}}\right|\right|^2 \\\\
+    &= \dfrac{1}{2}m_1 \left(||v_1||^2 + \left \langle \dfrac{\lambda}{m_1} \vec{\hat{n}}, \dfrac{\lambda}{m_1} \vec{\hat{n}} \right \rangle + 2 \left \langle v_1, \dfrac{\lambda}{m_1}\vec{\hat{n}}\right \rangle \right) + \dfrac{1}{2}m_2 \left \langle -\dfrac{\lambda}{m_2}\vec{\hat{n}}, -\dfrac{\lambda}{m_2}\vec{\hat{n}} \right \rangle \\\\
+    &= \dfrac{1}{2}m_1 \left[||v_1||^2 + \left(\dfrac{\lambda}{m_1}\right)^2 + 2\left(\dfrac{\lambda}{m_1}\right)\langle \vec{\hat{n}}, v_1 \rangle \right] + \dfrac{1}{2}m_2 \left(\dfrac{\lambda}{m_2}\right)^2 \\\\
+    &= \dfrac{1}{2}m_1||v_1||^2 + \dfrac{1}{2}\dfrac{\lambda^2}{m_1} + \lambda \langle \vec{\hat{n}}, v_1 \rangle + \dfrac{1}{2}\dfrac{\lambda^2}{m_2} \\\\
+    &= \lambda^2 \dfrac{m_1 + m_2}{2m_1m_2} + \lambda \langle \vec{\hat{n}}, v_1 \rangle + \dfrac{m_1||v_1||^2}{2}
+\end{align*}
+$$
+
+Derivando em relação a $\lambda$ e igualando a zero para encontrar o valor mínimo, chegamos em $\lambda = - \dfrac{m_1m_2}{m_1 + m_2} \langle \vec{\hat{n}}, v_1 \rangle$. 
+
+Substituindo então nas equações de velocidade originais, chegamos em: 
+
+$$ 
+\begin{align*}
+    v_1' = v_1 - \left(\dfrac{m_2}{m_1+m_2}\langle \vec{\hat{n}}, v_1 \rangle \right)\vec{\hat{n}} \\\\
+    v_2' = \left(\dfrac{m_2}{m_1+m_2}\langle \vec{\hat{n}}, v_1 \rangle \right)\vec{\hat{n}}
+\end{align*}
+$$
+
+Dessa forma, é possível mostrar que $v_1' = v_2'$ quando a colisão entre os dois corpos é frontal, isto é, quando $v_1 || \vec{\hat{n}}$. Subtraindo os vetores de velocidade final, podemos ver que só é possível que a subtração seja o vetor nulo somente se os vetores de colisão e o de velocidade inicial do corpo 1 forem colineares. 
+
+$$ 
+v_1' - v_2' = 0 \Rightarrow v_1 - (||v_1|| \cos{\theta})\vec{\hat{n}}
+$$
