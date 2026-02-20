@@ -140,7 +140,7 @@ As hastes de <b>controle</b>, por sua vez, geralmente feitas de boro ou outro el
 <i>Acima: diagrama ilustrando um reator nuclear com hastes de controle de boro e grafite como "moderador" dos nêutrons. Domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Nuclear_Reactor_Uranium_Pile_(30502443888).jpg">Wikimedia Commons</a>.</i>
 
 É possível deduzir as expressões para as colisões **perfeitamente elásticas** e **perfeitamente inelásticas** por meio de nossos conhecimentos de mecânica e álgebra linear. Vamos iniciar com o caso perfeitamente elástico.
-Considerando dois corpos com seus centros ligados por um vetor $\Delta \bold{x}$, podemos escrever os impulsos $\vec{J_1}$ e $\vec{J_2}$ sofridos pelos corpos e outras informações nas seguintes equações: 
+Considerando dois corpos com seus centros ligados por um vetor $\Delta \vec{x}$, podemos escrever os impulsos $\vec{J_1}$ e $\vec{J_2}$ sofridos pelos corpos e outras informações nas seguintes equações: 
 
 $$
 \begin{align*}
@@ -148,7 +148,7 @@ $$
     \vec{J_2} &= p_2' \\\\
     \vec{J_1} &= -\vec{J_2} \\\\
     \vec{J} &\equiv \vec{J_1} = -\vec{J_2} = \lambda \vec{\hat{n}}, \lambda \in \mathbb{R} \\\\
-    \vec{\hat{n}} &= \dfrac{\Delta \bold{x}}{||\Delta\bold{x}||}
+    \vec{\hat{n}} &= \dfrac{\Delta \vec{x}}{||\Delta\vec{x}||}
 \end{align*}
 $$
 
@@ -199,7 +199,7 @@ $$
 $$
 
 Partindo para o caso perfeitamente inelástico, podemos utilizar a mesma configuração exposta anteriormente, além de uma 
-adaptação da dedução previamente realizada no <a href="books/high_school/physics/physics1/momentum.html">livro correspondente do ensino médio</a>. 
+adaptação da dedução previamente realizada no <a href="/books/high_school/physics/physics1/momentum.html">livro correspondente do ensino médio</a>.
 
 Adaptando a equação de conservação do momento $P$, produzimos duas equações:
 
