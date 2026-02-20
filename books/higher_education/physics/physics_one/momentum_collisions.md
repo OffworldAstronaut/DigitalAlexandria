@@ -144,13 +144,11 @@ Considerando dois corpos com seus centros ligados por um vetor $\Delta \bold{x}$
 
 $$
 \begin{align*}
-    
     \vec{J_1} &= p_1' - p_1 \\\\
     \vec{J_2} &= p_2' \\\\
     \vec{J_1} &= -\vec{J_2} \\\\
     \vec{J} &\equiv \vec{J_1} = -\vec{J_2} = \lambda \vec{\hat{n}}, \lambda \in \mathbb{R} \\\\
     \vec{\hat{n}} &= \dfrac{\Delta \bold{x}}{||\Delta\bold{x}||}
-
 \end{align*}
 $$
 
@@ -160,10 +158,8 @@ Dessa forma, é possível escrever as seguintes equações para as velocidades p
 
 $$
 \begin{align*}
-
     \vec{v_1'} &= v_1 + \dfrac{\lambda}{m_1}\vec{\hat{n}} \\\\
     \vec{v_2'} &= - \dfrac{\lambda}{m_2}\vec{\hat{n}}
-
 \end{align*}
 $$
 
@@ -182,6 +178,7 @@ $$
     &= \dfrac{1}{2}m_1 \left(||\vec{v_1}||^2 + \left(\dfrac{\lambda}{m_1}\right)^2 + 2\left(\dfrac{\lambda}{m_1}\right)\langle \vec{v_1}, \vec{\hat{n}}\rangle\right) + \dfrac{1}{2}m_2 \left(\dfrac{\lambda}{m_2}\right)^2 \\\\
 \end{align*}
 $$
+
 $$
 \begin{align*}
     \dfrac{1}{2}m_1 \left(\dfrac{\lambda}{m_1}\right)^2 + \dfrac{1}{2}m_1 \cdot 2 \left(\dfrac{\lambda}{m_1}\right) \langle \vec{v_1}, \vec{\hat{n}}\rangle  + \dfrac{1}{2}m_2\left(\dfrac{\lambda}{m_2}\right)^2 &= 0 \\\\
