@@ -147,8 +147,8 @@ Pelas relações trigonométricas nos triângulos formados no meio inferior, obt
 
 $$
 \begin{align}
-\tg(90-\theta_I)=\dfrac{p'}{b} \\\\ 
-\tg(90 - \theta_R) = \dfrac{p}{b} \\\\
+\tan(90-\theta_I)=\dfrac{p'}{b} \\\\ 
+\tan(90 - \theta_R) = \dfrac{p}{b} \\\\
 \end{align}
 $$
 
@@ -156,14 +156,14 @@ Desenvolvendo o lado esquerdo das equações $(1)$ e $(2)$, pela propriedade da 
 
 $$
 \begin{align}
-\tg(\theta_I) \cdot p' = b \\\\ 
-\tg(\theta_R) \cdot p = b \\\\
+\tan(\theta_I) \cdot p' = b \\\\ 
+\tan(\theta_R) \cdot p = b \\\\
 \end{align}
 $$
 
-Igualando, temos que $\tg(\theta_I) \cdot p' = \tg(\theta_R) \cdot p \Rightarrow \dfrac{p}{p'} = \dfrac{\tg(\theta_I)}{\tg(\theta_R)}$
+Igualando, temos que $\tan(\theta_I) \cdot p' = \tan(\theta_R) \cdot p \Rightarrow \dfrac{p}{p'} = \dfrac{\tan(\theta_I)}{\tan(\theta_R)}$
 
-Pela aproximação de pequenos ângulos, podemos substituir $\tg(\theta_I) = \sin(\theta_I)$ e $\tg(\theta_R) = \sin(\theta_R)$. 
+Pela aproximação de pequenos ângulos, podemos substituir $\tan(\theta_I) = \sin(\theta_I)$ e $\tan(\theta_R) = \sin(\theta_R)$. 
 
 Dessa forma, podemos concluir a demonstração, encontrando a conhecida igualdade $\dfrac{p}{p'} = \dfrac{n}{n'}$.
 
