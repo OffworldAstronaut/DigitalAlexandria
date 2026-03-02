@@ -20,8 +20,6 @@ Uma esfera metálica carregada positivamente. Note as cargas distribuídas na su
 
 ## Gaiolas de Faraday
 
----
-
 Por que numa tempestade de raios é seguro correr para dentro de um carro? Ou então, qual o motivo de um avião conseguir levar uma descarga elétrica sem sofrer nenhum dano? Esse é o tema desse tópico, as **gaiolas de Faraday**. 
 
 Essas estruturas são aplicações práticas dos princípios detalhados acima, permitindo que o interior de objetos condutores não sofra nenhuma consequência de descargas elétricas, pois qualquer campo elétrico externo é anulado no interior do condutor.
@@ -40,8 +38,6 @@ Ou seja… você pode ficar tranquilo ao andar de avião numa tempestade! Os rai
 
 ## Campo e potencial elétricos
 
----
-
 Num **corpo eletrizado e em equilíbrio eletrostático**, ao medirmos a intensidade do **campo elétrico** em função da distância do centro do corpo, considerado aqui como uma esfera por questões de simplicidade, temos que ele é **nulo no interior do corpo**, atingindo o valor máximo de $E_{max}=\dfrac{kQ}{R^2}$ um pouco acima da superfície do corpo (no *limite*, se você sabe, você sabe), enquanto na superfície a intensidade do campo vale metade, ou seja, $\dfrac{1}{2}E_{max}$. 
 
 Além disso, como esperado, o valor da intensidade do campo decai normalmente a medida que nos afastamos do corpo pela conhecida função $\dfrac{kQ}{d^2}$.
@@ -49,8 +45,6 @@ Além disso, como esperado, o valor da intensidade do campo decai normalmente a 
 Quando partimos para o **potencial elétrico** nessa mesma situação, ele será constante até a superfície (com ela inclusa), valendo $\dfrac{kQ}{R}$ e depois decairá normalmente em função da distância seguindo a função $\dfrac{kQ}{d}$. 
 
 ### Demonstração das expressões
-
----
 
 <aside>
 

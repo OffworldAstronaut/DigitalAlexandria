@@ -30,8 +30,6 @@ Se dois meios possuírem o mesmo índice de refração absoluto, não haverá re
 
 ## Reflexão interna total
 
----
-
 A **reflexão internal total** é um fenômeno especial em que, na transição de um meio para o outro, a depender de seus respectivos índices de refração, pode ocorrer de um raio de luz não mais trocar de meio, sendo “refletido” para o interior do seu meio de origem. 
 
 É necessário, para que esse fenômeno ocorra, que o raio esteja saindo do meio mais refringente (de maior índice de refração) para o menos refringente (de menor índice), além do ângulo de incidência ser menor que o chamado **ângulo limite**, $\theta_L$.
@@ -98,8 +96,6 @@ Uma lente é classificada como convergente quando os raios de luz paralelos inci
 
 ## Divergentes
 
----
-
 Essas lentes são chamadas assim pelo fato de fazerem os raios de luz paralelos incidentes divergirem (”se espalharem”) para uma área maior. O foco das lentes divergentes não “existe” de fato: os raios de luz não convergem nesse ponto. Por conta disso, ele é classificado como um foco *virtual*. 
 
 Um raciocínio interessante é pensar nos focos dos espelhos côncavos e convexos. Ele é (mais ou menos) o mesmo. 
@@ -109,8 +105,6 @@ Um raciocínio interessante é pensar nos focos dos espelhos côncavos e convexo
 <i>Representação de uma lente divergente. Os raios parecem “fugir” do foco virtual à medida que se afastam. Imagem autoral.</i>
 
 ## Formação de imagens
-
----
 
 Os variados caminhos que a luz incidente num espelho ou numa lente pode assumir geram várias possibilidades sobre as imagens formadas por esses instrumentos ópticos. Para classificar essas imagens, nós podemos fazer algumas perguntas: 
 
@@ -124,8 +118,6 @@ Os variados caminhos que a luz incidente num espelho ou numa lente pode assumir 
 ---
 
 ## Dioptro plano
-
----
 
 Chamamos **dioptro** (do grego, *dióptron* — “que serve para ver através”) o sistema óptico formado por dois meios ópticos com diferentes índices de refração, que provoca o fenômeno nos raios de luz.
 
@@ -173,8 +165,6 @@ $$
 
 ### Altura aparente
 
----
-
 Um fenômeno relacionado é o denominado **altura aparente** dos astros. As sucessivas camadas da atmosfera possuem diferentes índices de refração, em razão de sua distinta composição e densidade, provocando sucessivas refrações nos raios de luz espaciais e alterando a localização da imagem formada em relação aos nossos olhos. 
 
 Esta ilusão se torna mais evidente a medida que aproximamos nossa observação do horizonte, com os raios recebidos passando por ângulos mais extremos. Esse é o motivo que, na realidade, vemos o sol antes que ele realmente nasça no horizonte, ou que o vemos depois do pôr do sol ter acontecido. 
@@ -184,8 +174,6 @@ Esta ilusão se torna mais evidente a medida que aproximamos nossa observação 
 <i>Perceba que a estrela azul (imagem) possui uma altura maior no céu do que a estrela real, vermelha. Para fins didáticos, o diagrama está muito exagerado. Imagem autoral.</i>
 
 ## Lâmina de faces paralelas
-
----
 
 Uma **lâmina de faces parelas** com índice de refração diferente do meio exterior provoca uma mudança momentânea da direção de propagação do raio de luz, que por fim sai da lâmina refringente na mesma direção que propagava originalmente, porém com um desvio lateral $s$. 
 

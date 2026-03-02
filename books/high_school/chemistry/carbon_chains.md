@@ -10,8 +10,6 @@ Entender as cadeias carbônicas, como representá-las e como estudá-las a parti
 
 ## Classificação de um carbono numa cadeia
 
----
-
 Dependendo **das ligações** de um dado átomo de carbono **numa cadeia**, é possível classificá-lo em alguns grupos. 
 
 | **Carbono** | **# de carbonos a que está ligado** |
@@ -77,8 +75,6 @@ As **duplas** são um pouco mais próximas e fortes, sendo formadas por uma liga
 
 ## NOX
 
----
-
 O **número de oxidação**, conhecido pela sigla **NOX**, é um número que cada átomo num composto químico recebe, podendo ser positivo ou negativo. 
 
 Essa medida permite responder a seguinte questão: se essa determinada ligação entre esses dois átomos em particular fosse quebrada, **para onde iriam os elétrons**? Nesse contexto, é necessário relembrar o conceito de **eletronegatividade**: alguns elementos atraem seus elementos mais fortemente que outros. 
@@ -117,8 +113,6 @@ O **benzeno**, ou **anel de benzeno**, **anel aromático** ou ainda **anel benz�
 
 ## Compostos alifáticos
 
----
-
 ### Cadeias normais e ramificadas
 
 Os **compostos alifáticos** possuem cadeias que podem ser classificadas em **normais** ou em **ramificadas**: as cadeias **normais** possuem uma úniica “fila” de átomos de Carbono, enquanto as cadeias **ramificadas** possuem, segundo o seu nome, **ramificações**, formando “galhos” como em uma árvore. 
@@ -136,8 +130,6 @@ Uma outra classificação dentro dos compostos alifáticos que podemos fazer é 
 Esse(s) átomo(s) é chamado **heteroátomo(s)**. 
 
 ## Compostos aromáticos
-
----
 
 Todos os **compostos aromáticos**, possuem pelo menos um **anel de benzeno**. 
 

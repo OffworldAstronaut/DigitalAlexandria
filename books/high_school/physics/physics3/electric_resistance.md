@@ -22,8 +22,6 @@ As **Leis de Ohm** são leis formuladas pelo físico alemão **Georg Simons Ohm*
 
 ## Primeira Lei de Ohm
 
----
-
 Enunciada da seguinte forma…
 
 <blockquote>
@@ -41,8 +39,6 @@ Onde $V$ é a tensão aplicada, $I$  é a corrente e $R$ é a resistência do re
 Foi descoberto posteriormente que nem todos os resistores obedecem à Primeira Lei, por isso, foram criadas as categorias de **resistores ohmicos** (que a obedecem) e **resistores não-ohmicos**, cuja resistência é alterada pela corrente de forma não-linear. 
 
 ## Segunda Lei de Ohm
-
----
 
 A Segunda Lei é enunciada da seguinte forma: 
 
@@ -101,8 +97,6 @@ $$
 
 ## Em paralelo
 
----
-
 ![image.png](https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Resistors_in_Parallel.svg/3840px-Resistors_in_Parallel.svg.png)
 
 Agora, os resistores estão em **paralelo**: o nome é meio autoexplicativo, com os componentes conectados de forma adjacente por fios ligados paralelamente. 
@@ -131,8 +125,6 @@ R_{EQ}=\dfrac{R_1 R_2}{R_1+R_2}
 $$
 
 ## Ponte de Wheatstone
-
----
 
 A **ponte de Wheatstone**, nomeada em homenagem ao físico inglês <a href="https://en.wikipedia.org/wiki/Charles Wheatstone">Charles Wheatstone</a>, responsável por sua popularização, é um caso especial de arranjos de resistores. 
 
@@ -165,8 +157,6 @@ Em breve...
 </aside>
 
 ## Curtos-circuitos
-
----
 
 Quando estamos analisando alguns circuitos, principalmente aqueles de associação mista, é possível de encontrarmos o fenômeno do **curto-circuito**. 
 

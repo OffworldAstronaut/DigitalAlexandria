@@ -20,8 +20,6 @@ Os capacitores são componentes elétricos que guardam energia com efeito pareci
 
 ## Capacitância
 
----
-
 Essa seção é sobre um conceito importante que têm origens na eletrostática mas será muito importante na eletrodinâmica: a **capacitância**.
 
 Continue explorando na sua imaginação a ideia das duas placas conectadas na bateria. Vamos para o começo de tudo, analisando de perto a placa que irá receber elétrons da bateria. 
@@ -75,8 +73,6 @@ onde $\kappa$ é a **constante dielétrica** do material.
 
 ### Energia potencial num capacitor
 
----
-
 Por meio da capacitânica, ainda é possível encontrar a energia potencial guardada num capacitor carregado por meio da expressão 
 
 $$
@@ -97,8 +93,6 @@ Em breve.
 
 ## Numa esfera condutora
 
----
-
 Um caso específico mas bem explorado no estudo da capacitânica é o de uma esfera condutora, funcionando de forma parecida com a placa metálica conectada a um dos polos da bateria das seções anteriores. 
 
 Podemos fazer algumas manipulações algébricas para chegarmos num resultado interessante: 
@@ -118,8 +112,6 @@ Lembra que num condutor eletrizado em equilíbrio eletrostático o potencial el�
 </aside>
 
 ### Na eletrização por contato
-
----
 
 Agora, vamos analizar um caso interessante. 
 
@@ -147,8 +139,6 @@ Interessante!
 Num circuito, podemos **associar** capacitores, ou seja, conectá-los em proximidade para que funcionem em conjunto. Existem duas formas de **associar** esses componentes: em **série** e em **paralelo**. 
 
 ## Capacitores em série
-
----
 
 Associar em série significa colocar-los em “linha reta” no circuito elétrico. 
 
@@ -186,8 +176,6 @@ V_i = \frac{Q}{C_i}
 $$
 
 ## Capacitores em paralelo
-
----
 
 Associar em paralelo significa que estamos colocando os componentes “lado a lado”, dessa forma: 
 

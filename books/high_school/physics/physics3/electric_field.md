@@ -8,8 +8,6 @@ Podemos definir **campos** na física como uma entidade física que permite a in
 
 ## O campo elétrico
 
----
-
 Quando estudamos o campo elétrico, vemos que ele é um **campo vetorial**, assim como o campo gravitacional: cada ponto do espaço ao redor da carga recebe um vetor de **força elétrica**. 
 
 No caso das cargas positivas, convencionamos que o vetor aponta radialmente “para fora”, enquanto das cargas negativas, o vetor aponta radialmente “para dentro”. 

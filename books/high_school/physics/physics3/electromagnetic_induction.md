@@ -56,7 +56,6 @@ Levando essas duas afirmações em conjunto, chegamos na expressão matemática 
 
 ## Condutor elétrico imerso num campo magnético
 
----
 
 Um caso interessante é quando imergimos um condutor elétrico num campo magnético, e fazemos ele se mover numa dada velocidade $v$ perpendicular a esse campo. 
 

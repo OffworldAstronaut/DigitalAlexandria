@@ -56,8 +56,6 @@ Baseado no **princípio das trocas de calor**, sabemos que os corpos tendem a tr
 
 ## Condução, convecção e irradiação
 
----
-
 Chamamos de **condução** a transmissão de energia térmica que ocorre pelo contato entre corpos. Dessa forma, ela é a predominante entre corpos sólidos. Um exemplo de transmissão por condução seria, por exemplo, de um ferro quente para uma roupa que está sendo passada.
 
 O fundamento da condução está na natureza da energia térmica — a vibração das partículas — que, por ser cinética, consegue afetar as partículas de corpos vizinhos. 
@@ -69,8 +67,6 @@ Por fim, a **irradiação** é efetuada por todos os corpos, com a característi
 O fundamento físico desse fenômeno está na própria natureza da **radiação** — energia liberada pela movimentação de cargas — e da temperatura, o movimento vibracional dos átomos (formados por **cargas**)
 
 ## Modelagem física
-
----
 
 Em modelos simples de trocas de calor, vistos no ensino médio, podemos nos valer das expressões acima para responder algumas perguntas de cenários que podemos nos questionar, como nos exemplos abaixo. Perceba que nesses modelos estamos desprezando completamente as trocas de calor com o ambiente.
 

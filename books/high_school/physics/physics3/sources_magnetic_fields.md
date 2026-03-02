@@ -18,7 +18,6 @@ Onde $\mu_0$ é a **permeabilidade do espaço livre**, uma constante que vale $4
 
 ## A relação entre corrente elétrica e magnetismo
 
----
 
 O magnetismo, juntamente da eletricidade, é uma característica fundamental da realidade material. Einstein, em sua teoria da Relatividade Especial, mostrou que o campo elétrico e o campo magnético são apenas partes do mesmo campo, o **campo eletromagnético**, vistas de pontos de referência diferentes. 
 

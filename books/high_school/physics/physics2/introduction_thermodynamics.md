@@ -34,8 +34,6 @@ A formulação dessa **teoria cinética dos gases** iniciou-se nos princípios d
 
 ## A Lei dos Gases Ideais
 
----
-
 A chamada **Lei dos Gases Ideais** foi enunciada no começo do século XIX pelo físico francês Émile Clapeyron, a partir da combinação das leis empíricas de Boyle, Charles, Avogadro e Gay-Lussac e, posteriormente, derivada por dois alemães, August Krönig e Rudolf Clausius, que utilizaram-se da mecânica estatística.
 
 A relação, conhecida por ser uma **equação de estado**, — pois relaciona as variáveis do gás num instante específico —  é enunciada geralmente nas formas abaixo, com $k_B$ se referindo à **constante de Boltzmann** $(k_B \approx 1.38 \cdot 10^{-23} \text{ J/K})$, $N_A$ ao **número de Avogadro** $(N_A \approx 6.02 \cdot 10^{23})$ e $R$ a chamada **constante do gás ideal $(R = k_B \cdot N_A \approx 8.314 \text{ J / mol K})$.** Além das constantes, temos como variáveis a **pressão**, o **volume** e a **temperatura** do gás.
@@ -49,8 +47,6 @@ Essas variações existem em consideração dos diferentes objetivos que uma med
 Um efeito dessa mudança de constante empregada surtido nos cálculos é o cuidado devido com a consistência das unidades. 
 
 ## Pressão, velocidade e energia
-
----
 
 Conceitualmente, a grandeza **pressão** é definida como a razão entre a magnitude de uma força e a área que esta afeta. No caso dos fluidos (gases e líquidos), ela pode ser compreendida como uma medida da “força” que suas partículas aplicam ao colidirem com seu recipiente.
 
@@ -133,8 +129,6 @@ $$
 
 ## Energia interna
 
----
-
 Definimos a **energia interna de um gás** como a energia total do gás, a soma da energia cinética de suas partículas (além das interações intra e intermoleculares), quando seu centro de massa está em repouso. Seguindo nosso padrão de aproximação, calculamos a energia interna pela expressão abaixo. 
 
 $$
@@ -148,8 +142,6 @@ $$
 $$
 
 ## Trabalho termodinâmico
-
----
 
 O **trabalho termodinâmico**, também conhecido pela denominação **trabalho volume-pressão**, é o trabalho exercido pela compressão ou expansão de fluidos, e acontece sempre em transformações isobáricas. 
 
@@ -182,8 +174,6 @@ Em casos mais gerais, em que essa expressão pode não se aplicar, o trabalho é
 Chamamos **ciclos termodinâmicos** as sequências de processos termodinâmicos exercidos num sistema que, após um certo número de processos, retornam o sistema ao estado original. Ciclos termodinâmicos são comuns em motores, com alguns destacando-se pela sua utilização na indústria moderna ou no estudo científico. São eles os ciclos de **Carnot**, **Otto** e **Diesel**.
 
 ## Ciclo de Carnot
-
----
 
 O **ciclo de Carnot**, nomeado em homenagem ao seu idealizador, o físico francês Sadi Carnot (1796 — 1832), é um ciclo termodinâmico ideal executado pela máquina de Carnot, a mais eficiente máquina térmica possível fisicamente, mas impossível de ser plenamente construída: o físico idealizou sua máquina como um padrão ideal para mensurar a eficiência de máquinas térmicas reais. 
 
@@ -227,8 +217,6 @@ $$
 
 ## Ciclo de Otto
 
----
-
 O **ciclo de Otto** também é um ciclo termodinâmico ideal, porém com um propósito diferente.
 
 Nomeado em homenagem ao engenheiro alemão Nicolaus Otto (1832 — 1891), o ciclo descreve o funcionamento ideal de um motor de combustão interna de ignição à vela, como os encontrados em automóveis.
@@ -249,8 +237,6 @@ Embora ele também possa ser descrito para motores “de dois tempos”, o ciclo
 *Animação demonstrando o funcionamento do motor de quatro tempos. Por Zephyris, via Wikimedia Commons (CC-BY-SA)*
 
 ## Ciclo de Diesel
-
----
 
 O **ciclo de Diesel**, nomeado em homenagem ao inventor franco-alemão Rudolf Diesel (1858 — 1913), é bem similar ao **ciclo de Otto**, porém com uma diferença chave: a ausência do detonador presente nos motores à gasolina. Os motores Diesel são arquitetados com a autodetonação do combustível em mente, sendo mais eficientes, embora mais difíceis de construir e manter.
 
