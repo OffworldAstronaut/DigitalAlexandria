@@ -1,6 +1,6 @@
 # Introdução à Química Orgânica
 
-# Uma Breve Origem da Química Orgânica
+# Uma breve origem da Química Orgânica
 
 ---
 

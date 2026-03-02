@@ -12,8 +12,6 @@ A origem das cores dos objetos, por exemplo, está em como esses objetos absorve
 
 ## Interações luz-matéria
 
----
-
 A luz pode interagir com a matéria de diferentes formas. A partir dessas interações, podemos classificar os materiais em três categoriais básicas — **transparentes**, **translúcidos** e **opacos**.
 
 - **Transparentes:** permitem a passagem de raios de luz sem mudança significativa em sua direção. Conseguimos enxergar de forma nítida através deles;
@@ -21,8 +19,6 @@ A luz pode interagir com a matéria de diferentes formas. A partir dessas intera
 - **Opacos:** barram completamente a passagem da luz;
 
 ### Refração e Reflexão
-
----
 
 Os fenômenos ópticos da **refração** e **reflexão** acontecem em função da interação da luz com certos materiais. 
 
@@ -46,8 +42,6 @@ Muito utilizada em nosso dia a dia por nossos espelhos, a reflexão é um fenôm
 
 ## Óptica geométrica
 
----
-
 Denominamos **óptica geométrica** a subárea da óptica, explorada geralmente no Ensino Médio, que não se preocupa com a natureza intrínseca da luz, apenas com suas propriedades de propagação, recorrendo a abstrações geométricas. Neste documento, a óptica geométrica é predominante. 
 
 Nos estudos desta subárea, é importante ter em mente alguns conceitos, como os de **raio de luz**, **feixe de luz**, **fontes de luz** e os **princípios da óptica geométrica**. 
@@ -57,8 +51,6 @@ Chamamos **raio de luz** o elemento geométrico que indica a direção da propag
 As **fontes de luz** são corpos físicos que emitem alguma luz. Podem ser classificadas em **primárias**, quando emitem luz por si mesmas por algum processo físico ou químico, ou **secundárias**, quando apenas refletem luz de alguma fonte primária.  
 
 ### Princípios da Óptica Geométrica
-
----
 
 A óptica geométrica se vale de três princípios, axiomas, que deles partem todos os outros achados teóricos que explicam os fenômenos experimentais. São eles os princípios da **propagação, independência** e **reversibilidade**. 
 
@@ -92,15 +84,11 @@ Esta é a razão, por exemplo, de sombras difusas quando ligamos a luz do quarto
 
 ## Espelhos
 
----
-
 Chamamos **espelhos** superfícies reflexivas. De modo particular, em nosso estudo, estamos considerando os espelhos ideais que refletem completamente todos os raios de luz incidentes, de forma perfeita, sem absorção.
 
 Convém definir os conceitos de **raio incidente** e **raio refletido**. O primeiro é o raio que incide, atinge, a superfície do espelho, já o segundo é o raio que “sai” do espelho após o raio incidente sofrer reflexão.
 
 ## Espelhos planos
-
----
 
 Os mais utilizados em nosso cotidiano, os espelhos **planos** possuem a propriedade de formar sempre raios refletidos com ângulos, com respeito à reta normal do espelho, iguais ao ângulo do raio incidente (ou simplesmente, “ângulo de incidência”). 
 
@@ -110,15 +98,11 @@ Os mais utilizados em nosso cotidiano, os espelhos **planos** possuem a propried
 
 ## Esféricos
 
----
-
 Os espelhos considerados “esféricos” formam um subconjunto dos espelhos curvos. Esses espelhos, como o nome indica, são geralmente formados pela seção de uma esfera, assumindo dois subtipos: espelhos **côncavos** e **convexos**.
 
 É importante deixar claro que todos os espelhos abaixo seguem a chamada **“Condição de Gauss”**. Essa condição estabelece que a região “útil” — que produz imagens nítidas — de um espelho esférico possui uma abertura de 10 graus. Ou seja, todos os espelhos abaixo recebem o nome especial de **Espelhos de Gauss**.
 
 ### Côncavos
-
----
 
 Também chamados de **espelhos convergentes**, esses espelhos possuem sua superfície reflexiva voltada para dentro, refletindo toda a luz paralela incidente para um único ponto conhecido como **ponto focal**, por isso, são utilizados com a função de focar os raios de luz para um único ponto desejado. 
 
@@ -128,8 +112,6 @@ Também chamados de **espelhos convergentes**, esses espelhos possuem sua superf
 
 ### Convexos
 
----
-
 Também chamados de **espelhos divergentes**, esses espelhos possuem sua superfície reflexiva na parte externa, causando a separação progressiva dos raios de luz refletidos. Por conta dessa propriedade, os espelhos convexos não são utilizados para focalizar luz. 
 
 ![*Diagrama de como um espelho convexo funciona. Note que todos os raios são refletidos de tal forma que eles se afastam uns dos outros progressivamente. Imagem original.*](https://upload.wikimedia.org/wikipedia/commons/8/82/Convex_Mirror_Diagram.png)
@@ -137,8 +119,6 @@ Também chamados de **espelhos divergentes**, esses espelhos possuem sua superf�
 *Diagrama de como um espelho convexo funciona. Note que todos os raios são refletidos de tal forma que eles se afastam uns dos outros progressivamente. Imagem autoral.*
 
 ## Espelhos planos
-
----
 
 Nos espelhos planos, as imagens formadas são sempre **virtuais**, já que são formadas “atrás” do espelho e não podem ser projetadas numa tela, por exemplo. 
 
@@ -150,8 +130,6 @@ Ainda, as imagens são do **mesmo tamanho** que o objeto e são **direitas**, i.
 
 ## Espelhos esféricos
 
----
-
 Nos espelhos esféricos, a situação é mais variada, principalmente nos espelhos côncavos.
 
 Para nos ajudar, temos alguns fatos importantes: 
@@ -162,8 +140,6 @@ Para nos ajudar, temos alguns fatos importantes:
 Abaixo, também, estão os principais cenários que podem acontecer: 
 
 ### Côncavos
-
----
 
 Os espelhos côncavos podem gerar qualquer tipo de imagem. Por conta dessa ampla gama de possibilidades, é importante que aprendemos a formar imagens por meio do traçamento dos raios de luz (como na imagem anterior) para determinarmos se uma imagem é ampliada, reduzida, direita ou invertida, real ou virtual. 
 
@@ -201,8 +177,6 @@ Entretanto, a critério de visualização, os cenários (comuns) possíveis são
 
 ### Convexos
 
----
-
 O espelho convexo, ao contrário das múltiplas possibilidades do espelho côncavo, sempre gerará imagens **virtuais**, **direitas** e **reduzidas**. Essa propriedade faz com que os espelhos convexos permitam que o observador possua um maior campo de visão, o que faz com que esse espelho seja utilizado em locais como ônibus, por exemplo. 
 
 ![*Espelho convexo numa garagem, permite os motoristas a enxergarem além das quinas.*](https://upload.wikimedia.org/wikipedia/commons/e/ee/2008-03-14_Convex_mirror_in_Atlanta_garage_entrance.jpg)
@@ -210,8 +184,6 @@ O espelho convexo, ao contrário das múltiplas possibilidades do espelho cônca
 <i>Espelho convexo numa garagem, permitindo os motoristas a enxergarem além das quinas. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:2008-03-14_Convex_mirror_in_Atlanta_garage_entrance.jpg">Wikimedia Commons</a>.</i>
 
 ## Aumento da imagem
-
----
 
 O “aumento” da imagem é definido como sendo a razão entre o **tamanho da imagem ($i$)** e o **tamanho do objeto ($o$)**, sendo assim um número adimensional. 
 

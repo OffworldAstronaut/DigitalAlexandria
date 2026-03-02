@@ -8,8 +8,6 @@ A **eletrodinâmica** é o estudo das cargas elétricas em movimento, dessa mane
 
 ## Corrente elétrica
 
----
-
 Primeiramente, o que é uma **corrente elétrica**? 
 
 A definimos como sendo o **movimento ordenado de cargas elétricas**, no nosso caso, elétrons! Esse movimento é causado pela **diferença de potencial** (DDP) entre pontos diferentes do circuito, lembra do estudo de capacitores?
@@ -23,8 +21,6 @@ Por convenções de sinal, o movimento da corrente elétrica num circuito segue 
 O movimento da corrente elétrica por um dado corpo pode ser percebido pela geração de fenômenos **térmicos** (efeito Joule), **luminosos**, **magnéticos** (isso será visto com mais detalhes em eletromagnetismo!), **fisiológicos** (contrações musculares) e/ou **químicos** (eletrodiposição)!
 
 ### Intensidade de uma corrente
-
----
 
 Dessa forma, como podemos medir a **intensidade** de uma corrente elétrica? 
 
@@ -44,22 +40,16 @@ Essa quantidade também pode ser encontrada pela área do gráfico $i \times t$,
 
 ### Amperímetros e voltímetros
 
----
-
 Experimentalmente, podemos medir a intensidade de uma corrente por meio de um **amperímetro**, ligado **em série** num circuito. O amperímetro ideal possui uma **resistência elétrica** nula. 
 
 De forma análoga, podemos medir a tensão elétrica entre dois pontos por meio de um **voltímetro**, que deve ser ligado **em paralelo** num circuito e que, idealmente, possui uma resistência que tende ao infinito. 
 
 ### Relação entre corrente e tensão
 
----
-
 - Uma tensão **contínua** fornece uma corrente **contínua** - num único sentido, todo o tempo;
 - Uma tensão **alternada** fornece uma corrente **alternada** - seu sentido inverte periodicamente.
 
 ## Resistência elétrica
-
----
 
 Como visto no primeiro livreto de eletrostática, alguns materiais, os **isolantes**, impõem uma certa dificuldade à passagem de carga (corrente) elétrica, enquanto os **condutores** exibem uma certa facilidade. 
 

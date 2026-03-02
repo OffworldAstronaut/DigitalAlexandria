@@ -22,8 +22,6 @@ Por fim, podemos medir a intensidade de um campo magnético pela unidade **Tesla
 
 ## Ímãs
 
----
-
 Objetos magnetizados são denominados **ímãs**, possuindo dois **polos**, extremos, magnéticos, **norte** e **sul**. 
 
 ![Ímã](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/VFPt_cylindrical_magnet_thumb.svg/3840px-VFPt_cylindrical_magnet_thumb.svg.png)
@@ -36,8 +34,6 @@ O segundo estabelece que os polos de um dado ímã são atraídos por polos de s
 
 ### Linhas de campo
 
----
-
 ![Imagem retirada do PhET. Perceba as linhas de campo magnético dentro e fora do ímã!](./images/electromagnetism_fundamentals/electromagnetism_fundamentals_magnet.png)
 
 <i>Imagem retirada do PhET. Perceba as linhas de campo magnético dentro e fora do ímã!</i>
@@ -46,13 +42,9 @@ As linhas de campo magnético têm o mesmo comportamento das linhas de campo el�
 
 ## Propriedades magnéticas dos materiais
 
----
-
 Nos materiais que encontramos, tanto na natureza quando manufaturados industrialmente, podemos identificar algumas propriedades magnéticas: o **ferromagnetismo**, o **paramagnetismo** e o **diamagnetismo**. 
 
 ### Ferromagnetismo
-
----
 
 Materiais **ferromagnéticos** possuem grande facilidade de alinhamento de spins, podendo ser facilmente magnetizados por processos naturais ou artificiais, formando **ímãs permamentes**, que não perdem suas propriedades magnéticas depois da exposição a um dado campo magnético cessar. 
 
@@ -60,15 +52,11 @@ Um exemplo de material ferromagnético é o **neodímio**, utilizado na manufatu
 
 ### Paramagnetismo
 
----
-
 Materiais com propriedades **paramagnéticas** (”para” vem do grego, *falso*) são materiais cujos spins não se alinham tão bem, nem de forma tão permanente, adquirindo propriedades magnéticas enquanto sofrem influência de um outro campo magnético, porém, no instante que esse campo é removido, as propriedades são perdidas. 
 
 Para citar materiais paramagnéticos, podemos pensar no alumínio e na platina, utilizados em eletrônicos por suas propriedades elétricas e magnéticas, porém, ao afastar esses materiais de um campo magnético forte, suas propriedades são perdidas completamente. 
 
 ### Diamagnetismo
-
----
 
 Por fim, temos os materiais **diamagnéticos** (”dia” vem do grego, *através*), que respondem fracamente a um campo magnético externo, porém com seu próprio campo magnético, de sinal oposto, provocando uma leve repulsão.
 

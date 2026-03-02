@@ -22,8 +22,6 @@ Além disso, temos dois fenômenos que são fundamentais para toda a Eletrostát
 
 ## Princípio da Atração e Repulsão
 
----
-
 Esse princípio é muito conhecido pela máxima **“os opostos se atraem”**.
 
 Cargas elétricas de sinais iguais tendem a se repelir com uma força chamada **força coulombiana**, que será discorrida sobre mais à frente, enquanto cargas elétricas de sinais opostos tendem a se atrair por ação da mesma força. 
@@ -33,8 +31,6 @@ Cargas de sinais iguais tendem a ficar o mais longe possível uma da outra. Alé
 </aside>
 
 ## Quantização das cargas elétricas
-
----
 
 A quantidade de cargas elétricas num corpo não pode ser fracionária, já que não é possível ter meio elétron, ou três quartos de elétron, ou dois prótons e meio, por exemplo. 
 
@@ -56,8 +52,6 @@ Os corpos possuem um papel central na Eletrostática, afinal, eles são formados
 
 ## Corpos neutros e eletrizados
 
----
-
 Dizemos que um dado corpo é **neutro** se ele possui a mesma quantidade de cargas negativas e cargas positivas em sua composição, enquanto um corpo **eletrizado** possui uma assimetria na sua distribuição de cargas: se possui mais cargas negativas, se torna um **corpo eletrizado negativamente**, caso contrário é um **corpo eletrizado positivamente**. 
 
 Algo importante de se ter em mente, e **consequência do primeiro princípio fundamental**, é que **corpos neutros sempre são atraídos por corpos carregados**.
@@ -67,8 +61,6 @@ Algo importante de se ter em mente, e **consequência do primeiro princípio fun
 *O cilindro (+) é um corpo eletrizado positivamente: perceba a reorganização no condutor e o pouco movimento das cargas no isolante! No segundo caso dizemos que as cargas foram **polarizadas** pelo corpo eletrizado.* 
 
 ## Condutores e isolantes
-
----
 
 De forma bem simples, **materiais condutores** possuem **grande facilidade** na **transmissão de cargas** pelos seus átomos, enquanto **materiais isolantes** são o caso oposto: cargas elétricas possuem uma certa dificuldade de se mover por corpos formados por esses materiais. 
 
@@ -86,8 +78,6 @@ Não é possível transferir prótons de/para um material tão facilmente. Isto 
 </aside>
 
 ## Eletrização por atrito
-
----
 
 Ao **atritarmos** dois corpos **neutros** de **materiais diferentes**, um dos corpos irá transferir alguns de seus elétrons para o outro corpo, já que fornecemos energia a eles por meio do atrito! 
 
@@ -108,8 +98,6 @@ Quanto mais **acima** na série um material está, ele tem uma maior tendência 
 
 ## Eletrização por contato
 
----
-
 Se tivermos um **corpo eletrizado** em **contato** **externo** com um **corpo neutro**, **cargas** irão **fluir** entre os dois corpos de forma que o corpo anteriormente neutro **se torne** também um **corpo eletrizado**.
 
 É interessante saber que a quantidade de carga que irá fluir entre os corpos depende de seu volume: quanto **maior** um corpo **neutro**, **maior** será a sua **capacidade** de absorver ou ceder carga ao corpo eletrizado. O caso mais simples é o de **dois corpos idênticos**: a quantidade de carga excedente em cada um será **idêntica** e **metade** da **carga** do **corpo eletrizado original**. 
@@ -126,8 +114,6 @@ Agora, se tivermos um **corpo eletrizado** em **contato interno** com um corpo n
 
 ## Eletrização por indução
 
----
-
 Se tivermos um **corpo neutro** isolado eletricamente (chamado aqui de *induzido*) e aproximarmos dele um **corpo eletrizado** (chamado *indutor*), as cargas irão se redistribuir de forma a serem atraídas ou repulsas a ele. 
 
 Ao aterrarmos esse corpo neutro, ele irá ceder ou devolver elétrons à Terra, conforme as cargas que foram repulsas. Assim, se **isolarmos** o corpo novamente e depois **afastarmos o indutor**, veremos que o corpo induzido agora foi eletrizado. 
@@ -141,8 +127,6 @@ Ainda há uma outra maneira de eletrizarmos um corpo por indução, **sem aterra
 Se colocarmos dois corpos isolados eletricamente da Terra **em contato**, e aproximarmos um corpo indutor de um deles, as **cargas elétricas** de um **corpo** irão **ser atraídas ou repulsas** para **outro**. Depois, **basta afastarmos** os dois corpos e depois **afastarmos o indutor**.
 
 ## Eletroscópio
-
----
 
 Um **eletroscópio** é um instrumento que permite verificar se um corpo está **neutro** ou **eletrizado**. 
 

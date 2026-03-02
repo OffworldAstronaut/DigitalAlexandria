@@ -27,8 +27,6 @@ Isso mudará quando virmos algumas propriedades de limites, e poderemos calculá
 
 ## Limites laterais
 
----
-
 Os **limites laterais** são uma especificidade que nasce da noção de aproximação entre $x$ e $a$. 
 
 Como estamos tratando de uma reta real, podemos aproximar os dois números com $x>a$, assumindo valores cada vez menores — e mais próximos da nossa constante —, ou obedecendo à restrição de que $x < a$, em que a variável irá assumir valores cada vez maiores.
@@ -61,8 +59,6 @@ Como dito anteriormente, as propriedades de limites nos serão muito úteis para
 
 ## Limite de uma constante
 
----
-
 Se tivermos em mãos uma função constante $f(x)=C, \forall{x} \in \mathbb{R}$, saberemos que seu limite é $C$ para todo par $x, a \in \mathbb{R}$ escolhido, ou seja:
 
 $$
@@ -72,8 +68,6 @@ $$
 Ainda, de forma mais sucinta, podemos dizer que “o limite de uma constante é a própria constante” — é bem intuitivo, já que a função não muda para qualquer valor escolhido.
 
 ## Limite da soma e da diferença
-
----
 
 Dadas duas funções $f(x)$ e $g(x)$, ambas possuindo seus respectivos limites num dado número $a$ — o que também assumiremos para as próximas seções —, isto é: 
 
@@ -99,8 +93,6 @@ $$
 
 ## Limite de um produto
 
----
-
 O limite do produto de duas funções é o produto de seus limites.
 
 $$
@@ -121,8 +113,6 @@ $$
 
 ## Limite de um quociente
 
----
-
 O limite da razão entre $f$ e $g$ é o quociente entre os limites de cada uma, ou seja:
 
 $$
@@ -133,15 +123,11 @@ Claro, para isso precisamos que $g(x), L_2 \neq 0$.
 
 ## Limite de um polinômio
 
----
-
 Essa, provavelmente, é uma das propriedades mais úteis de toda essa lista, sendo construída a partir das anteriores de forma elegante — tente demonstrar ela no papel aplicando as propriedades de limite da soma, limite de potência e limite de uma constante nos termos do polinômio e simplificando.
 
 Temos que o limite de um polinômio $p(x)$ num dado número $a$ é o mesmo que calcular $p(a)$.
 
 ## Limite de uma função racional
-
----
 
 Por fim, se $f$ e $g$ forem polinômios e $F$ for uma função racional, isto é, uma função formada pela razão entre os dois polinômios dados,
 
@@ -197,8 +183,6 @@ Haverão funções que não serão tão simples de serem reescritas, mas toda a 
 
 ## Dispositivo de Briot-Ruffini
 
----
-
 O **dispositivo de Briot-Ruffini**, conhecido também por **Regra de Ruffini**, é um método matemático utilizado para calcular a divisão de um polinômio $P(x)$ por um binômio $Q(x)=x-r$, com $r$ sendo uma constante dos reais.
 
 O algoritmo foi descrito de forma excelente [aqui](https://en.wikipedia.org/wiki/Ruffini%27s_rule), explicação que será reproduzida abaixo. 
@@ -232,8 +216,6 @@ Vê a linha inferior? São os coeficientes do polinômio quociente, $R(x)$, que 
 Esses últimos fatos nos serão muito úteis para a sua aplicação — o verdadeiro motivo desse dispositivo estar incluído aqui — em fatorar polinômios quando conhecemos uma de suas raízes.
 
 ### Fatorando polinômios com Briot-Ruffini
-
----
 
 Quando assumimos que $r$ é uma raíz de $P(x)$, já podemos saber de antemão que $s=0$, assim, podemos reescrever 
 
@@ -298,8 +280,6 @@ Além disso, nessa seção, veremos os **limites no infinito** conjuntamente com
 
 ## Assíntotas verticais
 
----
-
 As assíntotas verticais são retas que cruzam perpendicularmente o eixo das abcissas, o cruzando num único ponto. Por isso, são denotadas pela equação $x=c$, com $c \in \mathbb{R}$. 
 
 Essas retas em relação às nossas funções possuem o comportamento de formarem “barreiras” em suas imagens — seus valores explodem para $\pm \infty$ quando seu valor de entrada se aproxima de $c$. 
@@ -321,8 +301,6 @@ Por exemplo, a função $f(x)=\dfrac{2}{x}$ possui como assíntota vertical a re
 <i>Perceba que a função explode para o infinito positivo pela direita e para o infinito negativo pela esquerda!</i>
 
 ## Assíntotas horizontais
-
----
 
 As assíntotas horizontais são retas que cruzam perpendicularmente o eixo das ordenadas, paralelas ao eixo das abcissas. De forma similar às verticais, são denotadas por equações da forma $y=c$, com $c \in \mathbb{R}$. 
 
@@ -357,8 +335,6 @@ $$
 
 ## Assíntotas oblíquas
 
----
-
 Chamamos “assíntotas oblíquas” as assíntotas cuja equação reduzida possui ambos os coeficientes (linear e angular) não nulos. 
 
 Uma função possui assíntota oblíqua se for racional — ou seja, no formato $f(x)= \dfrac{g(x)}{h(x)}$, com $g(x)$ e $h(x)\neq0$ polinômiosa —, e se $\text{Grau(g(x))} = \text{Grau(h(x))} +1$ . 
@@ -381,8 +357,6 @@ Quando estudamos matemática, normalmente temos uma noção do significado de ex
 
 ## Definição
 
----
-
 Dessa forma, podemos definir continuidade da seguinte maneira:
 
 (Prof. Dr. José Carlos de Lima, UFAL) Dizemos que uma função $f$ é contínua em um número $a$ se, e somente se, ocorrer que $\lim_{x \rightarrow a} f(x) = f(a)$.
@@ -391,8 +365,6 @@ Se $f$ não é contínua em $a$, dizemos simplesmente que ela é descontínua em
 As definições de **continuidade à direita** e **continuidade à esquerda** podem ser extraídas dessa definição primordial pela mudança do limite padrão pelo limite lateral correspondente.
 
 ### Continuidade num intervalo
-
----
 
 Podemos ainda expandir o conceito de **continuidade** exposto acima, que se preocupa apenas com a função num dado número, para que abranja todo um intervalo. 
 
@@ -408,8 +380,6 @@ Nos utilizando dessas definições, podemos ainda afirmar que todas as funções
 Vale lembrar que ao analisarmos funções compostas de outras funções, seu domínio depende do domínio das funções que a constituem — por consequência, a sua continuidade também depende disso.
 
 ## Teorema do Valor Intermediário
-
----
 
 O **teorema do valor intermediário**, também conhecido por **teorema de Bolzano** ou ainda **teorema de Bolzano-Cauchy**, ****é um importante teorema da análise real e do cálculo, servindo de boa ferramenta para a resolução de vários problemas que podem surgir. 
 

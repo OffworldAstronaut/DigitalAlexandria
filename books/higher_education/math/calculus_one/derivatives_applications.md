@@ -12,8 +12,6 @@ A motivação para esse teorema ser conhecido por **lema** (ou ”teorema auxili
 
 ## Teorema do Valor Médio
 
----
-
 O **teorema do valor médio** (**de Lagrange**) é tido como um dos mais importantes teoremas da análise real, estabelecendo que: 
 
 Dada uma função real $f$, contínua num intervalo fechado $[a,b]$ e diferenciável num intervalo aberto $(a,b)$, onde $a<b$, existe um valor $c \in (a,b)$ de forma que
@@ -34,8 +32,6 @@ Podemos esboçar gráficos de diversas funções reais utilizando consequências
 
 ## Determinando porções crescentes e decrescentes
 
----
-
 Como visto anteriormente, a interpretação geométrica da derivada é a inclinação da reta tangente a curva num determinado ponto. Se essa inclinação é negativa, significa que a função é **decrescente** naquela região; inclinações positivas implicam em funções crescentes num dado intervalo. Essa utilização é chamada geralmente de **teste da primeira derivada**.
 
 ![](images/derivatives_applications/derivatives_applications_first_derivative_test.png)
@@ -43,8 +39,6 @@ Como visto anteriormente, a interpretação geométrica da derivada é a inclina
 <i>Perceba que $f'(x)$ é positiva quando a função está subindo e negativa quando o valor de $f(x)$ está caindo.</i>
 
 ## Pontos críticos
-
----
 
 Chamamos **pontos críticos** os pontos do gráfico de uma dada função $f$ cuja derivada é nula ou inexistente. Uma derivada nula num determinado ponto implica num ponto de **mínimo** ou **máximo**. 
 
@@ -57,8 +51,6 @@ Pontos de derivada inexistente implicam regiões de assíntotas verticais, quebr
 <i>Uma assíntota vertical separa as duas "metades" das funções $(1/x)$. Em $x = 0$, a derivada não existe.</i>
 
 ## Teste da segunda derivada
-
----
 
 Ao analisarmos a **segunda derivada** de uma função, podemos perceber que ela nos fornece o comportamento da primeira derivada. Por exemplo, vamos analisar a função $f(x)=x^3$ e suas duas primeiras derivadas.
 

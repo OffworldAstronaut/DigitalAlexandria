@@ -80,8 +80,6 @@ Uma aplicação interessante, no dia a dia, da DDP é a medida da “voltagem”
 
 ## Num campo elétrico uniforme
 
----
-
 Agora, e se estivermos numa situação como a abaixo? 
 
 ![Duas barras metálicas com cargas opostas, com um campo elétrico uniforme!](./images/electric_potential/electric_potential_bars.png)

@@ -70,8 +70,6 @@ O último caso, $f'(a)=0$, marca um ponto de **máximo**, **mínimo** ou ainda d
 
 ## Exemplos
 
----
-
 Por fim, vamos a um exemplo! Qual seria a derivada da função $f(x)=x^2$? 
 
 Nos utilizando da definição dada, podemos calcular o limite. 
@@ -128,8 +126,6 @@ Uma produção que na verdade perde quilos de vidros a cada hora, indicando, tal
 
 ## Derivada de uma função constante
 
----
-
 A primeira dessas propriedades, e provavelmente a mais direta, é que a derivada de uma função constante é nula.
 
 De fato, sendo $f(x)=c$, podemos deduzir — a título de curiosidade —, essa propriedade da seguinte maneira: 
@@ -139,8 +135,6 @@ f'(x)=\lim_{h \rightarrow 0} \frac{f(x+h) - f(x)}{h} = \lim_{h \rightarrow 0} \f
 $$
 
 ## Função potência
-
----
 
 Dada uma função $f(x)=x^n$, sua derivada será $f'(x)=nx^{n-1}$ para todo $n \in \mathbb{R}$. 
 
@@ -219,8 +213,6 @@ Perceba que a última afirmação é dada por meio de propriedades de limites �
 
 ## Regra da soma ou da diferença
 
----
-
 Ao derivarmos uma função formada pela soma, ou pela diferença, de duas outras funções, sua derivada será a soma (ou a diferença) das derivadas das funções que a formam, isto é
 
 $$
@@ -228,8 +220,6 @@ F(x)=f(x) \pm g(x) \Rightarrow F'(x)=f'(x) \pm g'(x)
 $$
 
 ## Regra do produto
-
----
 
 Quando derivamos uma certa função $F(x)$ composta pelo produto de outras duas funções, a saber, $f(x)$ e $g(x)$, podemos dizer: 
 
@@ -241,8 +231,6 @@ Essa propriedade pode ser demonstrada pela definição de derivada — simplific
 
 ## Regra do quociente
 
----
-
 Para encontrar a derivada de uma certa função $F(x)=\dfrac{f(x)}{g(x)}, g(x) \neq 0$, temos que 
 
 $$
@@ -252,8 +240,6 @@ $$
 Essa regra pode ser demonstrada a partir da regra do produto de maneira relativamente direta. Pode também ser demonstrada pela definição de derivada de uma maneira robusta. 
 
 ## Regra da cadeia
-
----
 
 A regra da cadeia possui uma demonstração matemática mais complexa, mas uma utilidade imensa, servindo de base para a resolução de problemas como por exemplo a derivação de funções exponenciais, explorada mais adiante — essa propriedade nos permite encontrar a derivada de funções compostas.
 
@@ -278,8 +264,6 @@ $$
 Com $y$ sendo minha função original, $u$ sendo a minha função “interna”, tratada como variável, e finalmente $x$, a minha verdadeira variável. 
 
 ### Exemplo
-
----
 
 Definindo a função $y=f(x)=\sqrt{5x-8}$, podemos encontrar sua derivada através da regra da cadeia. 
 
@@ -413,8 +397,6 @@ Todas as funções trigonométricas podem ser reconstruídas por meio de recombi
 
 ## Derivando a função seno
 
----
-
 Pela definição, temos: 
 
 $$
@@ -437,8 +419,6 @@ $$
 $$
 
 ## Derivando a função cosseno
-
----
 
 Seguindo um caminho semelhante à seção anterior, pela definição, temos que: 
 
@@ -532,8 +512,6 @@ Esta seção servirá como um compêndio de algumas regras, técnicas e prática
 
 ## Derivação implícita
 
----
-
 A **derivação implícita** é uma técnica muito útil para derivar funções oriundas de equações que relacionam $x$ e $y$, pois nem sempre é fácil escrever $y$ diretamente em função de $x$. Quando isso acontece, precisamos usar a derivação implícita: derivamos os dois membros da equação em relação a $x$ enquanto tratamos $y$ como uma função de $x$ ainda desconhecida.
 
 Por exemplo, considere a equação $x^2+y^2=1$, a equação de um círculo. É fácil ver que podemos explicitar $y=f(x)$ por meio de uma simples reescrita: 
@@ -566,8 +544,6 @@ Essa estratégia de derivação se mostra muito útil em problemas das mais vari
 Se quisermos encontrar a expressão original de $y$, poderemos nos utilizar das técnicas de integração e equações diferenciais, que veremos no decorrer dos próximos cursos — livretos — de Cálculo.
 
 ## Derivação logarítmica
-
----
 
 A **derivação logarítmica** é uma prática muito eficiente quando se mostra necessário derivar funções formadas por uma grande quantidade de expressões, mais comumente produtos, quocientes e potências. 
 
@@ -637,8 +613,6 @@ $$
 Veja como essa técnica poupou tempo ao evitar que aplicássemos repetidas vezes as regras do produto, quociente e da cadeia! 
 
 ## Regra de L’Hôpital
-
----
 
 Enquanto o simples rearranjo algébrico pode levantar indeterminações em alguns limites, a **regra de L’Hôpital** nos ajuda a tratar de forma simples dois tipos de indeterminações, a saber, as de tipos $\frac{0}{0}$ ou $\frac{\infty}{\infty}$. 
 

@@ -30,8 +30,6 @@ $$
 
 ## Momento e força
 
----
-
 Por análise dimensional, podemos deduzir que a unidade do momento é de $\text{kg} \cdot \text{m}/\text{s}$. 
 
 Essa análise é importante. Perceba a unidade do momento, e a unidade da **força**. Se dividirmos a unidade do momento por tempo novamente, teremos um $\text N$! 
@@ -62,8 +60,6 @@ Nos utilizando da análise dimensional, podemos ver que o impulso é medido em *
 
 ## Teorema do Impulso
 
----
-
 O Teorema do Impulso relaciona o impulso com a diferença de momento de um objeto, por meio da seguinte expressão abaixo.
 
 $$
@@ -84,7 +80,6 @@ Colisões acontecem quando corpos se chocam, podendo ser de três tipos: **perfe
 
 ## Colisões perfeitamente elásticas
 
----
 
 Nessas colisões, toda a energia cinética, $K$, do sistema é conservada, ou seja, $\Delta K = 0$. 
 
@@ -105,8 +100,6 @@ $$
 *Acima: exemplos de colisões perfeitamente elásticas. GIFs retirados [daqui](https://en.wikipedia.org/wiki/Elastic_collision).*
 
 ### Dedução das expressões
-
----
 
 Pela conservação de momento, encontramos nossa equação $(1)$: 
 
@@ -184,8 +177,6 @@ $$
 
 ## Colisões inelásticas
 
----
-
 Nas colisões inelásticas, a energia cinética do sistema **não** é completamente conservada, sendo convertida em outras formas como **som e calor**, por exemplo. 
 
 Quando uma colisão é **perfeitamente inelástica**, o máximo valor possível de energia cinética é perdido, “colando” os dois corpos num só, com ambos possuindo a mesma velocidade final.
@@ -203,8 +194,6 @@ $$
 Para deduzir essa expressão, trabalhe com a **conservação do momento** (e o fato de que os corpos estão como um corpo só depois da colisão) e rearrange a expressão!
 
 ### Dedução da expressão
-
----
 
 Pela conservação de momento, podemos escrever a igualdade:
 
@@ -259,8 +248,6 @@ O mesmo procedimento pode ser realizado substituindo $v_2$ a partir da conserva�
 Após isso, conclui-se que $v_1 = v_2 = \dfrac{P}{m_1+m_2} = \dfrac{m_1u_1 + m_2u_2}{m_1+m_2}$.
 
 ## Coeficiente de restituição
-
----
 
 Definido como sendo a razão entre as velocidades após a colisão e antes da colisão, o **coeficiente de restituição ($e$**) é expresso pela equação abaixo: 
 

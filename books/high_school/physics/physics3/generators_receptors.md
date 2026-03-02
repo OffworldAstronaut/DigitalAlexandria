@@ -69,8 +69,6 @@ Ou seja, a corrente do curto circuito é limitada apenas pela resistência elét
 
 ## Potência de geradores
 
----
-
 Anteriormente, vimos que $P=iU$. 
 
 Podemos modificar a equação de um gerador (vista acima), a multiplicando por $i$, para assim encontrarmos uma maneira de obtermos a potência de um dado gerador. 
@@ -88,8 +86,6 @@ i=\dfrac{1}{2}i_{cc}
 $$
 
 ## Associação de geradores
-
----
 
 Por fim, podemos **associar geradores** como associamos resistores e outros componentes elétricos, tanto em **série** como em **paralelo**. 
 

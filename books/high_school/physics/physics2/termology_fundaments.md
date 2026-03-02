@@ -22,15 +22,11 @@ Chamamos de **escalas termométricas** sistemas de referências numéricos utili
 
 ## Celsius
 
----
-
 Anteriormente conhecida como “escala centígrada”, a escala Celcius foi criada em 1742 pelo físico sueco Anders Celcius. Originalmente, a escala tinha como pontos básicos de referência $0° \text C$ (ebulição da água) e $100° \text{C}$ (congelamento da água). Entretanto, uma reforma proposta em 1743 pelo físico francês Jean-Pierre Christin espelhou esses extremos, dando origem à escala que conhecemos hoje. 
 
 A razão de seu nome original vem da sua divisão em 100 *gradum* (”passos”, “degrais” em latim) inteiros entre seus extremos base. 
 
 ## Fahrenheit
-
----
 
 Proposta por Daniel Gabriel Fahrenheit, um físico polaco-alemão-holandês, em 1724, a escala teve seus dois pontos originais de referência definidos como a temperatura de uma solução de água, gelo e cloreto de amônio, no seu extremo mais frio, e a temperatura média do corpo humano, no extremo mais quente. Na escala, as medidas são, respectivamente, $0° \text F$ e $96 °\text{F}$. 
 
@@ -39,8 +35,6 @@ Dessa forma, os pontos de congelamento e ebulição da água são $32° \text{F}
 Por possuir mais “degraus” entre duas temperaturas do que a escala Celcius, o sistema de Fahrenheit é algumas vezes tido como “mais preciso” para uso comum, sem a necessidade de recorrer a casas decimais. Entretanto, esse “benefício” dificulta sua conversão em outras escalas termométricas, o que será visto mais adiante.
 
 ## Kelvin
-
----
 
 Definida como a escala de temperatura do Sistema Internacional de Unidades e utilizada pela comunidade científica, a escala Kelvin foi criada em 1848 pelo físico inglês William Thomson, mais conhecido pelo seu título nobiliárquico, Lorde Kelvin. 
 

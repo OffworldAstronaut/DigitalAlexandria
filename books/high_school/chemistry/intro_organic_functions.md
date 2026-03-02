@@ -46,8 +46,6 @@ Esse ácido é o mais simples dos ácidos orgânicos.
 
 ## Álcoois, enóis e fenóis
 
----
-
 Os **álcoois** são funções orgânicas que contém **hidroxilas** ligadas a um **carbono saturado**, ou seja, um carbono que **só possui ligações simples**. 
 
 Eles ainda podem ser subdivididos em **primários, secundários ou terciários**, de acordo com a classificação do carbono da hidroxila. 
@@ -68,8 +66,6 @@ Os **enóis**, por sua vez, são funções orgânicas que possuem **hidroxilas**
 
 ## Aldeídos e cetonas
 
----
-
 Os **aldeídos** são funções orgânicas que possuem carbonilas **“nas pontas”** dos compostos, ou seja, que **não** possuem as **duas ligações simples** sendo átomos de **carbono**. O **caso contrário**, com o **carbono** da carbonila possuindo **ligações simples** com outros **dois carbonos**, é denominado **cetona**.
 
 ![Um exemplo de **aldeído**, note a carboxila na “ponta da cadeia’’: somente uma das ligações simples é um carbono! ](images/intro_organic_functions/C2OH4_2.png)
@@ -81,8 +77,6 @@ Um exemplo de **aldeído**, note a carboxila na “ponta da cadeia’’: soment
 Uma molécula de **acetona**, que, surpreendemente, é um **cetona!** Perceba que ambas as ligações simples da carbolina são carbonos. 
 
 ## Éteres, ésteres e anidridos
-
----
 
 Os **éteres** são funções orgânicas que possuem um **oxigênio** entre **dois carbonos**, enquanto os **ésteres** são **carbonilas**, com uma das ligações simples do carbono sendo um átomo de oxigênio, que por sua vez está ligado a um outro átomo de carbono. 
 
@@ -103,8 +97,6 @@ Por fim, um **anidrido** é formado ao ligarmos o último carbono a um outro át
 Enquanto as funções **oxigenadas** possuem oxigênio em sua composição, as funções **nitrogenadas** possuem nitrogênio, são elas as **aminas**, **amidas, nitrocompostos e nitrilas**. 
 
 ## Aminas
-
----
 
 As **aminas** são **funções** **parecidas com a amônia**: o nitrogênio central possui um par de elétrons livres e três ligações simples com outros átomos, sejam eles de **carbono** ou **nitrogênio**. 
 
@@ -170,8 +162,6 @@ Por fim, temos os **compostos halogenados**, ou seja, compostos orgânicos que c
 
 ## Haletos de alquila
 
----
-
 ![image.png](images/intro_organic_functions/CBrH3.png)
 
 Também conhecidos pela denominação **haloalcanos**, os **haletos de alquila** são compostos orgânicos que possuem uma ligação entre um **carbono alifático** e um halogênio. 
@@ -179,8 +169,6 @@ Também conhecidos pela denominação **haloalcanos**, os **haletos de alquila**
 Ao lado, temos o **bromometano** $(\text {CH}_3 \text {Br})$, um exemplo de haloalcano formado pela substituição de um dos hidrogênios do metano por um átomo de bromo.
 
 ## Haletos de acila
-
----
 
 ![image.png](images/intro_organic_functions/C2ClOH3.png)
 
@@ -229,11 +217,7 @@ Todas as outras regras de nomenclatura são construídas partindo dessa estrutur
 
 ## Estrutura básica da nomenclatura IUPAC
 
----
-
 ### Prefixos
-
----
 
 | **# de Carbonos** | **Prefixo** |
 | --- | --- |
@@ -253,8 +237,6 @@ Se o composto orgânico for cíclico, ele ainda ganha um prefixo adicional (”*
 
 ### Intermediários
 
----
-
 | **Saturação** | **Intermediário** |
 | --- | --- |
 | Saturadas (todas ligações simples) | -an- |
@@ -268,8 +250,6 @@ Se o composto orgânico for cíclico, ele ainda ganha um prefixo adicional (”*
 
 ### Sufixos
 
----
-
 | **Função** | **Sufixo** |
 | --- | --- |
 | Hidrocarboneto | -o |
@@ -279,8 +259,6 @@ Se o composto orgânico for cíclico, ele ainda ganha um prefixo adicional (”*
 | Ácido Carboxilíco | -óico |
 
 ## Regras adicionais
-
----
 
 As regras dessa seção são complementares da estrutura básica, servindo para categorizar ainda mais os compostos orgânicos de forma que cumpram com os objetivos básicos da IUPAC. 
 
@@ -299,8 +277,6 @@ Uma outra indicação é a seguinte: **se houver mais de uma possibilidade de nu
 Todas as outras regras mais específicas, com o por exemplo a ausência de numeração num composto cíclico, são consequências diretas das regras acima.
 
 ### Ramificações
-
----
 
 As ramificações da **cadeia principal** - a sequência de maior átomos de carbono - são indicadas na nomenclatura IUPAC por meio do número do carbono da cadeia principal. 
 
@@ -325,8 +301,6 @@ Por exemplo, o composto **3-metilpentano** é chamado assim por possuir um **met
 Em alguns casos, algumas regras específicas são utilizadas para algumas funções orgânicas. Elas serão descorridas abaixo. 
 
 ## Hidrocarbonetos aromáticos
-
----
 
 ![Um exemplo da primeira regra ao lado, um nitrobenzeno! Perceba que o -NO2 é o mesmo composto dos nitrocompostos.](images/intro_organic_functions/nitrobenzene.png)
 
@@ -363,13 +337,9 @@ Com três ou mais substituições, eles passam a ser nomeados como os compostos 
 
 ## Compostos nitrogenados
 
----
-
 Essa seção será dedicada às regras específicas regendo o conjunto dos compostos nitrogenados, ou seja, as aminas, amidas, nitrocompostos e sais de amônio.
 
 ### Aminas
-
----
 
 ![**Dimetilamina** é o nome mais comum desse composto, mas seguindo as orientações da IUPAC, chegamos na nomenclatura ***N*-Etiletanoamina**. ](images/intro_organic_functions/NH_spider.png)
 
@@ -381,8 +351,6 @@ No caso das aminas **secundárias** e **terciárias**, as cadeias menores ligada
 
 ### Amidas
 
----
-
 ![Esse composto é a **N-Metilacetamida**, formado pela substituição de um hidrogênio da acetamida por um grupo metil. É potencialmente perigosa para o sistema reprodutivo humano.](images/intro_organic_functions/C3NOH7.png)
 
 *Este composto é a **N-Metilacetamida**, formado pela substituição de um hidrogênio da acetamida por um grupo metil. É potencialmente perigosa para o sistema reprodutivo humano.*
@@ -393,8 +361,6 @@ No caso das amidas secundárias e terciárias, devemos colocar a letra $\text N$
 
 ### Nitrocompostos
 
----
-
 ![image.png](images/intro_organic_functions/NitroBenzene.png)
 
 A nomenclatura dos nitrocompostos é dada pela adição do prefixo **“nitro-”** ao composto correspondente.
@@ -402,8 +368,6 @@ A nomenclatura dos nitrocompostos é dada pela adição do prefixo **“nitro-�
 O composto acima é o **nitrobenzeno**, também chamado de nitrobenzol. Esse composto é utilizado em laboratório como solvente e em processos industriais como precursor da **anilina,** utilizada na confecção de esponjas de prato, por exemplo. 
 
 ### Nitrila
-
----
 
 ![image.png](images/intro_organic_functions/C2NH3.png)
 
@@ -415,8 +379,6 @@ Esse composto é instável e inflamável.
 
 ### Sal quaternário de amônio
 
----
-
 ![O composto acima é o CTAB, ou brometo de hexadeciltrimetilamônio. É um sólido em temperatura ambiente, utilizado na extração de DNA. ](images/intro_organic_functions/longN.png)
 
 *O composto acima é o CTAB, ou brometo de hexadeciltrimetilamônio. É um sólido em temperatura ambiente, utilizado na extração de DNA.*
@@ -427,19 +389,13 @@ Dessa forma, para nomearmos esses sais, nos utilizamos das mesmas regras das ami
 
 ## Compostos oxigenados
 
----
-
 Essa seção será dedicada a algumas notas sobre a nomenclatura dos compostos nitrogenados, em especial aos **anidridos, ésteres, éteres** e **sais de ácidos carboxilícos.**
 
 ### Anidridos
 
----
-
 A nomenclatura dos anidridos é feita pela adição do nome **anidrido**, com o nome, separado por hífen, dos dois ácidos originais da reação. Se os ácidos forem iguais, só é necessário a inclusão do nome uma única vez. Por exemplo, temos o **anidrido etanóico** - formado pela combinação de dois ácidos etanóicos - ou o **anidrido etanoico-butanoico**. 
 
 ### Ésteres
-
----
 
 No caso da nomenclatura dos ésteres, temos que o nome é formado pela nomenclatura do ácido original, trocando o sufixo **“-óico”** por **“-ato”, seguido da preposição “de”** e pelo **nome do radical orgânico** que substituiu o hidrogênio da hidroxila original. 
 
@@ -449,8 +405,6 @@ No caso da nomenclatura dos ésteres, temos que o nome é formado pela nomenclat
 
 ### Éteres
 
----
-
 A nomenclatura da IUPAC no caso dos **éteres** é formada pelo prefixo sendo o prefixo do **menor grupo orgânico**, seguido pelo radical **oxi** e pelo nome do hidrocarboneto correspondente ao maior grupo, por exemplo, o **etoxietano**: 
 
 $$
@@ -458,8 +412,6 @@ $$
 $$
 
 ### Sais de ácidos carboxilícos
-
----
 
 A nomenclatura dos **sais** provenientes dos ácidos carboxilícos segue o padrão da substituição do sufixo **“-óico”** por **“-ato”, seguido pela preposição “de”** e o **nome do elemento** que faz parte do sal, por exemplo, o **3-metilbutanoato de potássio**. 
 

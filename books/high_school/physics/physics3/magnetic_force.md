@@ -8,15 +8,12 @@ Quando uma carga elétrica é submetida a um campo magnético, ela sofre influê
 
 Essa força é sempre **ortogonal** tanto a velocidade da carga quanto ao campo magnético.
 
-## Calculando
-
----
+## Abordagem matemática
 
 Podemos explorar mais essa força por meio de duas abordagens matemáticas, uma considerando um caso mais simples, com um **campo magnético uniforme**, e uma outra mais complexa, se utilizando de **álgebra linear** para demonstrar a diferença de direção gerada pela força de Lorentz. 
 
 ### Maneira simplificada
 
----
 
 Considerando um caso mais simples, podemos expressar a força de Lorentz, em módulo, como sendo 
 
@@ -30,9 +27,7 @@ Dessa equação podemos extrair que quando uma carga se move de forma paralela a
 
 Por meio da regra da mão direita, podemos saber que, quando $q < 0$, a carga sobre uma força para “fora” (no nosso ponto de vista), enquanto uma carga positiva sofre uma força para “dentro”. 
 
-### Maneira mais complexa
-
----
+### Maneira complexa
 
 De forma mais complexa, podemos nos utilizar de álgebra linear para considerar a equação da força de Lorentz de forma vetorial: 
 
@@ -43,8 +38,6 @@ $$
 Assim, escolhendo os vetores velocidade $(\bf{v})$, campo elétrico $(\bf{E})$ e campo magnético $(\bf{B})$, podemos encontrar o vetor da força de Lorentz e ver que ele não muda a magnitude do vetor velocidade, apenas a sua direção. 
 
 ## Trajetórias
-
----
 
 Um efeito interessante da força de Lorentz em partículas carregadas é a sua mudança de trajetória. 
 
