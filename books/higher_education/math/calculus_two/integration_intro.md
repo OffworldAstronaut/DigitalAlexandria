@@ -89,12 +89,12 @@ para nos referir à área $L$ sob o gráfico da função $f(x)$ entre os valores
 
 Dada essa definição inicial da integral, podemos encontrar algumas de suas propriedades, decorrentes do fato de que elas são, na verdade, limites. 
 
-Assim, dadas funções $f,g:[a,b] \rightarrow \R$  integráveis, temos que:
+Assim, dadas funções $f,g:[a,b] \rightarrow \mathbb{R}$  integráveis, temos que:
 
 $$
 \begin{align*}
     \int_a^bf(x)+g(x) \text{ dx} &= \int_a^b f(x) \text{ dx} + \int_a^b g(x) \text{ dx} \\\\\\\\
-    \int_a^b kf(x) \text{ dx} &= k \int_a^b f(x) \text{ dx}, k \in \R \\\\\\\\ 
+    \int_a^b kf(x) \text{ dx} &= k \int_a^b f(x) \text{ dx}, k \in \mathbb{R} \\\\\\\\ 
     f(x) \ge 0, \forall x \in [a,b] &\Rightarrow \int_a^b f(x) \text{ dx} \ge 0 \\\\\\\\ 
     c \in [a,b] &\Rightarrow \int_a^c f(x) \text{ dx} + \int_c^b f(x) \text{ dx}
 \end{align*}
@@ -428,10 +428,10 @@ $$
 \end{align*}
 $$
 
-Além disso, temos o caso da integral $\int \sec^n{x} \tg^m{x} \text{ dx}$, que pode ser da maneira:
+Além disso, temos o caso da integral $\int \sec^n{x} \tan^m{x} \text{ dx}$, que pode ser da maneira:
 
 $$
-\int \sec^n{x} \tg^m{x} \text{ dx} = \begin{cases}
+\int \sec^n{x} \tan^m{x} \text{ dx} = \begin{cases}
 \int \sec^{n-1}{x} \cdot (\sec^2{x} - 1)^{\dfrac{m-1}{2}} \sec{x} \tan{x} \text{ dx} & m\text{ ímpar} \\\\ 
 \int \sec^n{x} \cdot (\sec^2{x} - 1)^\dfrac{m}{2} \text{ dx} & m \text{ par}
 \end{cases}
@@ -451,8 +451,8 @@ $$
 \\\\
 \int \cos^n{x} \text{ dx} &= \dfrac{1}{n} \cos^{n-1}{x} \sin{x} + \dfrac{n-1}{n} \int \cos^{n-2}{x} \text{ dx} \\\\ 
 \\\\
-\int \tg^n{x} \text{ dx} &= \dfrac{\tg^{n-1}{x}}{n-1} - \int \tg^{n-2}{x} \text{ dx} \\\\ 
+\int \tan^n{x} \text{ dx} &= \dfrac{\tan^{n-1}{x}}{n-1} - \int \tan^{n-2}{x} \text{ dx} \\\\ 
 \\\\
-\int \sec^n{x} \text{ dx} &= \dfrac{\sec^{n-2}{x}  \tg{x}}{n-1} + \dfrac{n-2}{n-1} \int \sec^{n-2}{x} \text{ dx} \\\\
+\int \sec^n{x} \text{ dx} &= \dfrac{\sec^{n-2}{x}  \tan{x}}{n-1} + \dfrac{n-2}{n-1} \int \sec^{n-2}{x} \text{ dx} \\\\
 \end{align*}
 $$

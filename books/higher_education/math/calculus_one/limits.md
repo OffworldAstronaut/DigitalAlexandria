@@ -4,11 +4,11 @@
 
 ---
 
-Todo o nosso entendimento do Cálculo se apoia no conceito de **limites**.
+Todo o nosso entendimento do Cálculo se apoia no conceito de <b>limites</b>.
 
-Uma definição possível que poderíamos escrever aqui seria a famosa **épsilon-delta**, porém ela é de certa forma muito complicada para nós que acabamos de entrar nessa aventura, por isso, vamos para uma outra abordagem.
+Uma definição possível que poderíamos escrever aqui seria a famosa <b>épsilon-delta</b>, porém ela é de certa forma muito complicada para nós que acabamos de entrar nessa aventura, por isso, vamos para uma outra abordagem.
 
-Definimos o **limite** de uma função $f(x)$ como o número em que podemos tornar o valor da função o quão próximo quanto quisermos dele, sem necessariamente ela o assumir. 
+Definimos o limite de uma função $f(x)$ como o número em que podemos tornar o valor da função o quão próximo quanto quisermos dele, sem necessariamente ela o assumir. 
 
 Podemos representar essa quantidade por meio da notação 
 
@@ -21,7 +21,7 @@ e lemos assim: “O limite da função $f$ é igual a $L$, quando $x$ tende para
 Vale lembrar que estamos assumindo algumas coisas aqui, como o fato de $f$ ser uma função com domínio e contradomínio na reta dos números reais.
 
 <aside>
-Num primeiro momento, nossa única ferramenta no cálculo desses limites é a **aproximação numérica** e, por consequência, a **interpretação de gráficos**.
+Num primeiro momento, nossa única ferramenta no cálculo desses limites é a aproximação numérica e, por consequência, a interpretação de gráficos.
 Isso mudará quando virmos algumas propriedades de limites, e poderemos calculá-los sem (muito) esforço.
 </aside>
 
@@ -401,7 +401,7 @@ Caso $a$ seja algum dos extremos do intervalo, deve ser empregada a continuidade
 
 <aside>
 
-Nos utilizando dessas definições, podemos ainda afirmar que todas as funções polinomiais, de raízes, trigonométricas (e suas inversas), exponenciais, racionais e logarítmicas são **contínuas** em todos os **valores que fazem parte** de seu conjunto domínio.
+Nos utilizando dessas definições, podemos ainda afirmar que todas as funções polinomiais, de raízes, trigonométricas (e suas inversas), exponenciais, racionais e logarítmicas são contínuas em todos os valores que fazem parte de seu conjunto domínio.
 
 </aside>
 

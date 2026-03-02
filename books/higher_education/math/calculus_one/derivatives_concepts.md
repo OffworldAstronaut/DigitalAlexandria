@@ -78,10 +78,10 @@ Nos utilizando da definição dada, podemos calcular o limite.
 
 $$
 \begin{align*}
-f'(x)&=\lim_{h \rightarrow 0} \frac{(x+h)^2 - x^2}{h}\\
-f'(x)&=\lim_{h \rightarrow 0}\frac{x^2+2xh+h²-x²}{h}\\
-f'(x)&=\lim_{h \rightarrow 0}\frac{h(2x + h)}{h}\\
-f'(x)&=\lim_{h \rightarrow 0}2x+h\\
+f'(x)&=\lim_{h \rightarrow 0} \frac{(x+h)^2 - x^2}{h}\\\\
+f'(x)&=\lim_{h \rightarrow 0}\frac{x^2+2xh+h²-x²}{h}\\\\
+f'(x)&=\lim_{h \rightarrow 0}\frac{h(2x + h)}{h}\\\\
+f'(x)&=\lim_{h \rightarrow 0}2x+h\\\\
 f'(x)&=2x
 \end{align*}
 $$
@@ -98,10 +98,10 @@ Qual seria a **velocidade de produção** da fábrica? Podemos calcular a veloci
 
 $$
 \begin{align*}
-Q'(t)&=\lim_{h \rightarrow 0} \frac{3(t+h)^2-10(t+h)-3t²+10t}{h}\\
-Q'(t)&=\lim_{h \rightarrow0}\frac{3(t^2+2th+h^2)−10t−10h−3t^2+10t}{h}\\
-Q'(t)&=\lim_{h \rightarrow 0}\frac{6ht+3h^2-10h}{h}\\
-Q'(t)&=\lim_{h \rightarrow 0}6t-10+3h\\
+Q'(t)&=\lim_{h \rightarrow 0} \frac{3(t+h)^2-10(t+h)-3t²+10t}{h}\\\\
+Q'(t)&=\lim_{h \rightarrow0}\frac{3(t^2+2th+h^2)−10t−10h−3t^2+10t}{h}\\\\
+Q'(t)&=\lim_{h \rightarrow 0}\frac{6ht+3h^2-10h}{h}\\\\
+Q'(t)&=\lim_{h \rightarrow 0}6t-10+3h\\\\
 Q'(t)&=6t-10
 \end{align*}
 $$
@@ -146,7 +146,7 @@ Dada uma função $f(x)=x^n$, sua derivada será $f'(x)=nx^{n-1}$ para todo $n \
 
 Por exemplo, dada uma função $f(x)=x^4$, sua derivada será $f'(x)=4x^3$. 
 
-É possível demonstrar a validade dessa afirmação para $n \in \N$ pelo binômio de Newton e jogos de álgebra, tanto para $n \in \mathbb{R}$ por meio da **diferenciação implícita** e da **diferenciação logarítmica**, mostradas mais adiante. 
+É possível demonstrar a validade dessa afirmação para $n \in \mathbb{N}$ pelo binômio de Newton e jogos de álgebra, tanto para $n \in \mathbb{R}$ por meio da **diferenciação implícita** e da **diferenciação logarítmica**, mostradas mais adiante. 
 
 ### Prova 1 — Binômio de Newton
 
@@ -160,10 +160,10 @@ Expandindo o minuendo do numerador por meio do binômio de Newton, temos que:
 
 $$
 \begin{align*}
-(x+h)^n &= {n \choose 0}x^n + {n \choose 1}x^{n-1} \cdot h + {n \choose 2} x^{n-2} \cdot h^2 + ... + {n \choose n} h^n \\ 
+(x+h)^n &= {n \choose 0}x^n + {n \choose 1}x^{n-1} \cdot h + {n \choose 2} x^{n-2} \cdot h^2 + ... + {n \choose n} h^n \\\\ 
 &= \dfrac{n!}{0!(n-0)!} x^n + \dfrac{n!}{1!(n-1)!}x^{n-1}\cdot h + \dfrac{n!}{2!(n-2)!}
-\cdot h^2 + ...+ \dfrac{n!}{n!(n-n)!} \cdot h^n \\ 
-&= \dfrac{n!}{n!} x^n + \dfrac{n!}{(n-1)!} x^{n-1} \cdot h + \dfrac{n!}{2(n-2)!} \cdot h^2 + ... + h^n \\ 
+\cdot h^2 + ...+ \dfrac{n!}{n!(n-n)!} \cdot h^n \\\\ 
+&= \dfrac{n!}{n!} x^n + \dfrac{n!}{(n-1)!} x^{n-1} \cdot h + \dfrac{n!}{2(n-2)!} \cdot h^2 + ... + h^n \\\\ 
 &= x^n + nhx^{n-1} + \dfrac{n!}{2(n-2)!} \cdot h^2 + ... + h^n
 \end{align*}
 $$
@@ -172,7 +172,7 @@ Substituindo a expansão no numerador do limite original, temos:
 
 $$
 \begin{align*} 
-(x+h)^n - x^n &= x^n + nhx^{n-1} + \dfrac{n!}{2(n-2)!} \cdot h^2 + ... + h^n - x^n \\ 
+(x+h)^n - x^n &= x^n + nhx^{n-1} + \dfrac{n!}{2(n-2)!} \cdot h^2 + ... + h^n - x^n \\\\
 &= nhx^{n-1} + \dfrac{n!}{2(n-2)!} \cdot h^2 + ... + h^n
 
 \end{align*}
@@ -210,7 +210,7 @@ Essa propriedade pode ser demonstrada de forma relativamente simples.
 
 $$
 \begin{align*}
-g'(x)&=\lim_{h \rightarrow 0} \frac{g(x+h)-g(x)}{h}=\lim_{h \rightarrow 0} \frac{cf(x+h) - cf(x)}{h}\\
+g'(x)&=\lim_{h \rightarrow 0} \frac{g(x+h)-g(x)}{h}=\lim_{h \rightarrow 0} \frac{cf(x+h) - cf(x)}{h}\\\\
 &= \lim_{h \rightarrow 0}\frac{c[f(x+h) - f(x)]}{h}=c\lim_{h \rightarrow 0} \frac{f(x+h)-f(x)}{h}=cf'(x)
 \end{align*}
 $$
@@ -287,8 +287,8 @@ Neste exemplo, chamamos $u=5x-8$. Assim, pela regra da cadeia:
 
 $$
 \begin{align*}
-\dfrac{dy}{dx}=\dfrac{dy}{du} \cdot \dfrac{du}{dx} &= \dfrac{1}{2}u^{-1/2} \cdot 5 \\ 
-&= \dfrac{1}{2} \cdot \dfrac{1}{\sqrt{5x - 8}} \cdot 5 \\ 
+\dfrac{dy}{dx}=\dfrac{dy}{du} \cdot \dfrac{du}{dx} &= \dfrac{1}{2}u^{-1/2} \cdot 5 \\\\ 
+&= \dfrac{1}{2} \cdot \dfrac{1}{\sqrt{5x - 8}} \cdot 5 \\\\ 
 &= \dfrac{5}{2\sqrt{5x-8}}
 \end{align*}
 $$
@@ -305,8 +305,8 @@ Tendo isso em mente, vamos tentar derivá-la por meio da definição. Assim, tem
 
 $$
 \begin{align*}
-f'(x)&=\lim_{h \rightarrow 0} \frac{b^{x + h} - b^x}{h}\\
-&=\lim_{h \rightarrow 0} \frac{b^x \cdot b^h - b^x}{h}\\
+f'(x)&=\lim_{h \rightarrow 0} \frac{b^{x + h} - b^x}{h}\\\\
+&=\lim_{h \rightarrow 0} \frac{b^x \cdot b^h - b^x}{h}\\\\
 &=b^x \cdot \lim_{h \rightarrow 0}\frac{b^h - 1}{h}
 
 \end{align*}
@@ -357,8 +357,8 @@ Voltando a nossa igualdade original, podemos continuar a simplificá-la:
 
 $$
 \begin{align*}
-b^x&=(e^{\log_e{b}})^x\\
-&=e^{x \cdot \log_e{b}}\\
+b^x&=(e^{\log_e{b}})^x\\\\
+&=e^{x \cdot \log_e{b}}\\\\
 &=e^{x \cdot \ln{b}}
 \end{align*}
 $$
@@ -425,8 +425,8 @@ Utilizando a propriedade trigonométrica do seno da soma, obtemos:
 
 $$
 \begin{align*}
-\dfrac{d}{dx} \sin x &=\lim_{h \rightarrow 0} \frac{\sin x \cos h+\sin h \cos x - \sin x}{h}\\
-&=\lim_{h \rightarrow 0} \left(\dfrac{\sin h}{h}\cos x + \dfrac{\cos h -1}{h} \sin x \right)\\
+\dfrac{d}{dx} \sin x &=\lim_{h \rightarrow 0} \frac{\sin x \cos h+\sin h \cos x - \sin x}{h}\\\\
+&=\lim_{h \rightarrow 0} \left(\dfrac{\sin h}{h}\cos x + \dfrac{\cos h -1}{h} \sin x \right)\\\\
 \end{align*}
 $$
 
@@ -450,7 +450,7 @@ Por meio da identidade do cosseno da soma, podemos reescrever:
 
 $$
 \begin{align*}
-\dfrac{d}{dx}\cos x &= \lim_{h \rightarrow 0} \dfrac{\cos x \cos h - \sin x \sin h - \cos x}{h}\\
+\dfrac{d}{dx}\cos x &= \lim_{h \rightarrow 0} \dfrac{\cos x \cos h - \sin x \sin h - \cos x}{h}\\\\
 &= \lim_{h \rightarrow 0} \left(\dfrac{\cos h - 1}{h} \cos x - \dfrac{\sin h}{h} \sin x \right)
 \end{align*}
 $$
@@ -461,86 +461,70 @@ $$
 \dfrac{d}{dx}\cos x = 0 \cdot \cos x - 1 \cdot \sin x = - \sin x
 $$
 
-## Outras funções trigonométricas
+# Outras funções trigonométricas
+
+Para essas outras funções, expostas na tabela abaixo, as demonstrações de suas derivadas podem ser realizadas por meio das regras do quociente ou do produto. Não as faremos aqui por questões de brevidade.
+
+$$
+\begin{array}{|c|c|}
+\hline
+\textbf{Função} & \textbf{Derivada} \\\\
+\hline
+\sin x & \cos x \\\\
+\hline
+\cos x & -\sin x \\\\
+\hline
+\tan x & \sec^2 x \\\\
+\hline
+\cot x & -\csc^2 x \\\\
+\hline
+\sec x & \sec x \tan x \\\\
+\hline
+\csc x & -\csc x \cot x \\\\
+\hline
+\end{array}
+$$
 
 ---
 
-Para essas outras funções, expostas na tabela ao lado, as demonstrações de suas derivadas podem ser realizadas por meio das regras como a do quociente ou do produto, o que não será feito aqui por questões de brevidade. 
+# Funções trigonométricas inversas
 
 $$
-\begin{array}{|c | c |}
+\begin{array}{|c|c|}
 \hline
-\textbf{ Função } & \textbf{ Derivada }\\
+\textbf{Função} & \textbf{Derivada} \\\\
 \hline
-\sin x & \cos x\\
+\sin^{-1} x & \dfrac{1}{\sqrt{1 - x^2}} \\\\
 \hline
-\cos x & -\sin x \\
+\cos^{-1} x & -\dfrac{1}{\sqrt{1 - x^2}} \\\\
 \hline
-\tan x & \sec^2x \\
+\tan^{-1} x & \dfrac{1}{x^2 + 1} \\\\
 \hline
-\cot x & -\csc^2x\\
+\cot^{-1} x & -\dfrac{1}{x^2 + 1} \\\\
 \hline
-\sec x & \sec x \tan x \\
-\hline 
-\csc x & -\csc x \cot x \\
+\sec^{-1} x & \dfrac{1}{|x|\sqrt{x^2 - 1}} \\\\
 \hline
-\end{array} 
+\csc^{-1} x & -\dfrac{1}{|x|\sqrt{x^2 - 1}} \\\\
+\hline
+\end{array}
 $$
-
-## Funções trigonométricas inversas
 
 ---
 
-$$
-\begin{array}{| c | c |}
-\hline
-\textbf{ Função } & \textbf{ Derivada }\\
-\hline
-\\
-\sin^{-1} x & \dfrac{1}{\sqrt{1 - x^2}}\\
-\\
-\hline
-\\
-\cos^{-1} x & -\dfrac{1}{\sqrt{1 - x^2}} \\
-\\
-\hline
-\\
-\tan^{-1} x & \dfrac{1}{x^2 + 1} \\
-\\
-\hline
-\\
-\cot^{-1} x & - \dfrac{1}{x^2+1}\\
-\\
-\hline
-\\
-\sec^{-1} x & \dfrac{1}{|x|\sqrt{x^2-1}}
-\\
-\\
-\hline 
-\\
-\csc^{-1} x & - \dfrac{1}{|x| \sqrt{x^2-1}}
-\\
-\\
-\hline
-\end{array} 
-$$
+As derivadas das funções trigonométricas inversas podem ser demonstradas por meio da técnica da **derivação implícita**, tema da próxima seção. Suas provas também podem ser consultadas no artigo da Wikipedia citado anteriormente, onde estão apresentadas de forma detalhada.
 
-As derivadas das funções trigonométricas inversas, dispostas na tabela ao lado, podem ser demonstradas por meio da técnica da **derivação implícita**, tema da próxima seção. Suas provas também podem ser consultadas no artigo da Wikipedia citado anteriormente — elas estão bem detalhadas. 
-
-Perceba ainda que metade das derivadas é a mesma função que a outra metade, porém com o sinal oposto, por exemplo:
+Observe que metade das derivadas coincide com a outra metade, diferindo apenas pelo sinal. Por exemplo:
 
 $$
-\begin{align*}
-\frac{d}{dx} \tan^{-1} x &= \frac{1}{x^2 + 1}
-\\
-\\
+\begin{aligned}
+\frac{d}{dx} \tan^{-1} x &= \frac{1}{x^2 + 1} \\\\
 \frac{d}{dx} \cot^{-1} x &= -\frac{1}{x^2 + 1}
-\end{align*}
+\end{aligned}
 $$
 
-Note ainda que as funções trigonométricas e suas inversas apresentam um padrão interessante: os pares de derivadas costumam ser parecidos, mas com sinais opostos — padrão com origem na relação entre essas funções no círculo trigonométrico.
+Note também que as funções trigonométricas e suas inversas apresentam um padrão interessante: os pares de derivadas costumam ser estruturalmente semelhantes, diferindo apenas no sinal. Esse comportamento tem origem nas relações geométricas entre essas funções no círculo trigonométrico.
 
-É importante ainda deixar claro que essas derivadas só são válidas onde as funções estão definidas, por exemplo, $\sin^{-1} x$ está definida apenas no intervalo $[-1, 1]$.
+É importante destacar que essas fórmulas são válidas apenas nos domínios em que as funções estão definidas. Por exemplo, $\sin^{-1} x$ está definida apenas no intervalo $[-1,1]$.
 
 # Práticas, regras e técnicas úteis 
 
@@ -562,9 +546,9 @@ Mas e se tivermos uma equação como $\sin{(x+y})=y²\cos{x}$? Nesse caso, como 
 
 $$
 \begin{align*}
-\dfrac{d}{dx}(\sin{(x+y)})&=\dfrac{d}{dx}(y^2 \cos x)\\
-\cos{(x+y)} \cdot (1 + y') &= 2y \cdot y' \cos{x} + y^2 (- \sin x)\\
-\cos{(x+y)} + \cos{(x+y)}y' &= 2y \cos{x} \cdot y' - y^2 \sin{x}\\
+\dfrac{d}{dx}(\sin{(x+y)})&=\dfrac{d}{dx}(y^2 \cos x)\\\\
+\cos{(x+y)} \cdot (1 + y') &= 2y \cdot y' \cos{x} + y^2 (- \sin x)\\\\
+\cos{(x+y)} + \cos{(x+y)}y' &= 2y \cos{x} \cdot y' - y^2 \sin{x}\\\\
 \end{align*}
 $$
 
@@ -572,7 +556,7 @@ Perceba que sempre aplicamos a regra da cadeia ao derivarmos uma expressão que 
 
 $$
 \begin{align*}
-[\cos{(x+y)} - 2y \cos{x}]y' &= -y^2 \sin{x} - \cos{(x+y)}\\
+[\cos{(x+y)} - 2y \cos{x}]y' &= -y^2 \sin{x} - \cos{(x+y)}\\\\
 y'&=\dfrac{y^2 \sin{x} + \cos{(x+y)}}{2y\cos{x} - \cos{(x+y)}}
 \end{align*}
 $$
@@ -595,7 +579,7 @@ Primeiro, vamos aplicar o logaritmo natural nos dois lados da equação e simpli
 
 $$
 \begin{align*}
-\ln|y|&=\ln\left|\dfrac{x^2 \sqrt[3]{5x-10}}{(x-2)^2}\right|\\
+\ln|y|&=\ln\left|\dfrac{x^2 \sqrt[3]{5x-10}}{(x-2)^2}\right|\\\\
 &=\ln|x² \cdot \sqrt[3]{5x-10}| - \ln|(x-2)^2|
 
 \end{align*}
@@ -605,8 +589,8 @@ Perceba que estamos considerando o **módulo da expressão** pois a função log
 
 $$
 \begin{align*}
-\ln |y|&= \ln |x²|+\ln|\sqrt[3]{5x-10}| - 2\ln|x-2|\\
-\ln |y|&= 2\ln|x| + \dfrac{1}{3} \ln |5x-10| - 2\ln|x-2|\\
+\ln |y|&= \ln |x²|+\ln|\sqrt[3]{5x-10}| - 2\ln|x-2|\\\\
+\ln |y|&= 2\ln|x| + \dfrac{1}{3} \ln |5x-10| - 2\ln|x-2|\\\\
 
 \end{align*}
 $$
@@ -633,9 +617,9 @@ Finalizando essa observação importante e retornando ao objetivo principal, pod
 
 $$
 \begin{align*}
-y' \cdot \dfrac{1}{y} &= 2 \cdot \dfrac{1}{x} + \dfrac{1}{3} \cdot \dfrac{1}{5x-10} \cdot 5 - 2 \cdot \dfrac{1}{x-2}\\
-&= \dfrac{2}{x} + \dfrac{1}{3(x-2)} - \dfrac{2}{x-2}\\
-&= \dfrac{2}{x} - \dfrac{5}{3(x-2)}\\
+y' \cdot \dfrac{1}{y} &= 2 \cdot \dfrac{1}{x} + \dfrac{1}{3} \cdot \dfrac{1}{5x-10} \cdot 5 - 2 \cdot \dfrac{1}{x-2}\\\\
+&= \dfrac{2}{x} + \dfrac{1}{3(x-2)} - \dfrac{2}{x-2}\\\\
+&= \dfrac{2}{x} - \dfrac{5}{3(x-2)}\\\\
 \end{align*}
 $$
 
@@ -643,9 +627,9 @@ Por fim, multiplicando ambos os lados por $y$:
 
 $$
 \begin{align*}
-y'&=\left(\dfrac{x^2 \sqrt[3]{5x-10}}{(x-2)^2}\right)\left(\dfrac{2}{x} - \dfrac{5}{3(x-2)}\right)\\
-y'&= \dfrac{2x \sqrt[3]{5x-10}}{(x-2)^2} - \dfrac{5x^2 \sqrt[3]{5x-10}}{3(x-2)^3} \\
-y'&= \dfrac{(6x^2-12x) \cdot \sqrt[3]{5x-10}-5x² \sqrt[3]{5x-10}}{3(x-2)^3}\\
+y'&=\left(\dfrac{x^2 \sqrt[3]{5x-10}}{(x-2)^2}\right)\left(\dfrac{2}{x} - \dfrac{5}{3(x-2)}\right)\\\\
+y'&= \dfrac{2x \sqrt[3]{5x-10}}{(x-2)^2} - \dfrac{5x^2 \sqrt[3]{5x-10}}{3(x-2)^3} \\\\
+y'&= \dfrac{(6x^2-12x) \cdot \sqrt[3]{5x-10}-5x² \sqrt[3]{5x-10}}{3(x-2)^3}\\\\
 y'&= \dfrac{(x^2-12x) \cdot \sqrt[3]{5x-10}}{3(x-2)^3}
 \end{align*}
 $$
@@ -679,8 +663,8 @@ Podemos perceber que se substituirmos diretamente, teremos uma indeterminação 
 
 $$
 \begin{align*}
-\lim_{x \rightarrow 2} \dfrac{1 - 0}{2x - 0} &= \lim_{x \rightarrow 2} \dfrac{1}{2x}\\
-&= \dfrac{1}{2(2)}\\
+\lim_{x \rightarrow 2} \dfrac{1 - 0}{2x - 0} &= \lim_{x \rightarrow 2} \dfrac{1}{2x}\\\\
+&= \dfrac{1}{2(2)}\\\\
 &=\dfrac{1}{4}
 \end{align*}
 $$
