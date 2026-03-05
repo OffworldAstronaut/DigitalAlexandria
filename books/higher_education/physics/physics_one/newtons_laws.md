@@ -159,3 +159,10 @@ Ao substituir qualquer uma dessas expressões seja em $F_{LT}$ ou em $F_{TL}$, o
 $$
 \overrightarrow{F} = -G \cdot \dfrac{M_1M_2}{|\overrightarrow{r_{12}}|} \cdot \hat{r_{12}}
 $$
+
+# Referências 
+
+---
+
+1. <i>Playlist</i> de Física 1 da USP formada por aulas do prof. Dr. Marcelo Martinelli (<a target="_blank" href="https://www.youtube.com/playlist?list=PLAudUnJeNg4vmlyuv__uBgdOkzw4VSrcJ">Acesse aqui</a>).
+2. LING, S. J. et al. University physics. Houston, Texas: Openstax, Rice University, 2018. v. 1 (<a target="_blank" href="https://openstax.org/details/books/university-physics-volume-1">Acesse aqui</a>).
