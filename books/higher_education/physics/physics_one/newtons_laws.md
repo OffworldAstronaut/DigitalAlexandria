@@ -1,60 +1,19 @@
-# Leis de Newton
+# Forças e Leis de Newton
 
-# Mudança de referencial
-
----
-
-Dado que sempre descrevemos os movimentos com base em algum **referencial**, em algum **sistema de coordenadas**, como exposto anteriormente, é interessante analisar a possibilidade da chamada **mudança de referencial**, isto é, analisar os corpos sob o olhar de outros observadores.
-
-Podemos considerar, como um caso ilustrativo, dois referenciais bidimensionais, $O$ e $O'$, e um corpo $P$. 
-
-Pela imagem acima, podemos deduzir as seguintes relações: 
-
-$$
-\begin{align*} 
-\overrightarrow{r}(t) &= \overrightarrow{R}(t) + \overrightarrow{r'}(t) \\\\ 
-\overrightarrow{v}(t) &= \overrightarrow{V_R}(t) + \overrightarrow{V}'(t) \\\\ 
-\overrightarrow{a}(t) &= \overrightarrow{a_R}(t) + \overrightarrow{a}'(t)
-\end{align*}
-$$
-
-Ou seja, conhecendo informações entre os referenciais, é possível facilmente escrever um movimento em relação a outro referencial. A partir daqui, vale explorar com mais detalhes os conceitos de **referencias inerciais e não-inerciais**. 
-
-## Referenciais inerciais e não-inerciais
+# Mecânica newtoniana
 
 ---
 
-Chamamos **referencial inercial** o referencial que, em relação a outro referencial, possui aceleração $\overrightarrow{a_R}(t)$ nula. Ou seja, ambos os referenciais estão em repouso em relação ao outro. Em referenciais inerciais, todas as leis de Newton são válidas, especialmente a primeira. 
+Antes do estudo de movimentos sistematizado por Isaac Newton, inglês do século XVII, vigorava na academia um amplo consentimento aos desenvolvimentos de Aristóteles, escritos na Antiguidade Clássica. Segundo a física aristotélica, 
+o estado natural de todos os corpos era o repouso e, portanto, para manter algo em movimento era necessário uma força
+atuante durante todo o movimento, caso contrário, o objeto desaceleraria até parar. 
 
-Do estudo de referenciais inerciais, pode-se tirar o chamado **Princípio da Relatividade Galileana**, chamado ainda de **Relatividade de Galileu**, que afirma a invariância das leis da mecânica para todos os observadores de referenciais inerciais, com uma consequência notável sendo a indistinguibilidade entre movimentos retilíneos uniformes e o repouso de corpos.
+A partir dos estudos de Galileu, que produziu conceitos como a relatividade galileana e o princípio da inércia 
+(defendido pelo famosíssimo experimento do barco), Newton unificou o estudo dos movimentos celestes e terrestres num
+único sistema em sua obra-prima <i>Princípios Matemáticos da Filosofia Natural</i>. Dos estudos do inglês, são amplamente
+conhecidas as suas Leis da Mecânica. 
 
-Pela Relatividade de Galileu é produzida a **transformação de Galileu**, que relaciona as grandezas do movimento realizado por um corpo em relação a dois referenciais inerciais. Valem os axiomas da física galileana-newtoniana: há um espaço e um tempo absolutos, únicos e uniformes para todos os observadores. A massa também não varia em relação aos observadores. 
-
-A transformação de Galileu é a seguinte: 
-
-$$
-\overrightarrow{r} = \overrightarrow{r'} + \overrightarrow{V_R} \cdot t
-$$
-
-Ao se analisar outras forças, como por exemplo, a força elétrica, percebe-se que nem todas obedecem à Relatividade de Galileu, suscitando a necessidade de outro modelo físico para descrevê-las em diferentes referenciais. Notavelmente, no eletromagnetismo, é utilizada a Relatividade de Lorentz.
-
-Por outro lado, os **referenciais não-inerciais** estão acelerando um em relação ao outro, levando a invalidade das Leis de Newton em sua forma padrão, a menos que sejam introduzidas forças fictícias.
-
-Pelas Leis de Newton, detalhadas na próxima seção: 
-
-$$
-\begin{align*}
-\overrightarrow{a} &= \overrightarrow{a'}+ \overrightarrow{A_R} \\\\ 
-\overrightarrow{F} &= \overrightarrow{F'} + m \cdot \overrightarrow{A_R} \\\\ 
-\overrightarrow{F'} &= \overrightarrow{F} -\boxed{m \cdot \overrightarrow{A_R}}
-\end{align*}
-$$
-
-O termo destacado, que provoca a diferença entre a força experienciada pelo mesmo corpo em diferentes referenciais, é a consequência da aceleração $\overrightarrow{A_R}$. No mundo real, podemos citar como consequências o efeito Coriolis experimentado pelas massas de ar da nossa atmosfera e o “recuo” no interior de um foguete em propulsão. Nesta última situação, Einstein associou esse “recuo” provocado pelo referencial não-inercial à gravidade, levando ao nascimento da Relatividade Geral de Einstein. 
-
-# Leis de Newton
-
----
+## Leis de Newton
 
 Formuladas por Isaac Newton, as Leis de Newton inauguraram uma nova era no estudo da mecânica, constituindo as bases da chamada **Mecânica Clássica**, ou Mecânica Newtoniana. Newton foi a autoridade basilar em descrever a mecânica universal até o alvorecer do século XX, com a chegada da Mecânica Quântica. 
 
@@ -70,8 +29,8 @@ Formuladas por Isaac Newton, as Leis de Newton inauguraram uma nova era no estud
 
 $$
 \begin{align*}
-\overrightarrow{F} &= \dfrac{d}{dt} \overrightarrow{p} \\\\ 
-\overrightarrow{p} &= m \cdot \overrightarrow{v} 
+\vec{F} &= \dfrac{d}{dt} \vec{p} \\\\ 
+\vec{p} &= m \cdot \vec{v} 
 \end{align*}
 $$
 
@@ -79,11 +38,13 @@ Considerando $m$, a massa inercial, que afere a resistência do corpo à variaç
 
 $$
 \begin{align*}
-\overrightarrow{F} &= \dfrac{d}{dt}(m \cdot \overrightarrow{v}) \\\\ 
-&= m \cdot \dfrac{d}{dt}\overrightarrow{v} \\\\ 
-&= m\overrightarrow{a}
+\vec{F} &= \dfrac{d}{dt}(m \cdot \vec{v}) \\\\ 
+&= m \cdot \dfrac{d}{dt}\vec{v} \\\\ 
+&= m\vec{a}
 \end{align*}
 $$
+
+É importante salientar que $\vec{F}$ é a chamada "força resultante" impressa sobre um corpo, com este conceito sendo elucidado a partir do <b>princípio de superposição para forças</b>: somando-se todos os vetores das forças impressas sobre um corpo, o vetor produzido terá o mesmo módulo e orientação que uma única força agindo sobre aquele corpo, com esta única força denominada "resultante" ou "total". 
 
 </aside>
 
@@ -91,14 +52,14 @@ $$
 
 **3ª Lei (Lei da Conservação de Momento, “Ação e Reação”)** — Se dois corpos exercem forças um no outro, essas forças possuem a mesma magnitude mas direções opostas. 
 
-Considerando $\overrightarrow{F_{12}}$ como a força exercida pelo corpo 1 no corpo 2, e $\overrightarrow{F_{21}}$ como a força exercida pelo corpo 2 no corpo 1, além de considerarmos os dois corpos como isolados, só interagindo entre si, mostramos que: 
+Considerando $\vec{F_{12}}$ como a força exercida pelo corpo 1 no corpo 2, e $\vec{F_{21}}$ como a força exercida pelo corpo 2 no corpo 1, além de considerarmos os dois corpos como isolados, só interagindo entre si, mostramos que: 
 
 $$
 \begin{align*}
-\overrightarrow{F_{12}} &= - \overrightarrow{F_{21}} \\\\ 
-\dfrac{d}{dt} \overrightarrow{p_1} &= - \dfrac{d}{dt} \overrightarrow{p_2} \\\\ 
-\dfrac{d}{dt} \overrightarrow{p_1} + \dfrac{d}{dt} \overrightarrow{p_2} &= 
-\dfrac{d}{dt} (\overrightarrow{p_1} + \overrightarrow{p_2}) = 0 
+\vec{F_{12}} &= - \vec{F_{21}} \\\\ 
+\dfrac{d}{dt} \vec{p_1} &= - \dfrac{d}{dt} \vec{p_2} \\\\ 
+\dfrac{d}{dt} \vec{p_1} + \dfrac{d}{dt} \vec{p_2} &= 
+\dfrac{d}{dt} (\vec{p_1} + \vec{p_2}) = 0 
 \end{align*}
 $$
 
@@ -106,15 +67,17 @@ Ou seja, nessas condições, o momento total do sistema é conservado.
 
 </aside>
 
-## A Gravitação Universal
+## Forças e massas
 
----
+
+
+## A Gravitação Universal
 
 A Lei da Gravitação Universal foi, sem dúvida, uma das grandes conquistas da vida acadêmica de Isaac Newton, unindo cientificamente a mecânica terrestre e a mecânica celeste, desde muito tempo separadas pela cosmologia aristotélica. 
 
 Esse importante resultado pode ser derivado novamente por meio de álgebra, suas leis e algumas observações astronômicas. 
 
-Para iniciar, imagine um corpo de massa $M$ na superfície terrestre, sujeito a uma aceleração $\overrightarrow{g}$. 
+Para iniciar, imagine um corpo de massa $M$ na superfície terrestre, sujeito a uma aceleração $\vec{g}$. 
 
 A Lua nos fornece a possibilidade de demonstrar a dimensão universal da força gravitacional, que é experienciada tanto na Terra como no céu. Sabendo-se o raio da Terra e a duração dos eclipses lunares, além da dimensão da lua (a partir dos eclipses solares), é possível deduzir o raio da orbita deste satélite, que assume o valor de $R_L = 3.8 \cdot 10^8 \text{ m}$. 
 
@@ -157,12 +120,85 @@ Dessa última equação concluímos que $K_T = G \cdot M_L$  e $K_L = G \cdot M_
 Ao substituir qualquer uma dessas expressões seja em $F_{LT}$ ou em $F_{TL}$, obtemos a conhecida expressão para a Lei da Gravitação Universal, com seu sinal negativo explicitando seu caráter atrativo e o vetor $r_{12}$ indicando a direção da força, que aponta para o centro dos corpos.
 
 $$
-\overrightarrow{F} = -G \cdot \dfrac{M_1M_2}{|\overrightarrow{r_{12}}|} \cdot \hat{r_{12}}
+\vec{F} = -G \cdot \dfrac{M_1M_2}{|\vec{r_{12}}|} \cdot \hat{r_{12}}
 $$
+
+## Atrito
+
+Chamamos <b>força de atrito</b> a força que se opõe ao movimento e é oriunda do contato entre duas superfícies. Esse 
+atrito, de fato, é a soma vetorial entre as forças provenientes da interação entre os átomos dos corpos atritados, chamado
+"solda fria". O fenômeno da solda fria ocorre quando dois materiais entram em contato e imediatamente unem-se num único corpo. 
+
+A solda fria ocorre em maior escala, e mais facilmente, entre corpos metálicos polidos num vácuo, embora ainda ocorra em menor 
+escala cotidianamente, em razão de impurezas e rugosidades presentes entre os materiais em contato. Essas atrações entre os átomos são geradas pelas <b>forças de Van der Waals</b>, forças eletrostáticas que, ao considerarmos milhões
+de átomos próximos devido as rugosidades maiores ou menores dos materiais atritados, geram diferentes "dificuldades" de deslizamento de corpos em outros corpos. 
+
+De fato, ao considerarmos um corpo sobre uma superfície sofrendo a atuação de uma força $\vec{F}$, a força de atrito gerada 
+possui três características próprias: enquanto o corpo permanece em repouso, a decomposição da força atuante no eixo paralelo a orientação da superfície possui mesmo módulo e orientação oposta a força de atrito. Esta força de atrito enquanto o corpo permanece em repouso é chamada <b>força de atrito estático</b>, sendo seu módulo escrito por: 
+
+$$
+F_{\text{at}} = \mu_E N
+$$
+
+Com $\mu_E$ sendo o <b>coeficiente de atrito estático</b>, próprio 
+
+# Mudança de referencial
+
+---
+
+Dado que sempre descrevemos os movimentos com base em algum **referencial**, em algum **sistema de coordenadas**, como exposto anteriormente, é interessante analisar a possibilidade da chamada **mudança de referencial**, isto é, analisar os corpos sob o olhar de outros observadores.
+
+Podemos considerar, como um caso ilustrativo, dois referenciais bidimensionais, $O$ e $O'$, e um corpo $P$. 
+
+Pela imagem acima, podemos deduzir as seguintes relações: 
+
+$$
+\begin{align*} 
+\vec{r}(t) &= \vec{R}(t) + \vec{r'}(t) \\\\ 
+\vec{v}(t) &= \vec{V_R}(t) + \vec{V}'(t) \\\\ 
+\vec{a}(t) &= \vec{a_R}(t) + \vec{a}'(t)
+\end{align*}
+$$
+
+Ou seja, conhecendo informações entre os referenciais, é possível facilmente escrever um movimento em relação a outro referencial. A partir daqui, vale explorar com mais detalhes os conceitos de **referencias inerciais e não-inerciais**. 
+
+## Referenciais inerciais e não-inerciais
+
+---
+
+Chamamos **referencial inercial** o referencial que, em relação a outro referencial, possui aceleração $\vec{a_R}(t)$ nula. Ou seja, ambos os referenciais estão em repouso em relação ao outro. Em referenciais inerciais, todas as leis de Newton são válidas, especialmente a primeira. 
+
+Do estudo de referenciais inerciais, pode-se tirar o chamado **Princípio da Relatividade Galileana**, chamado ainda de **Relatividade de Galileu**, que afirma a invariância das leis da mecânica para todos os observadores de referenciais inerciais, com uma consequência notável sendo a indistinguibilidade entre movimentos retilíneos uniformes e o repouso de corpos.
+
+Pela Relatividade de Galileu é produzida a **transformação de Galileu**, que relaciona as grandezas do movimento realizado por um corpo em relação a dois referenciais inerciais. Valem os axiomas da física galileana-newtoniana: há um espaço e um tempo absolutos, únicos e uniformes para todos os observadores. A massa também não varia em relação aos observadores. 
+
+A transformação de Galileu é a seguinte: 
+
+$$
+\vec{r} = \vec{r'} + \vec{V_R} \cdot t
+$$
+
+Ao se analisar outras forças, como por exemplo, a força elétrica, percebe-se que nem todas obedecem à Relatividade de Galileu, suscitando a necessidade de outro modelo físico para descrevê-las em diferentes referenciais. Notavelmente, no eletromagnetismo, é utilizada a Relatividade de Lorentz.
+
+Por outro lado, os **referenciais não-inerciais** estão acelerando um em relação ao outro, levando a invalidade das Leis de Newton em sua forma padrão, a menos que sejam introduzidas forças fictícias.
+
+Pelas Leis de Newton: 
+
+$$
+\begin{align*}
+\vec{a} &= \vec{a'}+ \vec{A_R} \\\\ 
+\vec{F} &= \vec{F'} + m \cdot \vec{A_R} \\\\ 
+\vec{F'} &= \vec{F} -\boxed{m \cdot \vec{A_R}}
+\end{align*}
+$$
+
+O termo destacado, que provoca a diferença entre a força experienciada pelo mesmo corpo em diferentes referenciais, é a consequência da aceleração $\vec{A_R}$. No mundo real, podemos citar como consequências o efeito Coriolis experimentado pelas massas de ar da nossa atmosfera e o “recuo” no interior de um foguete em propulsão. Nesta última situação, Einstein associou esse “recuo” provocado pelo referencial não-inercial à gravidade, levando ao nascimento da Relatividade Geral de Einstein. 
+
 
 # Referências 
 
 ---
 
-1. <i>Playlist</i> de Física 1 da USP formada por aulas do prof. Dr. Marcelo Martinelli (<a target="_blank" href="https://www.youtube.com/playlist?list=PLAudUnJeNg4vmlyuv__uBgdOkzw4VSrcJ">Acesse aqui</a>).
-2. LING, S. J. et al. University physics. Houston, Texas: Openstax, Rice University, 2018. v. 1 (<a target="_blank" href="https://openstax.org/details/books/university-physics-volume-1">Acesse aqui</a>).
+1. <i>Playlist</i> de Física 1 da USP formada por aulas do prof. Dr. Marcelo Martinelli (<a target="_blank" href="https://www.youtube.com/playlist?list=PLAudUnJeNg4vmlyuv__uBgdOkzw4VSrcJ">Acesse aqui</a>);
+2. LING, S. J. et al. University physics. Houston, Texas: Openstax, Rice University, 2018. v. 1 (<a target="_blank" href="https://openstax.org/details/books/university-physics-volume-1">Acesse aqui</a>);
+3. Feynman, Richard P., Matthew L. Sands, and Robert B. Leighton. 1989. The Feynman Lectures on Physics. Reading, Mass: Addison-Wesley. Chapter 12: Characteristics of Force (<a target="_blank" href="https://www.feynmanlectures.caltech.edu/I_12.html">Acesse aqui</a>)
