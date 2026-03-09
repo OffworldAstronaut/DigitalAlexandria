@@ -1,4 +1,4 @@
-# Introdução à Cinemática
+# Cinemática
 
 # Conceitos iniciais 
 
@@ -168,7 +168,9 @@ Vale lembrar que, por consequência das definições do produto vetorial, e do e
 
 # Representando movimentos em duas e três dimensões
 
-Combinando os conceitos do Cálculo com os sistemas de coordenadas, é possível descrever movimentos no espaço tridimensional de forma completa. Para um ponto material, medimos sua posição em relação à origem por um vetor da forma: 
+---
+
+Combinando os conceitos do Cálculo com os sistemas de coordenadas, é possível descrever movimentos no espaço tridimensional de forma completa. Para um ponto material, medimos sua <b>posição</b> em relação à origem por um vetor da forma: 
 
 $$
 \overrightarrow{r}(t) = x(t) \cdot \hat{i} + y(t) \cdot \hat{j} + z(t) \cdot \hat{k}
@@ -178,6 +180,111 @@ Sua velocidade e aceleração podem ser obtida por meio da derivação das funç
 
 Este vetor é chamado de <b>vetor posição</b>, com a diferença entre dois vetores posição chamada de <b>deslocamento</b>:  $\Delta \vec{r} = \vec{r_2} - \vec{r_1}$. 
 
+A partir do vetor posição são definidas outras grandezas, como por exemplo, a <b>velocidade (vetorial) média</b>, que é a taxa de variação do vetor posição ao longo de um intervalo de tempo. 
+
+$$
+\vec{v}_\text{média} = \dfrac{\Delta\vec{r}}{\Delta t}
+$$
+
+Ao considerarmos um intervalo de tempo extremamente pequeno, definimos a chamada <b>velocidade (vetorial) instantânea</b>, ou simplesmente <b>velocidade</b>, de um corpo. Para o cálculo dessa grandeza, basta derivar normalmente as funções velocidade em cada coordenada.
+
+$$
+\begin{align*}
+    \vec{v} &= \dfrac{d\vec{r}}{dt} \\\\
+    \vec{v} &= \dfrac{dx}{dt}\hat{i} + \dfrac{dy}{dt}\hat{j} + \dfrac{dz}{dt}\hat{k} \\\\
+    \vec{v} &= v_x \hat{i} + v_y \hat{j} + v_z \hat{k}
+\end{align*}
+$$
+
+Além disso, é importante mencionar que este vetor é tangente à trajetória do corpo estudado. De forma semelhante, podemos definir o vetor aceleração, que informa a taxa de variação do vetor velocidade em relação ao tempo. 
+
+$$
+\begin{align*}
+    \vec{a} &= \dfrac{d \vec{v}}{dt} \\\\
+    \vec{a} &= \dfrac{d v_x}{dt}\hat{i} + \dfrac{d v_y}{dt} \hat{j} + \dfrac{d v_z}{dt}\hat{k}
+\end{align*}
+$$
+
+# Movimentos especiais 
+
+---
+
+No estudo da cinemática, convém estudar com mais detalhes alguns movimentos simples devido a sua imensa importância e presença em numerosos sistemas físicos, incluindo os de nosso cotidiano. São estes os <b>movimentos balísticos</b> e os <b>movimentos circulares uniformes</b>.
+
+## Movimento balístico
+
+Denominamos <b>movimento balístico</b> o movimento descrito por um corpo lançado com uma velocidade inicial $\vec{v}$ sujeito a uma aceleração constante $\vec{g}$ para baixo, além de um ângulo inicial de lançamento $\theta_0$ com o chão. Esta aceleração é denominada <b>aceleração gravitacional</b>, com este movimento descrevendo uma trajetória parabólica.
+
+![](https://upload.wikimedia.org/wikipedia/commons/3/3e/Ferde_hajitas2.svg)
+
+<i>Representação de um movimento balístico com sua velocidade inicial decomposta, seu ângulo de lançamento e sua aceleração constante para baixo. Imagem sob CC-BY-SA, via <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Ferde_hajitas2.svg">Wikimedia Commons</a>.</i>
+
+Pelo princípio da independência dos movimentos de Galileu, podemos decompor o movimento em duas dimensões, com sua velocidade inicial escrita da forma
+
+$$
+\vec{v_0} = \vec{v_{0x}}\hat{i} + \vec{v_{0y}} \hat{j}
+$$
+
+e suas velocidades componentes da seguinte maneira:
+
+$$
+\begin{align*}
+    \vec{v_{0x}} &= v_0 \cdot \cos\theta_0 \\\\
+    \vec{v_{0y}} &= v_0 \cdot \sin\theta_0
+\end{align*}
+$$
+
+A velocidade horizontal $v_x$ de um projétil permanece constante durante todo o movimento, isto é, num movimento unidimensional retilíneo e uniforme. Desta forma, podemos escrever que seu deslocamento no eixo horizontal é 
+
+$$
+x - x_0 = v_{0x} \cdot t = (v_0 \cdot \cos{\theta_0}) \cdot t
+$$
+
+Verticalmente verifica-se a existência de um movimento retilíneo uniformemente variado, portanto: 
+
+$$ 
+y - y_0 = v_{0y} \cdot t - \dfrac{1}{2}gt^2 = (v_0 \cdot \sin{\theta_0})t - \dfrac{1}{2}gt^2
+$$
+
+Além disso, pela natureza do movimento, podemos escrever a equação da velocidade vertical e a equação de Torricelli. 
+
+$$
+\begin{align*}
+    v_y &= v_0 \cdot \sin \theta_0 - gt \\\\
+
+    v_y^2 &= (v_0 \cdot \sin\theta_0)^2 - 2g(y - y_0)
+\end{align*}
+$$
+
+Por manipulações algébricas das equações apresentadas, encontramos a chamada <b>equação da trajetória</b>, que relaciona a posição vertical do projétil com sua posição horizontal. É a partir desta equação que podemos afirmar a natureza parabólica do movimento balístico. 
+
+$$
+y = x\tg(\theta_0) - \dfrac{gx^2}{2(v_0 \cdot \cos\theta_0)^2}
+$$
+
+O alcance horizontal do projétil é também conhecida como sua <b>distância máxima</b>, podendo também ser obtida a partir das equações anteriores. 
+
+$$ 
+R = \dfrac{v_0^2}{g} \cdot \sin{2\theta_0}
+$$
+
+<aside>
+A limitação desta equação está no cenário em que a altura final do corpo difere de sua altura de lançamento. 
+</aside>
+
+## Movimento circular uniforme 
+
+Quando um corpo se encontra em um movimento circular uniforme (MCU), sua velocidade escalar ("tangencial") é constante, embora seu vetor velocidade esteja constantemente mudando de direção por consequência da aceleração centrípeta. Este movimento possui uma trajetória em formato de circunferência ou de arco de circunferência. 
+
+![](https://upload.wikimedia.org/wikipedia/commons/9/91/Uniform-cirular-translation.gif)
+
+<i>Representação animada de um movimento circular uniforme de raio $\vec{r}$ e velocidade vetorial $\vec{v}$. GIF sob CC-BY-SA, via <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Uniform-cirular-translation.gif">Wikimedia Commons</a>.</i>
+
+Esta aceleração pode ser calculada pela expressão $a = \dfrac{v^2}{r}$, com o tempo necessário para a execução de uma revolução denominado <b>período (de revolução)</b> e denotado por $T$. Além disso, esta grandeza possui a seguinte relação com a velocidade escalar e o raio do movimento: 
+
+$$
+T = \dfrac{2\pi r}{v}
+$$
 
 # Referências 
 
