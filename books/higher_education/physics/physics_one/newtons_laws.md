@@ -69,7 +69,9 @@ Ou seja, nessas condições, o momento total do sistema é conservado.
 
 ## Forças e massas
 
+O que é uma força? Feynman em sua <a target="_blank" href="https://www.feynmanlectures.caltech.edu/I_12.html">coleção de aulas</a> discorre um pouco sobre essa questão e a resposta dela é ligeiramente engraçada. Não temos uma definição perfeita nem de força, nem das leis de Newton, nem da mecânica. A ciência, por mais exata que ela pareça ser, é composta de diversas aproximações do mundo real. Entretanto, podemos designar uma definição para força, sim, que pode servir para uma ampla variedade de situações: uma força é um ente físico que provoca a mudança do estado de movimento de um corpo. 
 
+Então, como poderíamos ver a massa de um corpo, perante o ponto de vista da mecânica? Talvez uma grandeza física que afere a inércia de um corpo, a sua dificuldade de mudar o seu estado de movimento? Pelo menos nesta edição da página, não trago muitas definições ao leitor, apenas questionamentos interessantes.
 
 ## A Gravitação Universal
 
@@ -140,7 +142,15 @@ $$
 F_{\text{at}} = \mu_E N
 $$
 
-Com $\mu_E$ sendo o <b>coeficiente de atrito estático</b>, próprio 
+Com $\mu_E$ sendo o <b>coeficiente de atrito estático</b>, próprio do sistema em questão e detectado experimentalmente e $N$ o módulo da força normal que a superfície exerce sobre o corpo. 
+
+Essa força de atrito estático possui um valor máximo, determinado pelo coeficiente $\mu_{EM}$, também único para cada sistema. Se o módulo da força exercida $\vec{F}$ for maior que a magnitude do atrito, o corpo começa a se mover, deslizando sobre a superfície sob o efeito do <b>atrito cinético</b>. O atrito cinético possui uma intensidade constante e mais branda que o atrito estático, dada por: 
+
+$$
+\vec{F_\text{ac}} = \mu_C N
+$$
+
+Com $\mu_C$ sendo seu coeficiente de atrito cinético. 
 
 # Mudança de referencial
 
