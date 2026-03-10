@@ -456,3 +456,7 @@ $$
 \int \sec^n{x} \text{ dx} &= \dfrac{\sec^{n-2}{x}  \tan{x}}{n-1} + \dfrac{n-2}{n-1} \int \sec^{n-2}{x} \text{ dx} \\\\
 \end{align*}
 $$
+
+# Referências 
+
+1. <i>Playlist</i> de cálculo diferencial e integral da USP — Coleção de aulas com o prof. Dr. Alexandre Lymberopoulos (<a target="_blank" href="https://www.youtube.com/playlist?list=PLAudUnJeNg4tr-aiNyYCXE46L3qEZ2Nzx">Acesse aqui</a>);

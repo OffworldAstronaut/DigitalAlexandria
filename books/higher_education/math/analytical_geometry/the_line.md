@@ -65,3 +65,9 @@ Portanto, o número irracional $(n+1)s$ está entre $a$ e $b$. Fazendo-se $(n+1)
 <i>Prova</i>: Escolhemos $a \lt b$ com $a$ tão próximo de $b$ quanto desejarmos. Pela proposição 1, concluímos que entre $a$ e $b$ existem infinitos números racionais e irracionais. Estes números estão mais próximos de $b$ que o próprio $a$, portanto, arbitrariamente próximos de $b$. 
 
 </aside>
+
+# Referências 
+
+--- 
+
+1. LIMA, G.; SILVA. Geometria analitica. Rio de Janeiro. 2015.
