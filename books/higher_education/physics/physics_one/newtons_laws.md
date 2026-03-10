@@ -152,6 +152,40 @@ $$
 
 Com $\mu_C$ sendo seu coeficiente de atrito cinético. 
 
+## Arrasto 
+
+Chamamos <b>fluido</b>, de forma bem simples, toda substância capaz de escoar, como gases e líquidos. Ao considerarmos um corpo no interior de um fluido com uma certa velocidade relativa, uma força é exercida no móvel que, como a força de atrito, resiste ao movimento. Essa força é denominada <b>força de arrasto</b> ou apenas <b>arrasto</b>. 
+
+![](https://upload.wikimedia.org/wikipedia/commons/c/c8/Flow_sphere.svg)
+
+<i>Representação de uma esfera se movendo por um fluido com formação de turbulência na parte traseira. Imagem sob CC-BY-SA, via <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Flow_sphere.svg">Wikimedia Commons</a></i>
+
+Fixando o material do fluido como o ar e o formato do corpo como algo redondo, além de sua velocidade como suficientemente alta para a produção de redemoinhos na parte traseira (turbulência), escrevemos a magnitude da força de arrasto $\vec{D}$ como
+
+$$
+D = \dfrac{1}{2}C\rho A v^2
+$$
+
+$C$ é, como o coeficiente de atrito, uma grandeza determinada experimentalmente chamada <b>coeficiente de arrasto</b>, enquanto $\rho$ ("rô") é a chamada <b>massa específica</b> do fluido (a razão entre sua massa e seu volume). Além disso, $A$ é a área da seção reta perpendicular do corpo em relação a velocidade $\vec{v}$, com $v$ sendo a velocidade escalar. 
+
+<aside>
+
+Há uma certa sutileza entre "densidade" e "massa específica". Enquanto a densidade considera um corpo por inteiro (incluindo outros materiais e espaços vazios), a massa específica considera apenas a substância pura. 
+
+</aside>
+
+Observando uma situação específica de queda livre no ar, um movimento vertical acelerado para baixo, torna-se possível introduzir o conceito de <b>velocidade terminal</b>. 
+
+Chamamos <b>velocidade terminal</b> (geralmente denotada por $v_t$) a velocidade constante alcançada por um corpo em queda livre quando sua força de arrasto equilibra-se em módulo com a força gravitacional, produzindo uma força resultante nula. Pela segunda lei de Newton, é possível escrever $D - F_g = ma$ que, ao substituirmos e rearranjarmos alguns termos, chegamos na expressão 
+
+$$ 
+v_t = \sqrt{\dfrac{2F_g}{C\rho A}}
+$$
+
+![](https://upload.wikimedia.org/wikipedia/commons/4/48/Bad_Lieutenants_VFS_skydiving_team.jpg)
+
+<i>A velocidade terminal é muito comum em situações como o skydiving, em que diferentes posições corporais podem aumentá-la ou diminui-la. Imagem sob domínio público, via <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Bad_Lieutenants_VFS_skydiving_team.jpg">Wikimedia Commons</a></i>
+
 # Mudança de referencial
 
 ---
@@ -176,7 +210,11 @@ Ou seja, conhecendo informações entre os referenciais, é possível facilmente
 
 ---
 
-Chamamos **referencial inercial** o referencial que, em relação a outro referencial, possui aceleração $\vec{a_R}(t)$ nula. Ou seja, ambos os referenciais estão em repouso em relação ao outro. Em referenciais inerciais, todas as leis de Newton são válidas, especialmente a primeira. 
+Chamamos **referencial inercial** o referencial que, em relação a outro referencial, possui aceleração $\vec{a_R}(t)$ nula. Ou seja, ambos os referenciais estão em repouso em relação ao outro. Em referenciais inerciais, todas as leis de Newton são válidas, especialmente a primeira, sem a necessidade da introdução de forças fictícias. 
+
+![](https://upload.wikimedia.org/wikipedia/commons/c/cb/Inertial_frames.svg)
+
+<i>Os referenciais $S'$ e $S$ se movimentam um em relação ao outro com uma velocidade uniforme $\vec{v}$. Um é referencial inercial em relação a outro, com a trajetória de um movimento em relação a um referencial sendo idêntica se olhada do ponto de vista de outro referencial. Imagem sob CC-BY-SA, via <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Inertial_frames.svg">Wikimedia Commons</a>.</i>
 
 Do estudo de referenciais inerciais, pode-se tirar o chamado **Princípio da Relatividade Galileana**, chamado ainda de **Relatividade de Galileu**, que afirma a invariância das leis da mecânica para todos os observadores de referenciais inerciais, com uma consequência notável sendo a indistinguibilidade entre movimentos retilíneos uniformes e o repouso de corpos.
 
@@ -204,7 +242,6 @@ $$
 
 O termo destacado, que provoca a diferença entre a força experienciada pelo mesmo corpo em diferentes referenciais, é a consequência da aceleração $\vec{A_R}$. No mundo real, podemos citar como consequências o efeito Coriolis experimentado pelas massas de ar da nossa atmosfera e o “recuo” no interior de um foguete em propulsão. Nesta última situação, Einstein associou esse “recuo” provocado pelo referencial não-inercial à gravidade, levando ao nascimento da Relatividade Geral de Einstein. 
 
-
 # Referências 
 
 ---
@@ -212,3 +249,4 @@ O termo destacado, que provoca a diferença entre a força experienciada pelo me
 1. <i>Playlist</i> de Física 1 da USP formada por aulas do prof. Dr. Marcelo Martinelli (<a target="_blank" href="https://www.youtube.com/playlist?list=PLAudUnJeNg4vmlyuv__uBgdOkzw4VSrcJ">Acesse aqui</a>);
 2. LING, S. J. et al. University physics. Houston, Texas: Openstax, Rice University, 2018. v. 1 (<a target="_blank" href="https://openstax.org/details/books/university-physics-volume-1">Acesse aqui</a>);
 3. Feynman, Richard P., Matthew L. Sands, and Robert B. Leighton. 1989. The Feynman Lectures on Physics. Reading, Mass: Addison-Wesley. Chapter 12: Characteristics of Force (<a target="_blank" href="https://www.feynmanlectures.caltech.edu/I_12.html">Acesse aqui</a>)
+4. HALLIDAY, D.; RESNICK, R.; WALKER, J. Fundamentos de física, v. 1: mecânica. 10. ed. Rio de Janeiro: LTC, 2016;
