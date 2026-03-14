@@ -56,13 +56,11 @@ A operação de multiplicação por escalar também possui algumas propriedades.
 
 $$ 
 \begin{align*}
-    
     k_1(\vec{a} + \vec{b}) &= k_1\vec{a} + k_1\vec{b} \\\\
     (k_1 + k_2) \vec{a} &= k_1\vec{a} + k_2\vec{a} \\\\
     k_1(k_2\vec{a}) &= (k_1k_2)\vec{a} \\\\
     1 \cdot \vec{a} &= \vec{a} \\\\
     0 \cdot \vec{a} &= \vec{0}
-
 \end{align*}
 $$
 
@@ -185,11 +183,15 @@ Dadas duas retas, é possível encontrar o ângulo entre elas a partir da equaç
 
 Dadas as equações paramétricas apresentadas anteriormente, podemos eliminar o parâmetro $t$ ao multiplcar a primeira equação por $b$ e a segunda por $a$ e, logo após, subtraindo as duas, produzindo: 
 
-$$ay - bx = ay_0 - bx_0$$
+$$
+ay - bx = ay_0 - bx_0
+$$
 
 Perceba que o segundo membro da equação é constante e, portanto, podemos reescrever esta equação:
 
-$$ay - bx = c$$
+$$
+ay - bx = c
+$$
 
 Esta equação produzida após a eliminação do parâmetro $t$ é chamada de <b>equação cartesiana da reta</b> que, por sua vez, pode ser adaptada tomando $A = b$, $B = -a$ e $C = -c$ para formar a <b>equação geral da reta</b>: 
 
@@ -201,7 +203,9 @@ A expressão recebe este nome por poder exprimir qualquer reta no plano cartesia
 
 Considerando um ponto $A = (x_0, y_0)$ que satisfaça a equação geral de uma reta, podemos adaptá-la para o formato 
 
-$$A(x - x_0) + B(y - y_0) = 0,$$
+$$
+A(x - x_0) + B(y - y_0) = 0
+$$
 
 que é a equação geral de uma reta que passa pelo ponto $A$ e possui a direção do vetor $(-B, A)$.
 
