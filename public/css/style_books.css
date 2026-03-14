@@ -1,17 +1,31 @@
+:root {
+    color-scheme: light dark;
+
+    /* ── Palette ── */
+    --bg:            light-dark(#f5f0e8, #0c0c0c);
+    --surface:       light-dark(#ede7d9, #1a1919);
+    --surface-alt:   light-dark(#e6dece, #151515);
+    --surface-hover: light-dark(#e0d8c8, #2a2828);
+    --border:        light-dark(#d0c8b8, #2a2828);
+    --text:          light-dark(#1c1812, #faf9f6);
+    --text-muted:    light-dark(rgba(28,24,18,0.75), rgba(250,249,246,0.8));
+    --link:          light-dark(#7a4f1e, wheat);
+    --shadow:        light-dark(rgba(180,160,120,0.2), rgba(0,0,0,0.25));
+}
+
 body {
     margin: 0;
-    color: #faf9f6;
-    background-color: #0c0c0c;
+    color: var(--text);
+    background-color: var(--bg);
     font-family: "Libertinus Math", system-ui;
     font-size: clamp(1rem, 2.5vw, 1.25rem);
 }
 
-a { 
-    color: wheat
+a {
+    color: var(--link);
 }
 
 /* ---------- Layout ---------- */
-
 .main {
     width: 100%;
     max-width: min(900px, 92vw);
@@ -20,12 +34,11 @@ a {
 }
 
 /* ---------- Header ---------- */
-
 header {
     border-radius: 15px;
     display: flex;
     justify-content: center;
-    background-color: #151515;
+    background-color: var(--surface-alt);
     padding: 16px;
 }
 
@@ -36,28 +49,27 @@ header h1 {
 }
 
 /* ---------- Navigation ---------- */
-
 .nav-back {
     margin: 16px 0 32px 0;
 }
 
 button {
-    background-color: #1a1919;
+    background-color: var(--surface);
     border: none;
     border-radius: 10px;
-    color: #faf9f6;
+    color: var(--text-muted);
     font-size: 0.9rem;
     padding: 12px 20px;
-    opacity: 0.8;
     cursor: pointer;
+    transition: color 0.2s, background-color 0.2s;
 }
 
 button:hover {
-    opacity: 1;
+    color: var(--text);
+    background-color: var(--surface-hover);
 }
 
 /* ---------- Book Content ---------- */
-
 .book-content {
     padding-top: 12px;
     text-align: justify;
@@ -79,7 +91,6 @@ button:hover {
 }
 
 /* ---------- Images ---------- */
-
 .book-content img {
     width: min(100%, 520px);
     margin: 24px auto;
@@ -87,41 +98,38 @@ button:hover {
 }
 
 /* ---------- MathJax ---------- */
-
 mjx-container[display="true"] {
     font-size: clamp(1.1rem, 3vw, 1.4rem) !important;
 }
 
 /* ---------- Callouts ---------- */
-
 aside,
 .callout-box-table {
     padding: 20px;
     margin: 24px auto;
-    border: 2px solid #2a2828;
-    background-color: #0c0c0c;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+    border: 2px solid var(--border);
+    background-color: var(--bg);
+    box-shadow: 4px 4px 8px var(--shadow);
     max-width: 100%;
 }
 
-blockquote { 
+blockquote {
     padding: 20px;
     margin: 24px auto;
-    border: 2px solid #2a2828;
-    background-color: #0c0c0c;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+    border: 2px solid var(--border);
+    background-color: var(--bg);
+    box-shadow: 4px 4px 8px var(--shadow);
     max-width: 100%;
 }
 
 /* ---------- Small screens ---------- */
-
 @media (max-width: 480px) {
     .book-content {
         text-align: left;
     }
 }
 
-table { 
+table {
     width: 100%;
 }
 

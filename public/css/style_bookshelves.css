@@ -1,19 +1,33 @@
+:root {
+    color-scheme: light dark;
+
+    /* ── Palette ── */
+    --bg:              light-dark(#f5f0e8, #0c0c0c);
+    --surface:         light-dark(#ede7d9, #1a1919);
+    --surface-alt:     light-dark(#e6dece, #151515);
+    --surface-hover:   light-dark(#e0d8c8, #2a2828);
+    --border:          light-dark(#d0c8b8, #2a2828);
+    --text:            light-dark(#1c1812, #faf9f6);
+    --text-muted:      light-dark(rgba(28,24,18,0.75), rgba(250,249,246,0.8));
+    --overlay-opacity: light-dark(0.04, 0.06);
+}
+
 body {
     margin: 0;
-    color: #faf9f6;
-    background-color: #0c0c0c;
+    color: var(--text);
+    background-color: var(--bg);
     font-family: "Inter", sans-serif;
 }
 
-body::before { 
-    content: ""; 
+body::before {
+    content: "";
     position: fixed;
-    inset: 0; 
+    inset: 0;
     background-image: url('../The_School_of_Athens_by_Raffaello_Sanzio_da_Urbino_in_Vatican.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    opacity: 0.06;
+    opacity: var(--overlay-opacity);
     pointer-events: none;
     z-index: 0;
 }
@@ -27,13 +41,12 @@ main {
 }
 
 /* ---------- Header ---------- */
-
 .header {
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #1a1919;
+    background-color: var(--surface);
     padding: 24px;
     border-radius: 16px;
 }
@@ -45,44 +58,42 @@ main {
 
 .subtitle {
     margin-top: 10px;
-    opacity: 0.8;
+    color: var(--text-muted);
     line-height: 1.5;
     font-style: italic;
 }
 
 /* ---------- Navigation ---------- */
-
 .nav-back {
     margin: 16px 0 32px 0;
 }
 
 button {
-    background-color: #1a1919;
+    background-color: var(--surface);
     border: none;
     border-radius: 10px;
-    color: #faf9f6;
+    color: var(--text-muted);
     font-size: 0.9rem;
     padding: 12px 20px;
-    opacity: 0.8;
     cursor: pointer;
+    transition: color 0.2s, background-color 0.2s;
 }
 
 button:hover {
-    opacity: 1;
+    color: var(--text);
+    background-color: var(--surface-hover);
 }
 
 /* ---------- Sections ---------- */
-
 .shelves {
     text-align: left;
 }
 
 .section-title {
-    
     text-align: center;
     margin: 40px 0 12px 0;
-    border-bottom: 1px solid #2a2828;
-    background-color: #151515;
+    border-bottom: 1px solid var(--border);
+    background-color: var(--surface-alt);
     border-radius: 15px;
     padding: 30px;
 }
@@ -95,29 +106,27 @@ button:hover {
 .section-title h3 {
     margin-top: 6px;
     font-size: clamp(1.2rem, 2.5vw, 1.6rem);
-    opacity: 0.9;
+    color: var(--text-muted);
     margin-bottom: auto;
 }
 
 /* ---------- Shelf ---------- */
-
 .shelf {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
     gap: 14px;
     padding: 18px 14px 12px;
-    background-color: #151515;
+    background-color: var(--surface-alt);
     border-radius: 14px;
     margin-bottom: 20px;
 }
 
 /* ---------- Books ---------- */
-
 .book {
     width: clamp(52px, 14vw, 70px);
     height: clamp(130px, 32vw, 170px);
-    background-color: #1a1919;
+    background-color: var(--surface);
     border-radius: 6px;
     display: flex;
     align-items: center;
@@ -128,7 +137,7 @@ button:hover {
 
 @media (hover: hover) {
     .book:hover {
-        background-color: #2a2828;
+        background-color: var(--surface-hover);
         transform: translateY(-6px);
     }
 }
@@ -138,6 +147,6 @@ button:hover {
     transform: rotate(180deg);
     font-size: clamp(0.75rem, 2vw, 1rem);
     text-align: center;
-    color: #faf9f6;
+    color: var(--text);
     opacity: 0.9;
 }
