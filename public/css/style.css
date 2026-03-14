@@ -26,9 +26,13 @@ body::before {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    opacity: var(--overlay-opacity);
+    opacity: 0.15;
     pointer-events: none;
-    z-index: 1;
+    z-index: 0;
+}
+
+body.dark::before {
+    opacity: 0.06; 
 }
 
 .main {
@@ -37,7 +41,7 @@ body::before {
     margin: clamp(32px, 10vh, 96px) auto;
     padding: 0 20px;
     position: relative;
-    z-index: 0;
+    z-index: 1;
 }
 
 /* ---------- Header ---------- */
