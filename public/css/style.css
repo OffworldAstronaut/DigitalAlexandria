@@ -7,8 +7,7 @@
     --surface-hover: light-dark(#e0d8c8, #2a2828);
     --text:        light-dark(#1c1812, #faf9f6);
     --text-muted:  light-dark(rgba(28,24,18,0.75), rgba(250,249,246,0.85));
-    --link:        light-dark(#7a4f1e, white);
-    --overlay-opacity: light-dark(0.04, 0.06);
+    --link:        light-dark(#7a4f1e, wheat);
 }
 
 body {
@@ -42,14 +41,16 @@ body.dark::before {
     padding: 0 20px;
     position: relative;
     z-index: 1;
+    opacity: 0.9;
 }
 
 /* ---------- Header ---------- */
 header {
     text-align: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    gap: 20px;
     background-color: var(--surface);
     padding: 20px;
     border-radius: 15px;
@@ -72,6 +73,7 @@ h1 {
 }
 
 .introduction p {
+    text-align: justify;
     line-height: 1.6;
     background-color: var(--surface);
     padding: clamp(20px, 4vw, 35px);
@@ -114,3 +116,4 @@ a {
     color: var(--link);
     text-decoration: none;
 }
+

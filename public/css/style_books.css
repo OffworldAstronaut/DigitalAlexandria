@@ -9,7 +9,7 @@
     --border:        light-dark(#d0c8b8, #2a2828);
     --text:          light-dark(#1c1812, #faf9f6);
     --text-muted:    light-dark(rgba(28,24,18,0.75), rgba(250,249,246,0.8));
-    --link:          light-dark(wheat, wheat);
+    --link:        light-dark(#7a4f1e, wheat);
     --shadow:        light-dark(rgba(180,160,120,0.2), rgba(0,0,0,0.25));
 }
 

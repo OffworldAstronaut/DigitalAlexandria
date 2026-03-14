@@ -9,6 +9,11 @@
     --border:          light-dark(#d0c8b8, #2a2828);
     --text:            light-dark(#1c1812, #faf9f6);
     --text-muted:      light-dark(rgba(28,24,18,0.75), rgba(250,249,246,0.8));
+    --link:        light-dark(#7a4f1e, wheat);
+
+
+    --gold:       #9B7A2F;
+    --gold-faint: rgba(155, 122, 47, 0.45);
 }
 
 body {
@@ -26,25 +31,32 @@ body::before {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    opacity: var(--overlay-opacity);
+    opacity: 1;
     pointer-events: none;
     z-index: 0;
 }
 
-main {
-    max-width: min(900px, 92vw);
+body.dark::before { 
+    opacity: 0.06;
+}
+
+.main {
+    width: 100%;
+    max-width: min(800px, 92vw);
     margin: clamp(32px, 6vh, 96px) auto;
     padding: 0 24px;
     position: relative;
     z-index: 1;
+    opacity: 0.9;
 }
 
 /* ---------- Header ---------- */
 .header {
     text-align: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    gap: 20px;
     background-color: var(--surface);
     padding: 24px;
     border-radius: 16px;
