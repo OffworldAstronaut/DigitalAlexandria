@@ -33,10 +33,8 @@ Duas operações com vetores podem ser inicialmente definidas, a <b>soma</b> e a
 
 $$
 \begin{align*}
-
     \vec{a} + \vec{b} &= (a_x, a_y) + (b_x, b_y) = (a_x + b_x, a_y + b_y) \\\\
     k\vec{a} &= k(a_x, a_y) = (ka_x, ka_y)
-
 \end{align*}
 $$
 
@@ -44,11 +42,9 @@ A operação da soma de vetores possui algumas propriedades. São elas:
 
 $$ 
 \begin{align*}
-    
     \vec{a} + \vec{b} &= \vec{b} + \vec{a} \\\\
     \vec{a} + (\vec{b} + \vec{c}) &= (\vec{a} + \vec{b}) + \vec{c} \\\\
     \vec{a} + \vec{0} &= \vec{a} ; \vec{0} = (0,0)
-
 \end{align*}
 $$
 
@@ -215,7 +211,7 @@ $$
 y = mx + k
 $$
 
-Notavelmente, $m$ nesta equação equivale a $\tg{\theta}$, com $\theta$ sendo o ângulo de intersecção entre a reta e o eixo das abscissas. Em razão disto, o parâmetro $m$ é denominado <b>coeficiente angular</b> ou <b>declividade</b> da reta, com $k$ recebendo a alcunha de <b>coeficiente linear</b>. 
+Notavelmente, $m$ nesta equação equivale a $\tan{\theta}$, com $\theta$ sendo o ângulo de intersecção entre a reta e o eixo das abscissas. Em razão disto, o parâmetro $m$ é denominado <b>coeficiente angular</b> ou <b>declividade</b> da reta, com $k$ recebendo a alcunha de <b>coeficiente linear</b>. 
 
 ## Distância entre um ponto e uma reta 
 
