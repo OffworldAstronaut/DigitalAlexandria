@@ -17,19 +17,10 @@ const TEMPLATE = fs.readFileSync(
 );
 const OUT = path.join(ROOT, "public", "books");
 
-function convertMathDelimiters(md) {
-  md = md.replace(
-    /\$\$([\s\S]+?)\$\$/g,
-    (_, content) => `\\\\[${content}\\\\]`
-  );
-
-  md = md.replace(
-    /(^|[^$])\$([^\n$]+?)\$/g,
-    (_, before, content) => `${before}\\\\(${content}\\\\)`
-  );
-
-  return md;
-}
+marked.setOptions({
+  mangle: false,
+  headerIds: false
+});
 
 function walk(dir) {
   return fs
@@ -72,9 +63,7 @@ for (const file of walk(BOOKS)) {
   const { title: mdTitle, body } = extractTitleAndBody(content);
   const title = data.title ?? mdTitle ?? "Livro";
 
-  const bodyWithConvertedMath = convertMathDelimiters(body);
-
-  const html = marked.parse(bodyWithConvertedMath);
+  const html = marked.parse(body);
 
   const page = TEMPLATE.replace("{{CONTENT}}", html).replaceAll("{{TITLE}}", title);
 
