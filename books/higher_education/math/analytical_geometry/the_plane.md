@@ -240,6 +240,14 @@ $$
 (x - x_0)^2 + (y - y_0)^2 = r^2
 $$
 
+Por fim, de forma ainda mais ampla, a <b>equação geral da circunferência</b> é dada por: 
+
+$$ 
+x^2 + y^2 + Dx + Ey + F = 0 
+$$
+
+Com $D, E, F \in \mathbb{R}$.
+
 # Referências 
 
 --- 

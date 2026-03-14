@@ -4,13 +4,13 @@
 
 ---
 
-Chamamos **cinemática** a descrição física do movimento de um corpo ao longo do tempo. Os elementos básicos desta descrição são as grandezas de posição e tempo. 
+Chamamos <b>cinemática</b> a descrição física do movimento de um corpo ao longo do tempo. Os elementos básicos desta descrição são as grandezas de posição e tempo. 
 
-Levando em conta que a grandeza de **velocidade (média)** é a proporção de espaço percorrido num dado tempo, também conhecida, a **velocidade instantânea** é o valor da função derivada da função deslocamento num dado instante temporal. 
+Levando em conta que a grandeza de <b>velocidade (média)</b> é a proporção de espaço percorrido num dado tempo, também conhecida, a <b>velocidade instantânea</b> é o valor da função derivada da função deslocamento num dado instante temporal. 
 
 De forma semelhante, a aceleração é o valor da segunda derivada da função deslocamento num dado ponto. De fato, a partir das operações de integração e derivação, podemos encontrar as equações de movimento para qualquer móvel. 
 
-Uma aplicação notável desta última informação são os **Sistemas de Navegação Inercial** (*Inertial Navigation Systems*). Os SNIs são capazes de determinar a posição atual do veículo independentemente de informação externa, somente a partir do registro da aceleração sofrida pelo veículo ao longo do tempo e de uma posição inicial registrada na memória. São geralmente utilizados em aeronaves e espaçonaves, além de embarcações, como sistemas redundantes, caso a comunicação falhe.
+Uma aplicação notável desta última informação são os <b>Sistemas de Navegação Inercial</b> (<i>Inertial Navigation Systems</i>). Os SNIs são capazes de determinar a posição atual do veículo independentemente de informação externa, somente a partir do registro da aceleração sofrida pelo veículo ao longo do tempo e de uma posição inicial registrada na memória. São geralmente utilizados em aeronaves e espaçonaves, além de embarcações, como sistemas redundantes, caso a comunicação falhe.
 
 # Vetores
 
@@ -56,18 +56,18 @@ As coordenadas de um vetor são chamadas também "componentes" ou "componentes e
 Por exemplo, $5\vec{v}$ produz um vetor $\vec{u}$ com o quíntuplo da magnitude de $\vec{v}$. Em coordenadas, teríamos algo como: 
 
 $$
-5
-\begin{bmatrix}
-    u_1 \\ u_2 
-\end{bmatrix}
-=
-\begin{bmatrix}
-    5u_1 \\ 5u_2
-\end{bmatrix}
-=
-\begin{bmatrix}
-    v_1 \\ v_2
-\end{bmatrix}
+    5 \cdot 
+    \begin{bmatrix}
+        u_1 \\\\ u_2 
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+        5u_1 \\\\ 5u_2
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+        v_1 \\\\ v_2
+    \end{bmatrix}
 $$
 
 ## Soma de vetores 
@@ -84,20 +84,19 @@ Por exemplo, dado os vetores
 
 $$
 \begin{align*}
-\vec{a} &=
+    \vec{a} &=
 
-\begin{bmatrix}
-2 \\ 5     
-\end{bmatrix}
+    \begin{bmatrix}
+    2 \\\\ 5     
+    \end{bmatrix}
 
-\\
+    \\\\
 
-\vec{b} &= 
+    \vec{b} &= 
 
-\begin{bmatrix}
-    4 \\ 5
-\end{bmatrix}
-
+    \begin{bmatrix}
+        4 \\\\ 5
+    \end{bmatrix}
 \end{align*}
 $$ 
 
@@ -105,17 +104,17 @@ Sua soma pode ser escrita como:
 
 $$ 
 \begin{align*}
-\vec{a} + \vec{b} &=
+    \vec{a} + \vec{b} &=
 
-\begin{bmatrix}
-    2 + 4 \\ 5 + 5 
-\end{bmatrix}
-\\
-&= 
+    \begin{bmatrix}
+        2 + 4 \\\\ 5 + 5 
+    \end{bmatrix}
+    \\\\
+    &= 
 
-\begin{bmatrix}
-    6 \\ 10 
-\end{bmatrix}
+    \begin{bmatrix}
+        6 \\\\ 10
+    \end{bmatrix}
     
 \end{align*}
 $$
@@ -124,9 +123,9 @@ Considerando os versores do espaço tridimensional, poderíamos escrever a soma 
 
 $$
 \begin{align*}
-\vec{a} + \vec{b} &= 2\hat{i} + 5\hat{j} + 4 \hat{i} + 5 \hat{j}\\
-&= (2 + 4)\hat{i} + (5 + 5)\hat{j} \\ 
-&= 6\hat{i} + 10\hat{j}
+    \vec{a} + \vec{b} &= 2\hat{i} + 5\hat{j} + 4 \hat{i} + 5 \hat{j} \\\\
+    &= (2 + 4)\hat{i} + (5 + 5)\hat{j} \\\\
+    &= 6\hat{i} + 10\hat{j}
 \end{align*}
 $$
 
@@ -173,7 +172,7 @@ Vale lembrar que, por consequência das definições do produto vetorial, e do e
 Combinando os conceitos do Cálculo com os sistemas de coordenadas, é possível descrever movimentos no espaço tridimensional de forma completa. Para um ponto material, medimos sua <b>posição</b> em relação à origem por um vetor da forma: 
 
 $$
-\overrightarrow{r}(t) = x(t) \cdot \hat{i} + y(t) \cdot \hat{j} + z(t) \cdot \hat{k}
+\vec{r}(t) = x(t) \cdot \hat{i} + y(t) \cdot \hat{j} + z(t) \cdot \hat{k}
 $$
 
 Sua velocidade e aceleração podem ser obtida por meio da derivação das funções $x(t)$, $y(t)$ e $z(t)$.
@@ -259,7 +258,7 @@ $$
 Por manipulações algébricas das equações apresentadas, encontramos a chamada <b>equação da trajetória</b>, que relaciona a posição vertical do projétil com sua posição horizontal. É a partir desta equação que podemos afirmar a natureza parabólica do movimento balístico. 
 
 $$
-y = x\tg(\theta_0) - \dfrac{gx^2}{2(v_0 \cdot \cos\theta_0)^2}
+y = x\tan(\theta_0) - \dfrac{gx^2}{2(v_0 \cdot \cos\theta_0)^2}
 $$
 
 O alcance horizontal do projétil é também conhecida como sua <b>distância máxima</b>, podendo também ser obtida a partir das equações anteriores. 
@@ -274,7 +273,7 @@ A limitação desta equação está no cenário em que a altura final do corpo d
 
 ## Movimento circular uniforme 
 
-Quando um corpo se encontra em um movimento circular uniforme (MCU), sua velocidade escalar ("tangencial") é constante, embora seu vetor velocidade esteja constantemente mudando de direção por consequência da aceleração centrípeta. Este movimento possui uma trajetória em formato de circunferência ou de arco de circunferência. 
+Quando um corpo se encontra em um movimento circular uniforme (MCU), sua velocidade escalar ("tangencial") é constante, embora seu vetor velocidade esteja constantemente mudando de direção por consequência da aceleração centrípeta. Este movimento possui uma trajetória em formato de circunferência ou de arco de circunferência.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/9/91/Uniform-cirular-translation.gif)
 
