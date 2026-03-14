@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>📖 Estantes</title>
+    <title>Estantes</title>
     <link rel="stylesheet" href="css/style_bookshelves.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,15 +12,16 @@
   <body>
     <main class="main">
       <header class="header">
-        <h1>📖 Estantes</h1>
+        <h1>Estantes</h1>
         <p class="subtitle">
-          A biblioteca é dividida em seções, com cada seção possuindo suas
+          A memorabília é dividida em seções, com cada seção possuindo suas
           estantes. Cada estante, livros.
         </p>
       </header>
 
       <nav class="nav-back">
         <button onclick="history.back()"><strong>Voltar</strong></button>
+        <button id="theme-toggle" aria-label="Toggle dark mode"></b>🌙 Trevas</b></button>
       </nav>
 
       <section class="shelves">
@@ -55,11 +56,11 @@
           </a>
 
           <a class="book" href="/books/high_school/physics/physics2/optics_1.html">
-            <span class="book-title">Fundamentos da Óptica Geométrica I — Reflexão e Espelhos</span>
+            <span class="book-title">Fundamentos da Óptica Geométrica I</span>
           </a>
 
           <a class="book" href="/books/high_school/physics/physics2/optics_2.html">
-            <span class="book-title">Fundamentos da Óptica Geométrica II — Refração e Lentes</span>
+            <span class="book-title">Fundamentos da Óptica Geométrica II</span>
           </a>
 
           <a class="book" href="/books/high_school/physics/physics3/introduction_electrostatics.html">
@@ -67,11 +68,11 @@
           </a>
 
           <a class="book" href="/books/high_school/physics/physics3/electric_potential.html">
-            <span class="book-title">Potencial elétrico</span>
+            <span class="book-title">Potencial Elétrico</span>
           </a>
 
           <a class="book" href="/books/high_school/physics/physics3/electric_field.html">
-            <span class="book-title">Campo elétrico</span>
+            <span class="book-title">Campo Elétrico</span>
           </a>
 
           <a class="book" href="/books/high_school/physics/physics3/capacitors.html">
@@ -79,7 +80,7 @@
           </a>
 
           <a class="book" href="/books/high_school/physics/physics3/electrostatic_equilibrium.html">
-            <span class="book-title">Equilíbrio eletrostático</span>
+            <span class="book-title">Equilíbrio Eletrostático</span>
           </a>
 
           <a class="book" href="/books/high_school/physics/physics3/introduction_electrodynamics.html">
@@ -87,7 +88,7 @@
           </a>
 
           <a class="book" href="/books/high_school/physics/physics3/electric_resistance.html">
-            <span class="book-title">Resistência elétrica</span>
+            <span class="book-title">Resistência Elétrica</span>
           </a>
 
           <a class="book" href="/books/high_school/physics/physics3/kirchhoff_laws.html">
@@ -103,15 +104,15 @@
           </a>
 
           <a class="book" href="/books/high_school/physics/physics3/sources_magnetic_fields.html">
-            <span class="book-title">Fontes de campo magnético</span>
+            <span class="book-title">Fontes de Campo Magnético</span>
           </a>
 
           <a class="book" href="/books/high_school/physics/physics3/electromagnetic_induction.html">
-            <span class="book-title">Indução eletromagnética</span>
+            <span class="book-title">Indução Eletromagnética</span>
           </a>
 
           <a class="book" href="/books/high_school/physics/physics3/magnetic_force.html">
-            <span class="book-title">Força magnética</span>
+            <span class="book-title">Força Magnética</span>
           </a>
 
         </div>
@@ -204,5 +205,6 @@
         </div>
       </section>
     </main>
+    <script src="../src/theme.js"></script>
   </body>
 </html>
