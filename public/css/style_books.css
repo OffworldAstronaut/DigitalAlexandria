@@ -139,7 +139,7 @@ td, th {
 
 /* Math */
 
-mjx-container[jax="CHTML"][display="true"] {
+mjx-container[jax="CHTML"] {
   display: block;
   text-align: center;
   margin: 1.5em 0;
