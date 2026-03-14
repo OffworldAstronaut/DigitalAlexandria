@@ -66,7 +66,7 @@ Além disso, todo vetor que possui magnitude um é chamado "vetor unitário" ou 
 
 ## Produto escalar e projeção de vetores
 
-O produto escalar entre dois vetores $\vec{a}$ e $\vec{b}$, também chamado "produto interno", é denotado por $\vec{a} \cdot \vec{b}$ e lido como "$\vec{a}$ interno $\vec{b}$". Uma notação alternativa pode ser escrita utilizando parênteses estilizados: $\vec{a} \cdot \vec{b} = \langle \vec{a}, \vec{b} \rangle$. 
+O produto escalar entre dois vetores $\vec{a}$ e $\vec{b}$, também chamado "produto interno", é denotado por $\vec{a} \cdot \vec{b}$ e lido como "'a' interno 'b'". Uma notação alternativa pode ser escrita utilizando parênteses estilizados: $\vec{a} \cdot \vec{b} = \langle \vec{a}, \vec{b} \rangle$. 
 
 Esta operação é definida como  a soma do produto coordenada a coordenada dos vetores. Em notação de somatório, podemos escrever: 
 
