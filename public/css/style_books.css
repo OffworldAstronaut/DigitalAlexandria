@@ -136,3 +136,11 @@ table {
 td, th {
     text-align: center;
 }
+
+/* Math */
+
+mjx-container[jax="CHTML"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1.5em 0;
+}
