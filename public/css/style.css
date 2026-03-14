@@ -7,7 +7,7 @@
     --surface-hover: light-dark(#e0d8c8, #2a2828);
     --text:        light-dark(#1c1812, #faf9f6);
     --text-muted:  light-dark(rgba(28,24,18,0.75), rgba(250,249,246,0.85));
-    --link:        light-dark(#7a4f1e, wheat);
+    --link:        light-dark(#7a4f1e, white);
     --overlay-opacity: light-dark(0.04, 0.06);
 }
 
