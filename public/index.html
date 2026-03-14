@@ -10,7 +10,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <script src="../src/theme.js"></script>
+    <script>
+        const btn = document.getElementById('theme-toggle');
+        const root = document.documentElement;
+
+        function setTheme(theme) {
+            root.style.colorScheme = theme;
+            localStorage.setItem('theme', theme);
+            btn.textContent = theme === 'dark' ? '☀️ Luz' : '🌙 Trevas';
+        }
+
+        // Restore saved preference on page load
+        const saved = localStorage.getItem('theme') || 'light';
+        setTheme(saved);
+
+        btn.addEventListener('click', () => {
+            const current = root.style.colorScheme || 'light';
+            setTheme(current === 'light' ? 'dark' : 'light');
+        });
+    </script>
     <div class="main">
         <header>
             <h1 id="tda">
