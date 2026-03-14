@@ -80,10 +80,6 @@ button:hover {
     margin-bottom: 1em;
 }
 
-.book-content mjx-container[display="true"] {
-  text-align: center;
-}
-
 .book-content h1,
 .book-content h2,
 .book-content h3,
