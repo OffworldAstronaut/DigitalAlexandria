@@ -136,3 +136,9 @@ table {
 td, th {
     text-align: center;
 }
+
+/* latex formatting */
+
+p:has(> mjx-container:only-child) {
+  text-align: center;
+}
