@@ -254,6 +254,9 @@ $$
 v_1' - v_2' = 0 \Rightarrow v_1 - (||v_1|| \cos{\theta})\vec{\hat{n}}
 $$
 
+Uma solução para esta aparente barreira é considerar o princípio de independência dos movimentos. 
+O componente horizontal das velocidades dos corpos não sofrerá alteração pela colisão, que só irá afetar o movimento vertical. Como já visto anteriormente nas colisões perfeitamente inelásticas unidimensionais, os corpos permanecem ligados com uma velocidade vertical de $\dfrac{P}{m_1 + m_2}$. 
+
 # Referências 
 
 ---

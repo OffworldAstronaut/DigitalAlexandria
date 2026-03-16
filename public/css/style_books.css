@@ -139,6 +139,6 @@ td, th {
 
 /* latex formatting */
 
-p:has(> mjx-container:only-child) {
+p:has(> mjx-container:only-child)[display="true"] {
   text-align: center;
 }
