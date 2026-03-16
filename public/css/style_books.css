@@ -139,6 +139,11 @@ td, th {
 
 /* latex formatting */
 
-p:has(> mjx-container:only-child)[display="true"] {
+.math-display {
   text-align: center;
+  margin: 1.5em 0;
+}
+
+.math-display mjx-container {
+  font-size: 1.1em;
 }

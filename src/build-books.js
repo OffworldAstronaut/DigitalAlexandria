@@ -42,6 +42,16 @@ function copyDir(src, dest) {
   }
 }
 
+function preprocessMath(markdown) {
+  // display math
+  markdown = markdown.replace(
+    /\$\$([\s\S]+?)\$\$/g,
+    (_, eq) => `\n<div class="math-display">$$${eq}$$</div>\n`
+  );
+
+  return markdown;
+}
+
 function extractTitleAndBody(markdown) {
   const lines = markdown.split("\n");
 
@@ -63,7 +73,8 @@ for (const file of walk(BOOKS)) {
   const { title: mdTitle, body } = extractTitleAndBody(content);
   const title = data.title ?? mdTitle ?? "Livro";
 
-  const html = marked.parse(body);
+  const processed = preprocessMath(body);
+  const html = marked.parse(processed);
 
   const page = TEMPLATE.replace("{{CONTENT}}", html).replaceAll("{{TITLE}}", title);
 
