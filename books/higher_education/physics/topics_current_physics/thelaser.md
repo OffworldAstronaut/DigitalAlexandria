@@ -12,7 +12,7 @@ A primeira seção expõe os fundamentos teóricos que possibilitam a existênci
 
 <aside>
 
-Este trabalho também pode ser acessado em .pdf <a target="_blank" href="laser.pdf">aqui</a>.
+Este trabalho também pode ser acessado em .pdf <a target="_blank" href="./pdfs/laser.pdf">aqui</a>.
 
 </aside>
 

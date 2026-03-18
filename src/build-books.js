@@ -65,7 +65,7 @@ function extractTitleAndBody(markdown) {
 }
 
 for (const file of walk(BOOKS)) {
-  if (!file.endsWith(".md") || !file.endsWith(".pdf")) continue;
+  if (!file.endsWith(".md")) continue;
 
   const raw = fs.readFileSync(file, "utf8");
   const { data, content } = matter(raw);
@@ -86,6 +86,10 @@ for (const file of walk(BOOKS)) {
   const srcImages = path.join(path.dirname(file), "images");
   const outImages = path.join(path.dirname(outPath), "images");
 
+  const srcPdfs = path.join(path.dirname(file), "pdfs");
+  const outPdfs = path.join(path.dirname(outPath), "pdfs");
+
+  copyDir(srcPdfs, outPdfs);
   copyDir(srcImages, outImages);
 
   console.log("Generated text:", outPath);

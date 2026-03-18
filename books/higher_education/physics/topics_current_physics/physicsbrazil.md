@@ -21,7 +21,7 @@ Esta abordagem histórica fundamenta a análise social da área nos dias atuais,
 
 <aside>
 
-Este trabalho também pode ser acessado em .pdf <a target="_blank" href="fisica_brasil.pdf">aqui</a>.
+Este trabalho também pode ser acessado em .pdf <a target="_blank" href="./pdfs/fisica_brasil.pdf">aqui</a>.
 
 </aside>
 
