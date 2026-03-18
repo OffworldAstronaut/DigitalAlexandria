@@ -1,7 +1,5 @@
 # Da Física no Brasil
 
-# Da Física no Brasil — Histórico e Dados
-
 # Introdução 
 
 --- 
@@ -20,6 +18,12 @@ No Brasil, a Física possui um desenvolvimento tardio em relação ao cenário i
 Desta forma, este trabalho possui o objetivo de compilar uma breve história da Física no Brasil, além de suas principais instituições, oportunidades no mercado de trabalho, reconhecimento governamental e desigualdades raciais, econômicas e de gênero presentes na área, num recorte desde o Brasil colonial até a atualidade.
 
 Esta abordagem histórica fundamenta a análise social da área nos dias atuais, dando margem para a compreensão das origens das desigualdades e do estado da ciência no âmbito nacional e pavimentando um caminho para discussões da mudança deste cenário.
+
+<aside>
+
+Este trabalho também pode ser acessado em .pdf <a target="_blank" href="./pdfs/fisica_brasil.pdf">aqui</a>.
+
+</aside>
 
 # Breve histórico
 

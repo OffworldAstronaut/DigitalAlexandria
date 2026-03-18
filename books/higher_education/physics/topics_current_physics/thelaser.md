@@ -1,7 +1,5 @@
 # O Laser
 
-# O Laser — De seus fundamentos teóricos, seu histórico e suas aplicações
-
 # Introdução
 
 ---
@@ -11,6 +9,12 @@ O laser é uma das aplicações mais bem sucedidas da física quântica. Desde s
 Tendo em vista tamanha importância, este trabalho se propõe a abordar de forma introdutória e abrangente o laser e sua relevância para a ciência moderna. O texto está organizado em três capítulos. 
 
 A primeira seção expõe os fundamentos teóricos que possibilitam a existência da luz laser, além do funcionamento de um laser típico. Por sua vez, a segunda seção discorre sobre um breve histórico da tecnologia laser e, por fim, a última seção concentra descrições de aplicações em diversas áreas.
+
+<aside>
+
+Este trabalho também pode ser acessado em .pdf <a target="_blank" href="./pdfs/laser.pdf">aqui</a>.
+
+</aside>
 
 # Fundamentos teóricos
 
