@@ -65,7 +65,7 @@ function extractTitleAndBody(markdown) {
 }
 
 for (const file of walk(BOOKS)) {
-  if (!file.endsWith(".md")) continue;
+  if (!file.endsWith(".md") || !file.endsWith(".pdf")) continue;
 
   const raw = fs.readFileSync(file, "utf8");
   const { data, content } = matter(raw);
