@@ -9,7 +9,7 @@
     --border:        light-dark(#d0c8b8, #2a2828);
     --text:          light-dark(#1c1812, #faf9f6);
     --text-muted:    light-dark(rgba(28,24,18,0.75), rgba(250,249,246,0.8));
-    --link:        light-dark(#7a4f1e, wheat);
+    --link:          light-dark(#7a4f1e, wheat);
     --shadow:        light-dark(rgba(180,160,120,0.2), rgba(0,0,0,0.25));
 }
 
@@ -21,8 +21,27 @@ body {
     font-size: clamp(1rem, 2.5vw, 1.25rem);
 }
 
-a {
-    color: var(--link);
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url('/public/fundo_livros_leibowitzcodex.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.08;
+    pointer-events: none;
+    z-index: 0;
+}
+
+body.dark::before {
+    opacity: 0.06;
+}
+
+/* ensure main content sits above the pseudo-layer */
+.main {
+    position: relative;
+    z-index: 1;
 }
 
 /* ---------- Layout ---------- */

@@ -10,8 +10,7 @@
     --text:            light-dark(#1c1812, #faf9f6);
     --text-muted:      light-dark(rgba(28,24,18,0.75), rgba(250,249,246,0.8));
     --link:        light-dark(#7a4f1e, wheat);
-
-
+    
     --gold:       #9B7A2F;
     --gold-faint: rgba(155, 122, 47, 0.45);
 }
