@@ -25,7 +25,7 @@ body::before {
     content: "";
     position: fixed;
     inset: 0;
-    background-image: url('/public/fundo_livros_leibowitzcodex.png');
+    background-image: url('/fundo_livros_leibowitzcodex.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
