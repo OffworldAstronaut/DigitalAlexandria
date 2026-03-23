@@ -40,15 +40,30 @@ $$
 d = |V_\text{medido} - V_\text{adotado}|
 $$
 
+Nestes casos ainda pode ser expresso o chamado <b>desvio relativo</b> $(d_{R})$, que permite a avaliação mais precisa do êxito de uma experiência. Do desvio relativo ainda é possível derivar o chamado <b>desvio percentual</b> $(d_P)$. 
+
+$$
+\begin{align*}
+    d_R &= \dfrac{d}{V_\text{adotado}} \\\\
+    d_P &= d_R \cdot 100
+\end{align*}
+$$
+
 ## Grandeza com valor desconhecido 
 
 Ao medirmos repetidamente uma grandeza de valor desconhecido, observamos que as leituras raramente coincidem entre si. Esse espalhamento nos resultados é inevitável e constitui a manifestação prática da incerteza da medição. Suas origens são três: fatores instrumentais (a própria resolução do aparelho), fatores humanos (julgamento e reação do operador) e fatores ambientais (temperatura, vibração, pressão atmosférica).
 
 ### Algarismos significativos e o algarismo duvidoso
 
-Toda medição produz dígitos que podem ser lidos com total segurança — os algarismos certos — e um último dígito, obtido por estimativa entre as menores divisões da escala, chamado algarismo duvidoso. O conjunto de algarismos certos mais o algarismo duvidoso forma os algarismos significativos da medida.
+Toda medição produz dígitos que podem ser lidos com total segurança — os <b>algarismos certos</b> — e um último dígito, obtido por estimativa entre as menores divisões da escala, chamado <b>algarismo duvidoso</b>. O conjunto de algarismos certos mais o algarismo duvidoso forma os algarismos significativos da medida.
 
-Por convenção, registra-se somente um algarismo duvidoso. Dígitos além desse ponto carecem de significado físico e não devem ser anotados. Assim, ao medir com uma régua milimetrada, que possui resolução de $1 \text{ mm}$, o operador lê os milímetros com certeza e estima décimos de milímetro — estes últimos são os algarismos duvidosos. 
+<aside>
+
+Por convenção, registra-se somente um algarismo duvidoso. Dígitos além desse ponto carecem de significado físico e não devem ser anotados, pois não agregam nada a precisão da medida considerada.
+
+</aside>
+
+Assim, ao medir com uma régua milimetrada, que possui resolução de $1 \text{ mm}$, o operador lê os milímetros com certeza e estima décimos de milímetro — estes últimos são os algarismos duvidosos. 
 
 É importante mencionar ainda que limitamos os algarismos significativos ao intervalo, da esquerda para a direita, a partir do primeiro algarismo diferente de zero. Por exemplo, no número $0.000023$, os algarismos significativos são $2$ e $3$. 
 
@@ -60,7 +75,7 @@ A motivação por trás do arrendondamento está em conservar apenas um algarism
 
 ### Repetição de medidas e a média aritmética 
 
-Para minimizar a influência dos fatores aleatórios, a grandeza é medida $n$ vezes nas mesmas condições experimentais. O melhor estimador do valor verdadeiro é a média aritmética das $n$ leituras:
+Para minimizar a influência dos fatores aleatórios, a grandeza é medida $n$ vezes nas mesmas condições experimentais. O melhor estimador do valor verdadeiro — mais provável — é a média aritmética das $n$ leituras:
 
 $$
 \bar{x} = \dfrac{1}{n}\sum_{i=1}^{n}x_i = \dfrac{x_1 + x_2 + ... x_n}{n}
@@ -109,6 +124,50 @@ $$
 </aside>
 
 Nem toda fonte de incerteza é reduzida pela repetição de medidas. Os <b>erros sistemáticos</b> — causados, por exemplo, por um instrumento descalibrado ou pela presença permanente de uma perturbação ambiental — deslocam todas as medições na mesma direção. Eles não se cancelam com a média e devem ser identificados e corrigidos por outros meios, como a calibração do instrumento com um padrão de referência. A repetição de medidas combate os erros aleatórios; a calibração combate os erros sistemáticos. 
+
+Dessa forma, enquanto os erros sistemáticos devem ser combatidos a todo custo (pois eles estão sob nosso controle), os erros aleatórios podem ser atenuados pela repetição de medidas, porém nunca completamente eliminados.
+
+# Propagação de incertezas 
+
+--- 
+
+Algumas grandezas, como o perímetro ou a área de um quadrado, não podem ser mensuradas por instrumentos próprios para elas, sendo necessária a sua derivação a partir de grandezas mais simples. Tomando como exemplo o caso do perímetro, esta grandeza possui origem nos comprimentos dos lados da figura, enquanto a área pode ser obtida pela multiplicação do comprimento de seus lados. 
+
+Uma pergunta surge: como quantificar a incerteza dessas novas grandezas? Afinal, é razoável pensar que essas grandezas originais possuem incertezas em suas medições e, a medida que novas operações são feitas com estas grandezas, essas imprecisões vão se alastrando por nossos cálculos. 
+
+Pela teoria dos erros, conseguimos encontrar expressões para quantificar a chamada <b>propagação de incertezas</b> ao longo das medidas através de operações. 
+
+## Incerteza da soma 
+
+Considerando como exemplo o perímetro, que é obtido através da soma de outras medições, como poderemos calcular a sua incerteza dado as incertezas das medições dos lados?
+
+De forma mais ampla, como poderemos calcular a incerteza de uma grandeza derivada da soma de outras grandezas, que por sua vez possuem suas próprias incertezas de medição? 
+
+De forma geral, adotamos que "a incerteza da soma é a soma das incertezas". Isto é, de forma algébrica, consideramos que 
+
+$$
+\delta S = \delta A + \delta B + ... + \delta Z
+$$
+
+Sendo $S$ uma grandeza que possui como origem as grandezas do conjunto $\{A, ..., Z\}$. 
+
+<aside>
+
+O mesmo procedimento é adotado ao considerarmos a incerteza da diferença. As incertezas são <b>sempre</b> somadas, pois ela só tende a aumentar.
+
+</aside>
+
+## Multiplicação e potenciação
+
+Ao tentarmos calcular a incerteza de grandezas produzidas por outras operações, como multiplicação ou potenciação, teremos que nos utilizar de conceitos e operações fundamentados no Cálculo III. 
+
+De forma geral, para calcular a incerteza relativa associada a uma grandeza $Y = K \cdot a^p \cdot b^q$, utilizamos a expressão: 
+
+$$
+\dfrac{\delta Y}{|Y|} = |p|\dfrac{\delta a}{|a|} + |q|\dfrac{\delta b}{|b|}
+$$
+
+Ou seja, os expoentes tornam-se coeficientes das incertezas relativas, parcelas da soma da incerteza total. Como toda radiciação pode ser escrita como uma potenciação, além de que toda divisão pode ser escrita como uma multiplicação, essa expressão acaba por generalizar-se para essas operações.
 
 # Referências 
 
