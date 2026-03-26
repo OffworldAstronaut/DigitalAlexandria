@@ -32,12 +32,12 @@ Com a notação de barras representando o número de elementos (cardinalidade) d
 
 ## Princípio multiplicativo
 
-Esse princípio diz que considerando um conjunto $P$ com $i$ elementos e um conjunto $Q$ com $j$ elementos, o <b>produto cartesiano</b> dos conjuntos, escrito como $P \times Q$, é o conjunto de todos os pares $(p, q)$, com $p \in P$ e $q \in Q$. O número de elementos nesse novo conjunto é calculado pela multiplicação do número de elementos em cada um dos conjuntos. 
+Esse princípio diz que considerando um conjunto $P$ com $i$ elementos e um conjunto $Q$ com $j$ elementos, o <b>produto cartesiano</b> dos conjuntos, escrito como $P \cdot Q$, é o conjunto de todos os pares $(p, q)$, com $p \in P$ e $q \in Q$. O número de elementos nesse novo conjunto é calculado pela multiplicação do número de elementos em cada um dos conjuntos. 
 
 Matematicamente: 
 
 $$
-|P \times Q| = |P| \cdot |Q|
+|P \cdot Q| = |P| \cdot |Q|
 $$
 
 Essa princípio pode ser visto como uma “evolução” do princípio aditivo, por um exemplo simples. Imagine que você tem 5 camisas e 3 calças, de quantas maneiras você pode combiná-las?
@@ -45,7 +45,7 @@ Essa princípio pode ser visto como uma “evolução” do princípio aditivo, 
 Para a primeira camisa, você tem três calças, para a segunda camisa, também três calças, e depois para a quarta, e para a quinta camisa, ou seja: 
 
 $$
-3+3+3+3+3=3 \times 5
+3+3+3+3+3=3 \cdot 5
 $$
 
 Cada parcela da soma representa mais três possibilidades de combinar uma camisa com as três calças. 
@@ -74,7 +74,7 @@ Multiplicando o número de linhas pelo número de colunas, vemos que sim, temos 
 
 ## Permutação com objetos diferentes
 
-Considerando uma lista de vários objetos, todos diferentes entre si $(a_1, a_2, a_3, ..., a_n)$, podemos saber de quantas maneiras podemos ordená-los utilizando o <b>fatorial</b> $(!)$, que é definido como sendo $n!=n\times(n-1)\times(n-2)\times ... \times 1$, por exemplo, de quantas maneiras podemos organizar as letras do conjunto $\{F, O, X\}$?
+Considerando uma lista de vários objetos, todos diferentes entre si $(a_1, a_2, a_3, ..., a_n)$, podemos saber de quantas maneiras podemos ordená-los utilizando o <b>fatorial</b> $(!)$, que é definido como sendo $n!=n\cdot(n-1)\cdot(n-2)\cdot ... \cdot 1$, por exemplo, de quantas maneiras podemos organizar as letras do conjunto $\{F, O, X\}$?
 
 Sabemos que o conjunto possui 3 elementos, logo, podemos fazer isso de $3! = 3\times2\times1=6$ maneiras diferentes. Isso pode ser visualizado abaixo: 
 
@@ -89,7 +89,7 @@ Supondo nossa lista como a lista $\{1, 2, 3, 4\}$, podemos verificar essa quanti
 Assim, testando para mais outros casos, podemos ver que a expressão generalizada que responde essa necessidade é dada por: 
 
 $$
-(n)_k=n\times(n-1)\times...\times(n-k+1)
+(n)_k=n\cdot(n-1)\cdot...\cdot(n-k+1)
 $$
 
 Onde $n$ é a quantidade total e $k$ seria o tamanho dos “subconjuntos” que queremos formar. 
@@ -97,7 +97,7 @@ Onde $n$ é a quantidade total e $k$ seria o tamanho dos “subconjuntos” que 
 Sintetizando, podemos escrever a seguinte expressão, nos utilizando da notação do fatorial: 
 
 $$
-(n)_k=\frac{n!}{(n-k)!}
+(n)_k=\dfrac{n!}{(n-k)!}
 $$
 
 ## Objetos repetidos
@@ -111,7 +111,7 @@ Um raciocínio para resolver esse problema é perceber que, ao usarmos $n!$, con
 Por isso, de forma algébrica, escrevemos:
 
 $$
-\frac{n!}{k_1! \times ... \times k_j!}
+\dfrac{n!}{k_1! \cdot ... \cdot k_j!}
 $$
 
 Onde $k_1$ é a quantidade de elementos do tipo 1, $k_2$ é a quantidade de elementos do tipo 2 e assim por diante, até $k_j$, que é a quantidade de elementos do tipo $j$. É importante frisar que a relação $k_1 + k_2+...+k_j =n$ precisa ser verdadeira para essa expressão fazer sentido. 
@@ -133,7 +133,7 @@ Refraseando para uma outra visão, podemos ver empiricamente que cada nova permu
 Dessa forma, temos que o total de permutações circulares possíveis de $n$ elementos é dado por: 
 
 $$
-\frac{n!}{n}=(n-1)!
+\dfrac{n!}{n}=(n-1)!
 $$
 
 # Permutações caóticas
@@ -146,7 +146,7 @@ Por meio do <b>Princípio da Inclusão-Exclusão</b> (PIE), podemos saber que a 
 
 $$
 \begin{align*}
-D_n &= n!\left(\frac{1}{0!}-\frac{1}{1!}+\frac{1}{2!}-\frac{1}{3!}+...+(-1)^n\times\frac{1}{n!} \right) \\\\
+D_n &= n!\left(\dfrac{1}{0!}-\dfrac{1}{1!}+\dfrac{1}{2!}-\dfrac{1}{3!}+...+(-1)^n\cdot\dfrac{1}{n!} \right) \\\\
 &= n!\left(\sum_{i=0}^n \dfrac{1}{i!}\cdot (-1)^i\right)
 \end{align*}
 $$
@@ -164,7 +164,7 @@ Agora, podemos perceber que $A_k\cap A_j$ é o conjunto de todas as permutaçõe
 Tendo agora essa visão, podemos aplicar o PIE, obtendo que o número de permutações caóticas $D_n$ é dado por: 
 
 $$
-D_n=n!-\left(n!-\frac{n!}{2!}+\frac{n!}{3!}-\frac{n!}{4!}+...+(-1)^{n-1}\times\frac{n!}{n!}\right)
+D_n=n!-\left(n!-\dfrac{n!}{2!}+\dfrac{n!}{3!}-\dfrac{n!}{4!}+...+(-1)^{n-1}\cdot\dfrac{n!}{n!}\right)
 $$
 
 Já que, como $n!$ é o número total de permutações, e a expressão que encontramos são todas as permutações <b>não-caóticas</b>, o resultado dessa subtração será o número de permutações caóticas. 
@@ -172,5 +172,5 @@ Já que, como $n!$ é o número total de permutações, e a expressão que encon
 Colocando $n!$ em evidência, finalmente chegamos na nossa expressão final, que pode ainda ser condensada em notação de somatório, como visto anteriormente.
 
 $$
-D_n=n!\left(\frac{1}{0!}-\frac{1}{1!}+\frac{1}{2!}-\frac{1}{3!}+...+(-1)^n\times\frac{1}{n!} \right)
+D_n=n!\left(\dfrac{1}{0!}-\dfrac{1}{1!}+\dfrac{1}{2!}-\dfrac{1}{3!}+...+(-1)^n\cdot\dfrac{1}{n!} \right)
 $$
