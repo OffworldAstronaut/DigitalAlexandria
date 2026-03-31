@@ -181,7 +181,7 @@ $$
 \end{align*}
 $$
 
-Um outro exemplo, um pouco mais complexo, que pode ser analisado é o chamado **sistema massa-mola** simples, sem atrito nem qualquer tipo de força dissipativa. 
+Um outro exemplo, um pouco mais complexo, que pode ser analisado é o chamado **sistema massa-'mola'** simples, sem atrito nem qualquer tipo de força dissipativa. 
 
 ![Sistema massa mola](images/work_energy/work_energy_spring_mass_system.gif)
 

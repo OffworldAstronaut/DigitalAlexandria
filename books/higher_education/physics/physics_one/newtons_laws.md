@@ -4,14 +4,17 @@
 
 ---
 
-Antes do estudo de movimentos sistematizado por Isaac Newton, inglês do século XVII, vigorava na academia um amplo consentimento aos desenvolvimentos de Aristóteles, escritos na Antiguidade Clássica. Segundo a física aristotélica, 
-o estado natural de todos os corpos era o repouso e, portanto, para manter algo em movimento era necessário uma força
-atuante durante todo o movimento, caso contrário, o objeto desaceleraria até parar. 
+Antes do estudo de movimentos sistematizado por Isaac Newton, inglês do século XVII, vigorava na academia um amplo consentimento aos desenvolvimentos de Aristóteles, escritos na Antiguidade Clássica. Segundo a física aristotélica, o Universo é permeado por dois tipos de movimento: o movimento <b>natural</b> e o movimento <b>violento</b>. 
 
-A partir dos estudos de Galileu, que produziu conceitos como a relatividade galileana e o princípio da inércia 
-(defendido pelo famosíssimo experimento do barco), Newton unificou o estudo dos movimentos celestes e terrestres num
-único sistema em sua obra-prima <i>Princípios Matemáticos da Filosofia Natural</i>. Dos estudos do inglês, são amplamente
-conhecidas as suas Leis da Mecânica. 
+Os movimentos <b>naturais</b> eram executados pelos corpos de acordo com um agente interno, de acordo com sua composição. Por exemplo, uma pedra naturalmente iria se mover para o fundo de um lago em razão de ser composta majoritariamente do elemento Terra, enquanto as chamadas de uma fogueira levitariam para o mais alto dos céus, o empíreo, pelo elemento Fogo ser mais leve que o elemento Ar. 
+
+Dessa forma, movimentos contra essa tendência só seriam executados por meio de um agente externo que causasse esse movimento. Estes movimentos foram assim denominados <b>violentos</b>. Uma consideração importante era que o movimento violento duraria enquanto o agente externo atuasse, cessando assim que este agente fosse removido. 
+
+Uma consequência interessante da física aristotélica é o geocentrismo: se a Terra não estivesse no centro do Universo, ela iria se mover até ocupar o seu lugar natural. Essa ideia, combinada com a noção grega de esfera celeste, nos forneceu o modelo geocêntrico do Universo, que perdurou por muitos séculos. 
+
+O modelo ptolemaico analisava os céus como algo completamente diferente da Terra, feitos de quintessência, um elemento diferente de todos os outros, com os corpos descrevendo órbitas circulares e quaisquer imperfeições descritas por mecanismos como epiciclos. A presença considerável de circunferênicas deve-se a consideração grega do círculo como a figura geométrica perfeita. 
+
+A partir dos estudos de Galileu, que produziu conceitos como a relatividade galileana e o princípio da inércia (defendido pelo famosíssimo experimento do barco), Newton unificou o estudo dos movimentos celestes e terrestres num único sistema em sua obra-prima <i>Princípios Matemáticos da Filosofia Natural</i>. Dos estudos do inglês, são amplamente conhecidas as suas Leis da Mecânica. 
 
 ## Leis de Newton
 
@@ -19,13 +22,13 @@ Formuladas por Isaac Newton, as Leis de Newton inauguraram uma nova era no estud
 
 <aside>
 
-**1ª Lei (Inércia)** — Todo corpo persiste em seu estado de repouso, ou de movimento retilíneo uniforme, a menos que seja compelido a modificar este estado pela ação de forças impressas sobre ele;
+**1ª Lei (Inércia)** — Todo corpo persiste em seu estado de repouso, ou de movimento retilíneo uniforme, a menos que seja compelido a modificar este estado pela ação de forças impressas sobre ele.
 
 </aside>
 
 <aside>
 
-**2ª Lei (Princípio Fundamental da Dinâmica)** — A variação do **momento** é proporcional à força impressa e tem a direção da força aplicada. A "quantidade de movimento" (momento) de um corpo depende de sua massa e de sua velocidade. Mais sobre o momento pode ser visto <a href="/books/higher_education/physics/physics_one/momentum_collisions.html">aqui</a>.
+**2ª Lei (Princípio Fundamental da Dinâmica)** — A variação do <b>momento</b> é proporcional à força impressa e tem a direção da força aplicada. A <b>quantidade de movimento</b> (momento) de um corpo depende de sua massa e de sua velocidade. Mais sobre o momento pode ser visto <a href="/books/higher_education/physics/physics_one/momentum_collisions.html">aqui</a>.
 
 $$
 \begin{align*}
@@ -34,7 +37,7 @@ $$
 \end{align*}
 $$
 
-Considerando $m$, a massa inercial, que afere a resistência do corpo à variação de seu momento, como constante ao longo do tempo, deduzimos: 
+Considerando $m$, a massa inercial, que quantifica a resistência do corpo à variação de seu momento (inércia), como constante ao longo do tempo, deduzimos: 
 
 $$
 \begin{align*}
@@ -44,7 +47,9 @@ $$
 \end{align*}
 $$
 
-É importante salientar que $\vec{F}$ é a chamada "força resultante" impressa sobre um corpo, com este conceito sendo elucidado a partir do <b>princípio de superposição para forças</b>: somando-se todos os vetores das forças impressas sobre um corpo, o vetor produzido terá o mesmo módulo e orientação que uma única força agindo sobre aquele corpo, com esta única força denominada "resultante" ou "total". 
+É importante salientar que $\vec{F}$ é a chamada <b>força resultante</b> impressa sobre um corpo. O conceito de força resultante é melhor elucidado a partir do <b>princípio de superposição de forças</b>: ao considerarmos várias forças atuando sobre um corpo, sua atuação é equivalente, produzindo o mesmo efeito, a atuação de uma única força, chamada <b>força resultante</b>, cujo vetor é obtido pela soma de todos os outros vetores força. 
+
+Portanto, é possível ainda enunciar a primeira lei como a permanência do estado atual do corpo (movimento retilíneo uniforme ou repouso) desde que a força resultante seja nula. Por fim, é importante mencionar ainda que a denominação <b>princípio fundamental da dinâmica</b> é baseada no fato de que a segunda Lei é a ferramenta básica para descrever a evolução de qualquer sistema newtoniano ao longo do tempo.
 
 </aside>
 
@@ -56,10 +61,10 @@ Considerando $\vec{F_{12}}$ como a força exercida pelo corpo 1 no corpo 2, e $\
 
 $$
 \begin{align*}
-\vec{F_{12}} &= - \vec{F_{21}} \\\\ 
-\dfrac{d}{dt} \vec{p_1} &= - \dfrac{d}{dt} \vec{p_2} \\\\ 
-\dfrac{d}{dt} \vec{p_1} + \dfrac{d}{dt} \vec{p_2} &= 
-\dfrac{d}{dt} (\vec{p_1} + \vec{p_2}) = 0 
+    \vec{F_{12}} &= - \vec{F_{21}} \\\\ 
+    \dfrac{d}{dt} \vec{p_1} &= - \dfrac{d}{dt} \vec{p_2} \\\\ 
+    \dfrac{d}{dt} \vec{p_1} + \dfrac{d}{dt} \vec{p_2} &= 
+    \dfrac{d}{dt} (\vec{p_1} + \vec{p_2}) = 0 
 \end{align*}
 $$
 
@@ -186,6 +191,22 @@ $$
 
 <i>A velocidade terminal é muito comum em situações como o skydiving, em que diferentes posições corporais podem aumentá-la ou diminui-la. Imagem sob domínio público, via <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Bad_Lieutenants_VFS_skydiving_team.jpg">Wikimedia Commons</a></i>
 
+## Tração 
+
+Chamamos <b>tração</b> ou <b>tensão</b> a força exercida sobre um cabo, corda ou fio quando este é esticado por alguma outra força. Neste sentido, a força de tensão age como uma força "de resistência", que dificulta a quebra do cabo. Se a tração não existisse, fios iriam se partir sem nenhum problema se esticados. 
+
+## Força elástica
+
+Chamamos <b>força elástica</b> a força de resistência duma mola a uma deformação: caso a fonte de deformação seja removida, a força elástica irá fazer com que a mola retorne ao seu estado original. 
+Verifica-se experimentalmente que a força elástica é diretamente proporcional a distância $\vec{r}$ de deformação da mola (Lei de Hooke).
+
+$$
+\vec{F_k} = -K\vec{r}
+$$
+
+Dessa forma, a constante $K$ é chamada <b>constante da mola</b>, sendo própria do objeto. Também de forma experimental percebe-se que, em molas reais, essa constante pode variar devido a própria deformação do material ao longo do tempo, além de efeitos térmicos. Como consequência deste efeito podemos citar a diminuição da precisão de <b>dinamômetros</b> ao longo do tempo em suas medições.
+
+
 # Mudança de referencial
 
 ---
@@ -210,15 +231,15 @@ Ou seja, conhecendo informações entre os referenciais, é possível facilmente
 
 ---
 
-Chamamos **referencial inercial** o referencial que, em relação a outro referencial, possui aceleração $\vec{a_R}(t)$ nula. Ou seja, ambos os referenciais estão em repouso em relação ao outro. Em referenciais inerciais, todas as leis de Newton são válidas, especialmente a primeira, sem a necessidade da introdução de forças fictícias. 
+Chamamos <b>referencial inercial</b> o referencial que, em relação a outro referencial, possui aceleração $\vec{a_R}(t)$ nula. Ou seja, ambos os referenciais estão em repouso em relação ao outro. Em referenciais inerciais, a Lei da Inércia é válida sem a introdução de forças fictícias que compensam esta aceleração do referencial.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/c/cb/Inertial_frames.svg)
 
 <i>Os referenciais $S'$ e $S$ se movimentam um em relação ao outro com uma velocidade uniforme $\vec{v}$. Um é referencial inercial em relação a outro, com a trajetória de um movimento em relação a um referencial sendo idêntica se olhada do ponto de vista de outro referencial. Imagem sob CC-BY-SA, via <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Inertial_frames.svg">Wikimedia Commons</a>.</i>
 
-Do estudo de referenciais inerciais, pode-se tirar o chamado **Princípio da Relatividade Galileana**, chamado ainda de **Relatividade de Galileu**, que afirma a invariância das leis da mecânica para todos os observadores de referenciais inerciais, com uma consequência notável sendo a indistinguibilidade entre movimentos retilíneos uniformes e o repouso de corpos.
+Do estudo de referenciais inerciais, pode-se tirar o chamado <b>Princípio da Relatividade Galileana</b>, chamado ainda de <b>Relatividade de Galileu</b>, que afirma a invariância das leis da mecânica para todos os observadores de referenciais inerciais, com uma consequência notável sendo a indistinguibilidade entre movimentos retilíneos uniformes e o repouso de corpos.
 
-Pela Relatividade de Galileu é produzida a **transformação de Galileu**, que relaciona as grandezas do movimento realizado por um corpo em relação a dois referenciais inerciais. Valem os axiomas da física galileana-newtoniana: há um espaço e um tempo absolutos, únicos e uniformes para todos os observadores. A massa também não varia em relação aos observadores. 
+Pela Relatividade de Galileu é produzida a <b>transformação de Galileu</b>, que relaciona as grandezas do movimento realizado por um corpo em relação a dois referenciais inerciais. Valem os axiomas da física galileana-newtoniana: há um espaço e um tempo absolutos, únicos e uniformes para todos os observadores. A massa também não varia em relação aos observadores. 
 
 A transformação de Galileu é a seguinte: 
 
@@ -228,7 +249,7 @@ $$
 
 Ao se analisar outras forças, como por exemplo, a força elétrica, percebe-se que nem todas obedecem à Relatividade de Galileu, suscitando a necessidade de outro modelo físico para descrevê-las em diferentes referenciais. Notavelmente, no eletromagnetismo, é utilizada a Relatividade de Lorentz.
 
-Por outro lado, os **referenciais não-inerciais** estão acelerando um em relação ao outro, levando a invalidade das Leis de Newton em sua forma padrão, a menos que sejam introduzidas forças fictícias.
+Por outro lado, os <b>referenciais não-inerciais</b> estão acelerando um em relação ao outro, levando a invalidade das Leis de Newton em sua forma padrão, a menos que sejam introduzidas forças fictícias.
 
 Pelas Leis de Newton: 
 
@@ -250,3 +271,4 @@ O termo destacado, que provoca a diferença entre a força experienciada pelo me
 2. LING, S. J. et al. University physics. Houston, Texas: Openstax, Rice University, 2018. v. 1 (<a target="_blank" href="https://openstax.org/details/books/university-physics-volume-1">Acesse aqui</a>);
 3. Feynman, Richard P., Matthew L. Sands, and Robert B. Leighton. 1989. The Feynman Lectures on Physics. Reading, Mass: Addison-Wesley. Chapter 12: Characteristics of Force (<a target="_blank" href="https://www.feynmanlectures.caltech.edu/I_12.html">Acesse aqui</a>)
 4. HALLIDAY, D.; RESNICK, R.; WALKER, J. Fundamentos de física, v. 1: mecânica. 10. ed. Rio de Janeiro: LTC, 2016;
+5. NUSSENZVEIG, Herch Moysés. Curso de física básica, v. 1: mecânica. 5. ed. São Paulo: Blucher, 2013
