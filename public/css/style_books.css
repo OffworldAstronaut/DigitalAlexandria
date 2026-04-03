@@ -49,7 +49,7 @@ body.dark::before {
 }
 
 body.dark::after {
-    opacity: 0.06;
+    opacity: 0.20;
 }
 
 /* ensure main content sits above the pseudo-layer */
@@ -180,4 +180,10 @@ td, th {
 
 .math-display mjx-container {
   font-size: 1.1em;
+}
+
+/* ---------- Links ---------- */
+a {
+    color: var(--link);
+    text-decoration: none;
 }
