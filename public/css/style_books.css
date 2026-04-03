@@ -21,20 +21,34 @@ body {
     font-size: clamp(1rem, 2.5vw, 1.25rem);
 }
 
-body::before {
+body::before,
+body::after {
     content: "";
     position: fixed;
     inset: 0;
-    background-image: url('/fundo_livros_leibowitzcodex.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    opacity: 0.90;
     pointer-events: none;
     z-index: 0;
+    transition: opacity 0.4s ease;
+}
+
+body::before {
+    background-image: url('/fundo_livros_leibowitzcodex.png');
+    opacity: 0.90;
+}
+
+body::after {
+    background-image: url('/fundo_livros_leibowitzcodex_dm.png');
+    opacity: 0;
 }
 
 body.dark::before {
+    opacity: 0;
+}
+
+body.dark::after {
     opacity: 0.06;
 }
 
