@@ -1,4 +1,4 @@
-# Fundamentos da Óptica Geométrica II — Refração e Lentes
+# Óptica Geométrica II — Refração e Lentes
 
 # Definição
 

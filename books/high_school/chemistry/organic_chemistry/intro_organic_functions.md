@@ -285,7 +285,7 @@ Elas são indicadas antes da cadeia principal na ordem da nomenclatura, porém c
 Para ajudar na nomenclatura das ramificações, indicamos **radicais** que podem formar essas ramificações, na tabela abaixo.
 
 <aside>
-Radicais são compostos orgânicos que perderam um **hidrogênio**, se tornando instáveis. Normalmente, se ligam as cadeias carbônicas que possuem uma valência livre, formando ramificações. 
+Radicais são compostos orgânicos que perderam um hidrogênio, se tornando instáveis. Normalmente, se ligam as cadeias carbônicas que possuem uma valência livre, formando ramificações. 
 </aside>
 
 ![Retirada de um livro, mas bem completa!](images/intro_organic_functions/OrgSubs.png)

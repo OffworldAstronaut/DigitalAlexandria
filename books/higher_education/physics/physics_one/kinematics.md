@@ -85,15 +85,11 @@ Por exemplo, dado os vetores
 $$
 \begin{align*}
     \vec{a} &=
-
     \begin{bmatrix}
     2 \\\\ 5     
     \end{bmatrix}
-
     \\\\
-
     \vec{b} &= 
-
     \begin{bmatrix}
         4 \\\\ 5
     \end{bmatrix}
@@ -105,17 +101,14 @@ Sua soma pode ser escrita como:
 $$ 
 \begin{align*}
     \vec{a} + \vec{b} &=
-
     \begin{bmatrix}
         2 + 4 \\\\ 5 + 5 
     \end{bmatrix}
     \\\\
     &= 
-
     \begin{bmatrix}
         6 \\\\ 10
     \end{bmatrix}
-    
 \end{align*}
 $$
 
@@ -155,7 +148,7 @@ Como propriedade notável, o produto escalar nos fornece a componente de um dado
 
 ## Produto vetorial
 
-Por sua vez, o produto vetorial é uma outra operação especial, também definida entre dois vetores. Diferencia-se do produto escalar por gerar outro vetor, com este perpendicular aos dois vetores originais. Denotado por $\vec{a} \times \vec{b}$, lê-se "$\vec{a}$ vetor $\vec{b}$" ou "$\vec{a}$ externo $\vec{b}$", diferenciando-se do produto escalar, geralmente lido como "interno". 
+Por sua vez, o produto vetorial é uma outra operação especial, também definida entre dois vetores. Diferencia-se do produto escalar por gerar outro vetor, com este perpendicular aos dois vetores originais. Denotado por $\vec{a} \times \vec{b}$, lê-se "'a' vetor 'b'" ou "'a' externo 'b'", diferenciando-se do produto escalar, geralmente lido como "interno". 
 
 O vetor gerado pelo produto vetorial possui orientação determinada pela <a href="https://pt.wikipedia.org/wiki/Regra_de_Fleming" target="_blank">regra da mão direita</a>, por uma conveniência para evitar trabalho desnecessário em relação aos vetores base do espaço escolhido. A magnitude do vetor gerado é $M = ||a|| \cdot ||b|| \cdot \sin{\phi}$, com $\phi$ correspondendo ao menor ângulo entre os vetores $\vec{a}$ e $\vec{b}$. 
 
@@ -249,9 +242,8 @@ Além disso, pela natureza do movimento, podemos escrever a equação da velocid
 
 $$
 \begin{align*}
-    v_y &= v_0 \cdot \sin \theta_0 - gt \\\\
-
-    v_y^2 &= (v_0 \cdot \sin\theta_0)^2 - 2g(y - y_0)
+    v_y &= v_0 \cdot \sin \theta_0 - gt \\
+    v_y^2 &= (v_0 \cdot \sin \theta_0)^2 - 2g(y - y_0)
 \end{align*}
 $$
 

@@ -55,7 +55,7 @@ De forma geral, as três razões possíveis de uma função deixar de ser difere
 Ainda é possível uma interpretação geométrica da derivada — uma função que nos fornece o coeficiente angular da reta tangente à nossa função original em qualquer ponto que quisermos. Esse relacionamento pode ser deduzido a partir do próprio cálculo de um coeficiente angular dada uma reta e dois pontos: 
 
 $$
-m=\frac{y-y_0}{x-x_0}=\frac{\Delta y}{\Delta x}
+m=\dfrac{y-y_0}{x-x_0}=\dfrac{\Delta y}{\Delta x}
 $$
 
 Percebe que o cálculo do coeficiente angular é uma taxa de variação entre $y$ e $x$?
@@ -76,9 +76,9 @@ Nos utilizando da definição dada, podemos calcular o limite.
 
 $$
 \begin{align*}
-f'(x)&=\lim_{h \rightarrow 0} \frac{(x+h)^2 - x^2}{h}\\\\
-f'(x)&=\lim_{h \rightarrow 0}\frac{x^2+2xh+h²-x²}{h}\\\\
-f'(x)&=\lim_{h \rightarrow 0}\frac{h(2x + h)}{h}\\\\
+f'(x)&=\lim_{h \rightarrow 0} \dfrac{(x+h)^2 - x^2}{h}\\\\
+f'(x)&=\lim_{h \rightarrow 0}\dfrac{x^2+2xh+h²-x²}{h}\\\\
+f'(x)&=\lim_{h \rightarrow 0}\dfrac{h(2x + h)}{h}\\\\
 f'(x)&=\lim_{h \rightarrow 0}2x+h\\\\
 f'(x)&=2x
 \end{align*}
@@ -96,9 +96,9 @@ Qual seria a **velocidade de produção** da fábrica? Podemos calcular a veloci
 
 $$
 \begin{align*}
-Q'(t)&=\lim_{h \rightarrow 0} \frac{3(t+h)^2-10(t+h)-3t²+10t}{h}\\\\
-Q'(t)&=\lim_{h \rightarrow0}\frac{3(t^2+2th+h^2)−10t−10h−3t^2+10t}{h}\\\\
-Q'(t)&=\lim_{h \rightarrow 0}\frac{6ht+3h^2-10h}{h}\\\\
+Q'(t)&=\lim_{h \rightarrow 0} \dfrac{3(t+h)^2-10(t+h)-3t²+10t}{h}\\\\
+Q'(t)&=\lim_{h \rightarrow0}\dfrac{3(t^2+2th+h^2)−10t−10h−3t^2+10t}{h}\\\\
+Q'(t)&=\lim_{h \rightarrow 0}\dfrac{6ht+3h^2-10h}{h}\\\\
 Q'(t)&=\lim_{h \rightarrow 0}6t-10+3h\\\\
 Q'(t)&=6t-10
 \end{align*}
@@ -131,7 +131,7 @@ A primeira dessas propriedades, e provavelmente a mais direta, é que a derivada
 De fato, sendo $f(x)=c$, podemos deduzir — a título de curiosidade —, essa propriedade da seguinte maneira: 
 
 $$
-f'(x)=\lim_{h \rightarrow 0} \frac{f(x+h) - f(x)}{h} = \lim_{h \rightarrow 0} \frac{c - c}{h} = \lim_{h \rightarrow 0} \frac{0}{h}=0
+f'(x)=\lim_{h \rightarrow 0} \dfrac{f(x+h) - f(x)}{h} = \lim_{h \rightarrow 0} \dfrac{c - c}{h} = \lim_{h \rightarrow 0} \dfrac{0}{h}=0
 $$
 
 ## Função potência
@@ -204,8 +204,8 @@ Essa propriedade pode ser demonstrada de forma relativamente simples.
 
 $$
 \begin{align*}
-g'(x)&=\lim_{h \rightarrow 0} \frac{g(x+h)-g(x)}{h}=\lim_{h \rightarrow 0} \frac{cf(x+h) - cf(x)}{h}\\\\
-&= \lim_{h \rightarrow 0}\frac{c[f(x+h) - f(x)]}{h}=c\lim_{h \rightarrow 0} \frac{f(x+h)-f(x)}{h}=cf'(x)
+g'(x)&=\lim_{h \rightarrow 0} \dfrac{g(x+h)-g(x)}{h}=\lim_{h \rightarrow 0} \dfrac{cf(x+h) - cf(x)}{h}\\\\
+&= \lim_{h \rightarrow 0}\dfrac{c[f(x+h) - f(x)]}{h}=c\lim_{h \rightarrow 0} \dfrac{f(x+h)-f(x)}{h}=cf'(x)
 \end{align*}
 $$
 
@@ -289,10 +289,9 @@ Tendo isso em mente, vamos tentar derivá-la por meio da definição. Assim, tem
 
 $$
 \begin{align*}
-f'(x)&=\lim_{h \rightarrow 0} \frac{b^{x + h} - b^x}{h}\\\\
-&=\lim_{h \rightarrow 0} \frac{b^x \cdot b^h - b^x}{h}\\\\
-&=b^x \cdot \lim_{h \rightarrow 0}\frac{b^h - 1}{h}
-
+    f'(x)&=\lim_{h \rightarrow 0} \dfrac{b^{x + h} - b^x}{h}\\
+    &=\lim_{h \rightarrow 0} \dfrac{b^x \cdot b^h - b^x}{h}\\
+    &=b^x \cdot \lim_{h \rightarrow 0}\dfrac{b^h - 1}{h}
 \end{align*}
 $$
 
@@ -320,8 +319,8 @@ Dessa forma, quando $b=e$, o limite se torna:
 
 $$
 \begin{align*}
-f'(x)&=e^x \cdot \lim_{h \rightarrow 0} \frac{e^h-1}{h} \\\\
-&=e^x
+    f'(x)&=e^x \cdot \lim_{h \rightarrow 0} \dfrac{e^h-1}{h} \\
+    &=e^x
 \end{align*}
 $$
 
@@ -356,13 +355,11 @@ Podemos reescrever $\log_e$ como $\ln$ — o logaritmo natural.
 Todo esse processo de reescrita foi para possibilitar a aplicação da regra da cadeia em nossa função. Assim, derivando $b^x$ pela regra da cadeia, nós obtemos que: 
 
 $$
-
 \begin{align*}
-    \dfrac{d}{dx}(b^x)&=\dfrac{d}{dx}(e^{x \cdot \ln{b}}) \\\\
-    &=e^{x \cdot \ln{b}} \cdot \ln b \\\\
+    \dfrac{d}{dx}(b^x) &=\dfrac{d}{dx}(e^{x \cdot \ln{b}}) \\
+    &= e^{x \cdot \ln{b}} \cdot \ln b \\
     &= b^x \cdot \ln b
 \end{align*}
-
 $$
 
 Conseguimos o que queríamos! 
@@ -384,7 +381,7 @@ Podemos denominar **função logarítmica** toda função $f(x)=\log_bx$, com to
 Por meio da **derivação implícita**, técnica que veremos adiante, podemos encontrar que as derivadas das funções logarítmicas são da forma:
 
 $$
-f'(x)=\frac{1}{x \cdot \ln b}
+f'(x)=\dfrac{1}{x \cdot \ln b}
 $$
 
 Por exemplo, quando $b=e$, temos que $f'(x)=\dfrac{1}{x}$.
@@ -400,14 +397,14 @@ Todas as funções trigonométricas podem ser reconstruídas por meio de recombi
 Pela definição, temos: 
 
 $$
-\dfrac{d}{dx}\sin x =\lim_{h \rightarrow 0} \frac{\sin{(x + h)-\sin x}}{h}
+\dfrac{d}{dx}\sin x =\lim_{h \rightarrow 0} \dfrac{\sin{(x + h)-\sin x}}{h}
 $$
 
 Utilizando a propriedade trigonométrica do seno da soma, obtemos: 
 
 $$
 \begin{align*}
-\dfrac{d}{dx} \sin x &=\lim_{h \rightarrow 0} \frac{\sin x \cos h+\sin h \cos x - \sin x}{h}\\\\
+\dfrac{d}{dx} \sin x &=\lim_{h \rightarrow 0} \dfrac{\sin x \cos h+\sin h \cos x - \sin x}{h}\\\\
 &=\lim_{h \rightarrow 0} \left(\dfrac{\sin h}{h}\cos x + \dfrac{\cos h -1}{h} \sin x \right)\\\\
 \end{align*}
 $$
@@ -423,7 +420,7 @@ $$
 Seguindo um caminho semelhante à seção anterior, pela definição, temos que: 
 
 $$
-\dfrac{d}{dx}\cos x = \lim_{h \rightarrow 0} \frac{\cos{(x + h)} - \cos x}{h}
+\dfrac{d}{dx}\cos x = \lim_{h \rightarrow 0} \dfrac{\cos{(x + h)} - \cos x}{h}
 $$
 
 Por meio da identidade do cosseno da soma, podemos reescrever: 
@@ -497,8 +494,8 @@ Observe que metade das derivadas coincide com a outra metade, diferindo apenas p
 
 $$
 \begin{aligned}
-\frac{d}{dx} \tan^{-1} x &= \frac{1}{x^2 + 1} \\\\
-\frac{d}{dx} \cot^{-1} x &= -\frac{1}{x^2 + 1}
+\dfrac{d}{dx} \tan^{-1} x &= \dfrac{1}{x^2 + 1} \\\\
+\dfrac{d}{dx} \cot^{-1} x &= -\dfrac{1}{x^2 + 1}
 \end{aligned}
 $$
 
@@ -555,9 +552,8 @@ Primeiro, vamos aplicar o logaritmo natural nos dois lados da equação e simpli
 
 $$
 \begin{align*}
-\ln|y|&=\ln\left|\dfrac{x^2 \sqrt[3]{5x-10}}{(x-2)^2}\right|\\\\
-&=\ln|x² \cdot \sqrt[3]{5x-10}| - \ln|(x-2)^2|
-
+    \ln|y|&=\ln\left|\dfrac{x^2 \sqrt[3]{5x-10}}{(x-2)^2}\right|\\
+    &=\ln|x² \cdot \sqrt[3]{5x-10}| - \ln|(x-2)^2|
 \end{align*}
 $$
 
@@ -565,9 +561,8 @@ Perceba que estamos considerando o **módulo da expressão** pois a função log
 
 $$
 \begin{align*}
-\ln |y|&= \ln |x²|+\ln|\sqrt[3]{5x-10}| - 2\ln|x-2|\\\\
-\ln |y|&= 2\ln|x| + \dfrac{1}{3} \ln |5x-10| - 2\ln|x-2|\\\\
-
+    \ln |y|&= \ln |x²|+\ln|\sqrt[3]{5x-10}| - 2\ln|x-2|\\
+    \ln |y|&= 2\ln|x| + \dfrac{1}{3} \ln |5x-10| - 2\ln|x-2|\\
 \end{align*}
 $$
 
@@ -593,9 +588,9 @@ Finalizando essa observação importante e retornando ao objetivo principal, pod
 
 $$
 \begin{align*}
-y' \cdot \dfrac{1}{y} &= 2 \cdot \dfrac{1}{x} + \dfrac{1}{3} \cdot \dfrac{1}{5x-10} \cdot 5 - 2 \cdot \dfrac{1}{x-2}\\\\
-&= \dfrac{2}{x} + \dfrac{1}{3(x-2)} - \dfrac{2}{x-2}\\\\
-&= \dfrac{2}{x} - \dfrac{5}{3(x-2)}\\\\
+    y' \cdot \dfrac{1}{y} &= 2 \cdot \dfrac{1}{x} + \dfrac{1}{3} \cdot \dfrac{1}{5x-10} \cdot 5 - 2 \cdot \dfrac{1}{x-2}\\\\
+    &= \dfrac{2}{x} + \dfrac{1}{3(x-2)} - \dfrac{2}{x-2}\\\\
+    &= \dfrac{2}{x} - \dfrac{5}{3(x-2)}\\\\
 \end{align*}
 $$
 
@@ -603,10 +598,10 @@ Por fim, multiplicando ambos os lados por $y$:
 
 $$
 \begin{align*}
-y'&=\left(\dfrac{x^2 \sqrt[3]{5x-10}}{(x-2)^2}\right)\left(\dfrac{2}{x} - \dfrac{5}{3(x-2)}\right)\\\\
-y'&= \dfrac{2x \sqrt[3]{5x-10}}{(x-2)^2} - \dfrac{5x^2 \sqrt[3]{5x-10}}{3(x-2)^3} \\\\
-y'&= \dfrac{(6x^2-12x) \cdot \sqrt[3]{5x-10}-5x² \sqrt[3]{5x-10}}{3(x-2)^3}\\\\
-y'&= \dfrac{(x^2-12x) \cdot \sqrt[3]{5x-10}}{3(x-2)^3}
+    y'&=\left(\dfrac{x^2 \sqrt[3]{5x-10}}{(x-2)^2}\right)\left(\dfrac{2}{x} - \dfrac{5}{3(x-2)}\right)\\\\
+    y'&= \dfrac{2x \sqrt[3]{5x-10}}{(x-2)^2} - \dfrac{5x^2 \sqrt[3]{5x-10}}{3(x-2)^3} \\\\
+    y'&= \dfrac{(6x^2-12x) \cdot \sqrt[3]{5x-10}-5x² \sqrt[3]{5x-10}}{3(x-2)^3}\\\\
+    y'&= \dfrac{(x^2-12x) \cdot \sqrt[3]{5x-10}}{3(x-2)^3}
 \end{align*}
 $$
 
@@ -614,18 +609,18 @@ Veja como essa técnica poupou tempo ao evitar que aplicássemos repetidas vezes
 
 ## Regra de L’Hôpital
 
-Enquanto o simples rearranjo algébrico pode levantar indeterminações em alguns limites, a **regra de L’Hôpital** nos ajuda a tratar de forma simples dois tipos de indeterminações, a saber, as de tipos $\frac{0}{0}$ ou $\frac{\infty}{\infty}$. 
+Enquanto o simples rearranjo algébrico pode levantar indeterminações em alguns limites, a **regra de L’Hôpital** nos ajuda a tratar de forma simples dois tipos de indeterminações, a saber, as de tipos $\dfrac{0}{0}$ ou $\dfrac{\infty}{\infty}$. 
 
 A regra estabelece que, se supormos duas funções, $f(x)$ e $g(x)$, diferenciáveis em um intervalo aberto $I$, com $g'(x) \neq 0$ — exceto em um dado $a \in I$, possivelmente —, e uma das seguintes situações ocorrerem,
 
 $$
 \begin{array}{ccc}
-\lim_{x \rightarrow a} f(x) = 0 & \text{e} &\lim_{x \rightarrow a} g(x)=0\\
-\\
-& \text{ou} &
-\\
-\\
-\lim_{x \rightarrow a} f(x) = \pm \infty & \text{e} &\lim_{x \rightarrow a} g(x)= \pm\infty,
+    \lim_{x \rightarrow a} f(x) = 0 & \text{e} &\lim_{x \rightarrow a} g(x)=0\\
+    \\
+    & \text{ou} &
+    \\
+    \\
+    \lim_{x \rightarrow a} f(x) = \pm \infty & \text{e} &\lim_{x \rightarrow a} g(x)= \pm\infty,
 \end{array}
 $$
 
@@ -633,7 +628,7 @@ podemos concluir que $\lim_{x \rightarrow a} \dfrac{f(x)}{g(x)} = \lim_{x \right
 
 Para fins ilustrativos, vamos cálcular o seguinte limite: $\lim_{x \rightarrow 2} \dfrac{x - 2}{x^2 - 4}$. 
 
-Podemos perceber que se substituirmos diretamente, teremos uma indeterminação do tipo $\frac{0}{0}$. O próximo passo é derivar o numerador e o denominador, para levantar essa indeterminação. Derivando-os, chegamos em: 
+Podemos perceber que se substituirmos diretamente, teremos uma indeterminação do tipo $\dfrac{0}{0}$. O próximo passo é derivar o numerador e o denominador, para levantar essa indeterminação. Derivando-os, chegamos em: 
 
 $$
 \begin{align*}

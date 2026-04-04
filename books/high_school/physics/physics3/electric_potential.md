@@ -9,7 +9,9 @@ Enquanto o **campo elétrico** é um **campo vetorial**, o **potencial elétrico
 Assim, o **potencial elétrico** gerado por uma dada carga é medido em $\text{J/C}$, respondendo à pergunta **“Quantos joules de energia potencial elétrica por coulomb de carga uma carga teria se colocada nesse ponto?”**. 
 
 <aside>
+
 Podemos reescrever essa unidade no SI, formando o Volt $(V)$
+
 </aside>
 
 Assim como a energia potencial **gravitacional**, a energia potencial elétrica pode ser transformada em energia cinética.
@@ -27,7 +29,7 @@ $$
 Também podemos calcular o **potencial elétrico** numa dada **distância** $r$ da **carga geradora** (do campo) $Q$ pela expressão
 
 $$
-V=\frac{kQ}{r}
+V=\dfrac{kQ}{r}
 $$
 
 </aside>
@@ -61,7 +63,7 @@ Precisamos apenas calcular os potenciais elétricos em relação à cada carga e
 Ou seja, no caso acima, nomeando as cargas positivas como $Q_1$ e $Q_2$ e a negativa como $Q_3$, o potencial elétrico no ponto amarelo seria
 
 $$
-V=V_1+V_2+V_3=k\frac{Q_1}{r_1}+k\frac{Q_2}{r_2}+k\frac{Q_3}{r_3} \Rightarrow k \left(\frac{Q_1}{r_1}+\frac{Q_2}{r_2}+\frac{Q_3}{r_3}\right)
+V=V_1+V_2+V_3=k\dfrac{Q_1}{r_1}+k\dfrac{Q_2}{r_2}+k\dfrac{Q_3}{r_3} \Rightarrow k \left(\dfrac{Q_1}{r_1}+\dfrac{Q_2}{r_2}+\dfrac{Q_3}{r_3}\right)
 $$
 
 # Diferença de potencial (DDP)
@@ -103,7 +105,7 @@ Bom, sabemos que a diferença de potencial entre dois pontos é dada por $\Delta
 $$
 \begin{align*}
     \Delta V &= V_2 - V_1 \\\\
-    \Delta V &= \dfrac{U_2}{q}-\dfrac{U_1}{q} = \frac{U_2 - U_1}{q} \\\\    
+    \Delta V &= \dfrac{U_2}{q}-\dfrac{U_1}{q} = \dfrac{U_2 - U_1}{q} \\\\    
 \end{align*}
 $$
 
@@ -115,17 +117,15 @@ $$
 \dfrac{U_2-U_1}{q}=\dfrac{Fd\cos(\theta)}{q}
 $$
 
-Onde $F$ é a **força eletrostática** exercida pelo campo. Mas… perceba que como estamos tratando da movimentação na direção das linhas de força, e num campo elétrico, podemos reescrever $|\bold{F}|=q|\bold{E}|$ e $\cos(\theta)=\cos(0)=1$. Logo: 
+Onde $F$ é a **força eletrostática** exercida pelo campo. Mas… perceba que como estamos tratando da movimentação na direção das linhas de força, e num campo elétrico, podemos reescrever $|\vec{F}|=q|\vec{E}|$ e $\cos(\theta)=\cos(0)=1$. Logo: 
 
 $$
 \begin{align*}
-    \dfrac{U_2-U_1}{q}&=\dfrac{qdE}{q} \\\\
-    \Delta V&=dE \\\\
-    Ed&=\Delta V    
+    \dfrac{U_2-U_1}{q} &= \dfrac{qdE}{q} \\\\
+    \Delta V &= dE \\\\
+    Ed &= \Delta V    
 \end{align*}
-
 $$
-
 
 Perceba que $\Delta U$ é o **trabalho**, por isso que $Fd\cos(\theta)$ é dividido por $q$ também para termos a **diferença de energia potencial**. 
 Ou seja, $\Delta U =\tau_E = Eqd=q\Delta V$. 

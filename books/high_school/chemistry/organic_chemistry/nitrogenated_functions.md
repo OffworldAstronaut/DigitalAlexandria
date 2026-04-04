@@ -40,7 +40,7 @@ São compostos orgânicos que possuem o grupo **nitro $(\text {NO}_2)$** ligado 
 
 ---
 
-São substâncias que possuem o grupo funcional $\text {--CN}$. Originam-se da substituição do hidrogênio do ácido cianídrico por um radical orgânico. 
+São substâncias que possuem o grupo funcional $\text {—CN}$. Originam-se da substituição do hidrogênio do ácido cianídrico por um radical orgânico. 
 
 ![Como exemplo de nitrila temos a **etanonitrila** ou **cianeto de metila**, a nitrila mais simples. Esse composto é utilizado como solvente em reações químicas e na purificação do butadieno. Possui capacidade explosiva.](images/nitrogenated_functions/C2NH3.png)
 
@@ -50,7 +50,7 @@ São substâncias que possuem o grupo funcional $\text {--CN}$. Originam-se da s
 
 ---
 
-Origina-se da substituição dos hidrogênios presentes no amônio $(\text{NH}_4⁺)$ por radicais orgânicos. 
+Origina-se da substituição dos hidrogênios presentes no amônio $(\text{NH}_4^+)$ por radicais orgânicos. 
 
 Apresenta sempre um ânion ligado ao cátion. 
 

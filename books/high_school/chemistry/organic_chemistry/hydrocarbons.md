@@ -12,11 +12,11 @@ Como dito **anteriormente**, os **hidrocarbonetos** são compostos orgânicos fo
 
 ![Aqui temos o **etano (C2H6)**, o segundo alcano mais simples, depois do metano.](images/hydrocarbons/alcohol.png)
 
-*Aqui temos o **etano (C2H6)**, o segundo alcano mais simples, depois do metano.*
+<i>Aqui temos o etano (C2H6), o segundo alcano mais simples, depois do metano.</i>
 
 Os **alcanos**, também chamados **parafinas**, são hidrocarbonetos de cadeia aberta e saturada, com todos os seus carbonos possuido **hibridação sp³** (quatro ligações, geometria tetraédrica).
 
-Sua fórmula geral é sempre no formato  $\text {C}_n \text {H}_{2n+2}$. 
+Sua fórmula geral é sempre no formato $\text{C}_n \text{H}_{2n+2}$. 
 
 Os alcanos são notados por sua estabilidade, graças ao fato de só possuírem ligações simples (sigma) decorrentes de sua hibridação. 
 
@@ -64,12 +64,8 @@ Por conta da alta instabilidade provocada pelas suas ligações $\pi$, os alcino
 
 A fórmula geral dos alcinos é dada por $\text C_n \text H_{2n-2}$. 
 
-Os **alceninos**, por sua vez, apresentam uma ligação dupla e uma tripla: na nomenclatura, a ligação dupla possui prioridade. 
+Os **alceninos**, por sua vez, apresentam uma ligação dupla e uma tripla: na nomenclatura, a ligação dupla possui prioridade. Já os **ciclanos** são análogos cíclicos dos alcanos: hidrocarbonetos cíclicos com apenas ligações simples. Sua fórmula geral é dada por $\text C_n \text H_{2n}$. 
 
-Já os **ciclanos** são análogos cíclicos dos alcanos: hidrocarbonetos cíclicos com apenas ligações simples. Sua fórmula geral é dada por $\text C_n \text H_{2n}$. 
-
-Sua nomenclatura é idêntica aos ciclanos, com a adição do prefixo **“ciclo-”**.
-
-A mesma lógica segue para os ciclenos. 
+Sua nomenclatura é idêntica aos ciclanos, com a adição do prefixo **“ciclo-”**. A mesma lógica segue para os ciclenos. 
 
 Por fim, no caso dos compostos aromáticos, sua nomenclatura segue o mesmo padrão das outras, com a exceção da adição do sufixo **-benzeno**.

@@ -28,15 +28,7 @@ Eles também podem ser entendidos como **alcenos** que possuem uma hidroxila lig
 
 *O fenol! É composto por um grupo fenil (anel benzênico sem um hidrogênio) ligado a uma hidroxila.*
 
-Ao lado está o **fenol** - um *spoiler* da próxima seção! 
-
-O fenol é um enol, formado por uma hidroxila substituindo um hidrogênio do anel benzênico. 
-
-Esse composto é crucial no meio industrial, sendo o precursor de diversos materiais como explosivos, fibras sintéticas, herbicidas, policarbonatos e muitas drogas farmacêuticas. 
-
-É volátil, evaporando facilmente, devendo ser manuseado com cuidado pelo risco de causar queimaduras químicas. 
-
-É corrosivo, solúvel em água e tóxico para seres vivos.
+O fenol é um enol, formado por uma hidroxila substituindo um hidrogênio do anel benzênico. Esse composto é crucial no meio industrial, sendo o precursor de diversos materiais como explosivos, fibras sintéticas, herbicidas, policarbonatos e muitas drogas farmacêuticas. Além disso, é volátil, evaporando facilmente, devendo ser manuseado com cuidado pelo risco de causar queimaduras químicas. Por fim, também é corrosivo, solúvel em água e tóxico para seres vivos.
 
 # Fenóis
 
@@ -46,7 +38,7 @@ Os **fenóis** são compostos que apresentam uma ou mais hidroxilas ligadas dire
 
 ![Imagem retirada aqui: [https://derekcarrsavvy-chemist.blogspot.com/2018/09/aromatic-chemistry-4-phenol.html](https://derekcarrsavvy-chemist.blogspot.com/2018/09/aromatic-chemistry-4-phenol.html)](images/oxygenated_functions/phenol_ion.png)
 
-*Imagem retirada aqui: [https://derekcarrsavvy-chemist.blogspot.com/2018/09/aromatic-chemistry-4-phenol.html](https://derekcarrsavvy-chemist.blogspot.com/2018/09/aromatic-chemistry-4-phenol.html)*
+<i>Imagem retirada <a href="https://derekcarrsavvy-chemist.blogspot.com/2018/09/aromatic-chemistry-4-phenol.html" target="_blank">daqui</a>.</i>
 
 Na reação acima, podemos ver a ionização do fenol, nome comum do **hidroxibenzeno**, além do fato de que sua reação é reversível. 
 
@@ -58,7 +50,7 @@ Os cetonas são compostos que apresentam a função **carbonila** (um carbono li
 
 ![Formula estrutural do acetona. Perceba os dois metis! Por conta disso, ele também é conhecido como **dimetilcetona**.](images/oxygenated_functions/ketone.png)
 
-*Formula estrutural do acetona. Perceba os dois metis! Por conta disso, ele também é conhecido como **dimetilcetona**. É conhecido na nomenclatura IUPAC como **propan-2-ona**. *
+<i>Formula estrutural do acetona. Perceba os dois metis! Por conta disso, ele também é conhecido como dimetilcetona. É conhecido na nomenclatura IUPAC como propan-2-ona.</i>
 
 O acetona é o cetona mais simples, utilizado tanto como solvente industrial como produto de higiene para vidros de laboratório (e em uso cosmético)! 
 
@@ -70,9 +62,7 @@ Os **aldeídos** são compostos que têm uma **carbonila** na ponta da cadeia co
 
 ![Uma cobrinha!](images/oxygenated_functions/aldehyde.png)
 
-*Uma cobrinha!*
-
-*Como exemplo de aldeído podemos citar o **butiraldeído**, também conhecido pela denominação **butanal**. Esse composto é um líquido inflamável e de odor desagradável, sendo utilizado na produção de resinas e como solvente industrial.*
+Como exemplo de aldeído podemos citar o **butiraldeído**, também conhecido pela denominação **butanal**. Esse composto é um líquido inflamável e de odor desagradável, sendo utilizado na produção de resinas e como solvente industrial.
 
 # Ácido carboxilíco
 

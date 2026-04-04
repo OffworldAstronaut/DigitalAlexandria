@@ -31,7 +31,7 @@ Eventualmente, a placa não irá mais receber elétrons: o capacitor está **car
 Podemos medir essa capacidade de armazenamento de carga num condutor pela **capacitância**, que é dada pela expressão matemática
 
 $$
-\text C = \frac{\text Q}{\text V}
+\text C = \dfrac{\text Q}{\text V}
 $$
 
 <aside>
@@ -47,7 +47,7 @@ Levando em conta **ambas as placas**, podemos dizer que $V$ é a DDP entre uma p
 Embora seja possível encontrar a capacitância de um dado capacitor carregado pela equação acima, ela não é realmente dependente da DDP entre os dois condutores, e sim somente da geometria do capacitor e da sua composição: no caso mais comum, com duas placas metálicas de área $A$ separadas por uma distância $d$, a **capacitância** é dada por
 
 $$
-\text C_0 = \frac{A}{d}\epsilon_0
+\text C_0 = \dfrac{A}{d}\epsilon_0
 $$
 
 onde $\epsilon_0$ é a **constante de permissividade do vácuo**, valendo 
@@ -59,7 +59,7 @@ $$
 Agora, se entre as duas placas do capacitor houver um material **dielétrico**, ou seja, um material que, embora isolante, seja **polarizável** (seus elétrons conseguem se mover um pouco, influenciados por um campo elétrico), a capacitância é dada por 
 
 $$
-\text C = \kappa \epsilon_0 \left(\frac{A}{d}\right)=\kappa C_0
+\text C = \kappa \epsilon_0 \left(\dfrac{A}{d}\right)=\kappa C_0
 $$
 
 onde $\kappa$ é a **constante dielétrica** do material.
@@ -76,7 +76,7 @@ onde $\kappa$ é a **constante dielétrica** do material.
 Por meio da capacitânica, ainda é possível encontrar a energia potencial guardada num capacitor carregado por meio da expressão 
 
 $$
-U_E=\frac{1}{2}CV^2
+U_E=\dfrac{1}{2}CV^2
 $$
 
 ou seja, quantos $J$ de energia potencial um capacitor de capacitância $C$ consegue armazenar ao ser submetido a uma DDP de $V$? 
@@ -98,7 +98,7 @@ Um caso específico mas bem explorado no estudo da capacitânica é o de uma esf
 Podemos fazer algumas manipulações algébricas para chegarmos num resultado interessante: 
 
 $$
-\text C=\frac{\text Q}{\text V}=\frac{\text Q}{\frac{kQ}{R}}=\frac{R}{k}
+\text C=\dfrac{\text Q}{\text V}=\dfrac{\text Q}{\dfrac{kQ}{R}}=\dfrac{R}{k}
 $$
 
 onde $R$ é o **raio da esfera** e $k$  é a **constante eletrostática**. 
@@ -126,8 +126,8 @@ Eventualmente, as **voltagens** de cada esfera serão iguais e o fluxo de cargas
 Agora, vamos expandir essa equação! 
 
 $$
-\frac{kQ_1}{R_1}=\frac{kQ_2}{R_2}\Rightarrow
-\frac{Q_1}{R_1}=\frac{Q_2}{R_2} \Rightarrow \frac{R_2}{R_1} = \frac{Q_2}{Q_1}
+\dfrac{kQ_1}{R_1}=\dfrac{kQ_2}{R_2}\Rightarrow
+\dfrac{Q_1}{R_1}=\dfrac{Q_2}{R_2} \Rightarrow \dfrac{R_2}{R_1} = \dfrac{Q_2}{Q_1}
 $$
 
 Interessante! 
@@ -157,7 +157,7 @@ $$
 Além disso, a **capacitância total** é dada pela expressão 
 
 $$
-\frac{1}{C_T}=\sum_{i=1}^N\frac{1}{C_i} = \frac{1}{C_1}+\frac{1}{C_2}+...+\frac{1}{C_N}
+\dfrac{1}{C_T}=\sum_{i=1}^N\dfrac{1}{C_i} = \dfrac{1}{C_1}+\dfrac{1}{C_2}+...+\dfrac{1}{C_N}
 $$
 
 Finalmente, podemos ver que a **carga** em cada capacitor é a **mesma** pois eles estão submetido à mesma corrente elétrica, ou seja… 
@@ -172,7 +172,7 @@ $$
 Cada capacitor nesse caso possui a voltagem inversamente proporcional à sua capacitância: 
 
 $$
-V_i = \frac{Q}{C_i}
+V_i = \dfrac{Q}{C_i}
 $$
 
 ## Capacitores em paralelo

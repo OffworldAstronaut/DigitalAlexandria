@@ -85,9 +85,9 @@ $$
 
 Agora, temos quatro espaços para colocar três uns: dois espaços entre os zeros e dois espaços no começo e no final. Isso pode parecer estranho, mas é importante perceber que $101010$ e $010101$ são “os mesmos” subconjuntos, porém com o “1” da frente deslocado para a última posição, ou seja, os elementos “dos cantos” podem assumir ambas as posições, dando +1 espaço disponível.
 
-Assim, de quantas maneiras podemos escolher três espaços de quatro disponíveis? ${4 \choose 3}$.
+Assim, de quantas maneiras podemos escolher três espaços de quatro disponíveis? $\binom{4}{3}$.
 
-Logo, temos ${4 \choose 3} = \dfrac{4!}{(4-3)!3!}=\dfrac{4\times3!}{3!}=4$ maneiras de escolher os “uns”, o que nos dá quatro subconjuntos possíveis de serem formados, o que é a resposta, como vimos acima! 
+Logo, temos $\binom{4}{3} = \dfrac{4!}{(4-3)!3!}=\dfrac{4\times3!}{3!}=4$ maneiras de escolher os “uns”, o que nos dá quatro subconjuntos possíveis de serem formados, o que é a resposta, como vimos acima! 
 
 Podemos generalizar esse raciocínio para qualquer $k$ e $n$, de forma que $k\le n$, o que nos dá a expressão para o Primeiro Lema.
 
@@ -96,7 +96,7 @@ Podemos generalizar esse raciocínio para qualquer $k$ e $n$, de forma que $k\le
 O número de subconjuntos de $k$ elementos do conjunto $\{1, 2, 3, ... , n\}$ que não há elementos consecutivos é dado por:
 
 $$
-f(n,k)={n-k+1 \choose k}
+f(n,k)=\binom{n-k+1}{k}
 $$
 
 </aside>
@@ -122,7 +122,7 @@ $$
 Encontrando finalmente que a quantidade de soluções inteiras não negativas é dada por: 
 
 $$
-h(n,k)={n-(k-1)r \choose k}
+h(n,k)=\binom{n-(k-1)r}{k}
 $$
 
 Essa expressão é útil pois, ao invés de estarmos limitados a responder a pergunta para elementos não consecutivos, ou seja, pelo menos um elemento, podemos agora encontrar respostas para pelo menos dois elementos, três… enfim, quantos elementos nós quisermos. 
@@ -140,24 +140,24 @@ No primeiro caso, teremos que escolher $k-1$ elementos dentre $n-3$, já que com
 Ou seja, temos que a quantidade de subconjuntos que temos essas condições é 
 
 $$
-f(n-3, k-1)={n-k-1 \choose k-1}
+f(n-3, k-1)=\binom{n-k-1}{k-1}
 $$
 
 No segundo caso, temos que escolher $k$ elementos dentre o conjunto $\{2, 3, 4, ..., n\}$, ou seja, é um caso ordinário, porém sem o primeiro elemento. Logo, o número de subconjuntos nesse caso é:
 
 $$
-f(n-1, k)={n - k \choose k}
+f(n-1, k)=\binom{n - k}{k}
 $$
 
 Assim, somando os dois casos, temos que: 
 
 $$
 \begin{align*}
-    {n - k - 1 \choose k - 1}+{n - k \choose k}&=\dfrac{(n-k-1)!}{(k-1)!(n-2k)!}+\dfrac{(n-k)!}{k!(n-2k)!} \\\\
+    \binom{n - k - 1}{k - 1}+\binom{n - k}{k}&=\dfrac{(n-k-1)!}{(k-1)!(n-2k)!}+\dfrac{(n-k)!}{k!(n-2k)!} \\\\
     &=\dfrac{(n-k-1)!k+(n-k)!}{k!(n-2k)!} \\\\
     &=(n-k-1)!\cdot\dfrac{k+(n-k)}{k!(n-2k)!} \\\\
     &=n\dfrac{(n-k-1)!}{k! \cdot(n-2k)!} \\\\
     &=\dfrac{n}{n-k}\cdot\dfrac{(n-k)!}{p!(n-2k)!}\\\\
-    &=\dfrac{n}{n-k}\cdot{n-k \choose k}
+    &=\dfrac{n}{n-k}\cdot \binom{n-k}{k}
 \end{align*}
 $$

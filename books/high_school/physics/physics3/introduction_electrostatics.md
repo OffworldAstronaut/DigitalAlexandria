@@ -147,7 +147,7 @@ Coulomb percebeu que a força de repulsão (ou atração) entre essas duas carga
 Matematicamente, podemos expressar a Lei de Coulomb, para duas cargas $Q_1$ e $Q_2$, separadas por uma distância $d$ dessa forma: 
 
 $$
-F_C=k\frac{Q_1Q_2}{d^2}
+F_C=k\dfrac{Q_1Q_2}{d^2}
 $$
 
 Além disso, é importante perceber que a constante $k$, da lei de Coulomb, a chamada **constante eletrostática**, possui o valor de aproximadamente $8.99 × 10^9 \text{ N}\cdot \text{m}^2/\text{C}^2$.

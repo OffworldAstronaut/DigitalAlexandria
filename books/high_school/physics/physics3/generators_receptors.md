@@ -1,6 +1,6 @@
 # Geradores e receptores
 
-# Energia e Potência elétrica
+# Energia e potência elétrica
 
 ---
 

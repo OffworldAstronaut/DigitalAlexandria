@@ -31,10 +31,10 @@ Essa imagem também evidencia uma informação muito útil se encontrarmos algum
 Para um ponto $(x,y,z)$ qualquer do espaço, podemos dizer que a **força eletrostática** (ou força coulombiana) que será exercida pelo vetor campo elétrico (criado por uma carga de valor $Q_1$) caso exista uma carga de valor $Q_2$ naquele ponto é dada por
 
 $$
-\vec{F_C}=k\frac{Q_1Q_2}{d^2}\bold{\hat{r}}
+\vec{F_C}=k\dfrac{Q_1Q_2}{d^2}\vec{\hat{r}}
 $$
 
-Onde $\bold{\hat{r}}$ é o vetor campo elétrico unitário que sai de uma carga puntiforme radialmente.
+Onde $\vec{\hat{r}}$ é o vetor campo elétrico unitário que sai de uma carga puntiforme radialmente.
 
 Podemos plotar essas linhas de força mais complexas da figura acima calculando vários vetores (e subtraindo eles), dois para cada ponto do espaço (correspondente às duas cargas)! 
 
@@ -42,18 +42,18 @@ Uma maneira mais direta seria resolver as equações diferenciais de Maxwell, ma
 
 Além disso, podemos comparar visualmente a intensidade de campos elétricos pela **densidade** de linhas de força. 
 
-De forma mais geral, podemos medir o campo elétrico $\bold{E}$ pela unidade $\text{N/C}$ (Newtons por Coulomb), ou seja, quantos **Newtons de força serão exercidos para cada Coulomb de carga** que estiver naquele determinado ponto. Perceba que isso vem da própria definição do campo elétrico.
+De forma mais geral, podemos medir o campo elétrico $\vec{E}$ pela unidade $\text{N/C}$ (Newtons por Coulomb), ou seja, quantos **Newtons de força serão exercidos para cada Coulomb de carga** que estiver naquele determinado ponto. Perceba que isso vem da própria definição do campo elétrico.
 
 Dessa forma, podemos ainda encontrar uma segunda equação extremamente útil para a resolução de alguns problemas: 
 
 $$
-\bold{E}=\frac{\bold{F}}{q}\Rightarrow\bold{F}=q\bold{E}
+\vec{E}=\dfrac{\vec{F}}{q}\Rightarrow\vec{F}=q\vec{E}
 $$
 
 Também podemos encontrar uma outra equação para o **valor** do campo elétrico gerado por uma carga por meio de uma segunda adaptação da **Lei de Coulomb**, utilizando a equação encontrada acima. 
 
 $$
-\text {E} = \frac{F}{q} = \frac{kQq}{qd^2}\Rightarrow E=\frac{kQ}{r^2}
+\text {E} = \dfrac{F}{q} = \dfrac{kQq}{qd^2}\Rightarrow E=\dfrac{kQ}{r^2}
 $$
 
 Ou seja, podemos saber o **valor** do campo elétrico em $\text{N/C}$ de uma carga $Q$ em qualquer distância $r$!

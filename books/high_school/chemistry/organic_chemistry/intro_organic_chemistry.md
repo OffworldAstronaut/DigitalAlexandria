@@ -49,7 +49,7 @@ Existem vários **tipos** de hibridação, com cada uma delas representando quai
 | sp³d² | 1s + 3d + 2d | Octaédrica | SF6 |
 
 <aside>
-Percebeu que nem todos os compostos exemplo da tabela são orgânicos? A **hibridação não é exclusiva do carbono!** Outros elementos conseguem passar pelo mesmo processo.
+Percebeu que nem todos os compostos exemplo da tabela são orgânicos? A hibridação não é exclusiva do carbono! Outros elementos conseguem passar pelo mesmo processo.
 </aside>
 
 Entretanto, como o carbono é **tetravalente sempre**, podemos restringir a tabela para apenas **três casos**:

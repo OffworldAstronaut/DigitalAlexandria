@@ -13,7 +13,7 @@ No quesito <b>permutações</b>, a ordem de cada elemento é importante, porém,
 Podemos escolher $k$ objetos de $n$ dados nos utilizando da seguinte expressão: 
 
 $$
-{n\choose k} = \dfrac{n!}{(n-k)! \cdot k!}
+\binom{n}{k} = \dfrac{n!}{(n-k)! \cdot k!}
 $$
 
 Lê-se “$n$ escolhe $k$”. 
@@ -49,7 +49,7 @@ Ou seja, na verdade, só temos realmente 3 possibilidades de duplas partindo de 
 Sendo $n \ge k \ge 1$, com $n, k \in \mathbb{N}$, temos a seguinte relação: 
 
 $$
-{n+1 \choose k}= {n \choose k}+ {n \choose k-1}
+\binom{n+1}{k}= \binom{n}{k}+ \binom{n}{k-1}
 $$
 
 Podemos demonstrar a relação por meio de duas maneiras, dois *argumentos combinatórios*, um mais algébrico e outro por *contagem dupla*. 
@@ -67,7 +67,7 @@ Nessa demonstração serão utilizados apenas conceitos de álgebra.
 Primeiro, vamos “desempacotar” as operações: 
 
 $$
-{n \choose k} + {n \choose k-1}=\dfrac{n!}{(n-k)!k!}+\dfrac{n!}{(n-k+1)!(k-1)!}
+\binom{n}{k} + \binom{n}{k-1}=\dfrac{n!}{(n-k)!k!}+\dfrac{n!}{(n-k+1)!(k-1)!}
 $$
 
 Agora, faremos o M.M.C entre as duas frações, para que seus denominadores fiquem iguais: 
@@ -85,25 +85,25 @@ $$
 Que é a mesma coisa que: 
 
 $$
-={n + 1 \choose k}
+=\binom{n+1}{k}
 $$
 
 ## Demonstração II
 
 Para isso, vamos nos utilizar de um exemplo: de quantas maneiras podemos formar um grupo com $k$ pessoas, de $n+1$ pessoas disponíveis?
 
-Bom, sabemos que isso é ${n+1 \choose k}$, a partir do que foi visto inicialmente. 
+Bom, sabemos que isso é $\binom{n+1}{k}$, a partir do que foi visto inicialmente. 
 
-Agora, vamos responder essa pergunta de outra maneira: vamos fixar uma pessoa da comissão, por exemplo, Carlos. Com isso, transformamos ${n+1 \choose k}$ em ${n \choose k}$. 
+Agora, vamos responder essa pergunta de outra maneira: vamos fixar uma pessoa da comissão, por exemplo, Carlos. Com isso, transformamos $\binom{n+1}{k}$ em $\binom{n}{k}$. 
 
 Pelo princípio aditivo, temos que o número total de comissões possíveis é a soma do número de comissões que Carlos está (na comissão) com o número de comissões que Carlos não está. Tendo isso em vista, vamos contar essas duas possibilidades. 
 
-Quando Carlos está na comissão, só precisamos escolher $k-1$ pessoas das $n$, logo, temos que o número de comissões é ${n \choose k-1}$. Quando Carlos não está fixado, ora, é o caso ordinário, que já encontramos: ${n \choose k}$. 
+Quando Carlos está na comissão, só precisamos escolher $k-1$ pessoas das $n$, logo, temos que o número de comissões é $\binom{n}{k-1}$. Quando Carlos não está fixado, ora, é o caso ordinário, que já encontramos: $\binom{n}{k}$. 
 
 Portanto, juntando tudo, temos que: 
 
 $$
-{n + 1 \choose k} = {n \choose k}+{n \choose k-1}
+\binom{n+1}{k} = \binom{n}{k}+\binom{n}{k-1}
 $$
 
 # Combinações com repetições
@@ -114,7 +114,7 @@ As <b>combinações com repetições</b>, também conhecidas por <b>combinaçõe
 
 Podemos ilustrar isso melhor com um exemplo: De quantas maneiras podemos fazer um pedido de 4 pizzas num rodízio de 7 sabores, sabendo que podemos pedir pizzas de mesmo sabor?
 
-Não poderia ser ${7 \choose 4}$, já que isso na verdade é a resposta para a pergunta: "De quantas maneiras podemos escolher <b>4 pizzas diferentes entre si</b> dentre as 7?"
+Não poderia ser $\binom{7}{4}$, já que isso na verdade é a resposta para a pergunta: "De quantas maneiras podemos escolher <b>4 pizzas diferentes entre si</b> dentre as 7?"
 
 Podemos reinterpretar essa pergunta como as soluções da seguinte equação:
 
@@ -149,7 +149,7 @@ Ou seja, podemos pedir os quatro sabores de pizza de 210 maneiras diferentes!
 No caso geral, vamos perceber que sempre que vamos determinar o número de soluções inteiras não-negativas de $x_1+x_2+x_3+...+x_n=k$, quando abstraímos, teremos $k$ bolas e $n -1$ traços, o que nos mostra que o número de combinações completas de $k$ objetos dentre $n$ é 
 
 $$
-{n-1 \choose k}=\dfrac{(n+k-1)!}{(n-1)!\cdot k!}
+\binom{n-1}{k}=\dfrac{(n+k-1)!}{(n-1)!\cdot k!}
 $$
 
 E assim, finalmente, resolvemos e generalizamos a nossa solução! 
@@ -181,7 +181,7 @@ E assim, transformamos um problema com restrição que não poderíamos resolver
 Assim, podemos encontrar que a solução é… 
 
 $$
-{2 \choose 14}=\dfrac{(2+14)!}{2!\cdot 14!}=\dfrac{16!}{14! \cdot 2}=\dfrac{16 \cdot 15}{2}=120
+\binom{2}{14}=\dfrac{(2+14)!}{2!\cdot 14!}=\dfrac{16!}{14! \cdot 2}=\dfrac{16 \cdot 15}{2}=120
 $$
 
 Completamos o problema! Temos 120 maneiras de pedir os sorvetes.

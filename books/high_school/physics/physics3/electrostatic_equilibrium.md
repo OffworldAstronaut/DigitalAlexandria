@@ -1,6 +1,6 @@
 # Equilíbrio eletrostático
 
-# A mágica dos condutores
+# Condutores eletrizados
 
 ---
 
@@ -8,15 +8,14 @@ Quando temos um **condutor eletrizado**, a tendência é que ele entre, eventual
 
 Um corpo estar em equilíbrio eletrostático significa que suas cargas não estão mais se movimentando, e isso nos fornece algumas informações:
 
-1. O campo elétrico no interior desse corpo condutor é nulo (afinal, se tivesse campo as cargas estariam se movimentando, o que não é verdade); 
-2. O potencial elétrico é sempre constante (afinal, se tivesse diferença de potencial teria movimentação de cargas, o que não acontece); 
-    1. Logo a diferença de potencial, a **voltagem**, é sempre nula;
-3. Cargas distribuídas na superfície possuem campos elétricos perpendiculares à ela; 
-4. **Campos elétricos externos são anulados no interior do corpo**;
+- O campo elétrico no interior desse corpo condutor é nulo (afinal, se tivesse campo as cargas estariam se movimentando, o que não é verdade); 
+- O potencial elétrico é sempre constante, logo, a diferença de potencial é sempre nula;
+- Cargas distribuídas na superfície possuem campos elétricos perpendiculares à ela; 
+- Campos elétricos externos são anulados no interior do corpo.
 
 ![Uma esfera metálica carregada positivamente. Note as cargas distribuídas na superfície e o campo elétrico perpendicular. ](./images/electrostatic_equilibrium/electrostatic_equilibrium_esfera_carregada_positivamente.png)
 
-Uma esfera metálica carregada positivamente. Note as cargas distribuídas na superfície e o campo elétrico perpendicular. 
+<i>Uma esfera metálica carregada positivamente. Note as cargas distribuídas na superfície e o campo elétrico perpendicular.</i>
 
 ## Gaiolas de Faraday
 
@@ -26,7 +25,7 @@ Essas estruturas são aplicações práticas dos princípios detalhados acima, p
 
 ![GIF direto da Wikipédia! Preste muita atenção às cargas e ao campo!](https://upload.wikimedia.org/wikipedia/commons/f/f3/Faraday_cage.gif)
 
-<i>GIF direto da Wikipédia! Preste atenção às cargas e ao campo! (Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Faraday_cage.gif">Wikimedia Commons</a>)</i>
+<i>Preste atenção às cargas e ao campo. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Faraday_cage.gif">Wikimedia Commons</a></i>
 
 O GIF acima ilustra o funcionamento de uma gaiola de Faraday quadrada: o campo elétrico estimula a **redistribuição de cargas** no condutor até ele **atingir o equilíbrio eletrostático**. O **campo elétrico no interior da gaiola cessa**, note que as cargas ficaram nos lados opostos ao sentido do campo. 
 
@@ -68,7 +67,7 @@ Ou seja, voltando para nossa pergunta dos raios…
 
 Eventualmente, a quantidade de cargas negativas nas nuvens vai ser tanta, mais tanta, que o campo elétrico entre a terra e as nuvens se tornará intenso o suficiente para que aconteça a quebra da rigidez dielétrica e uma descarga se forme, originando o **raio**.
 
-A rigidez dielétrica de um dado material é medida em $V/m$, a **mesma unidade do campo elétrico** (pois é, $\text{E}$ pode ser medido tanto como $\text{N/C}$ como $\text{V/m}$). 
+A rigidez dielétrica de um dado material é medida em $\text{V/m}$, a **mesma unidade do campo elétrico** (pois é, $\text{E}$ pode ser medido tanto como $\text{N/C}$ como $\text{V/m}$). 
 
 No caso do ar, sua rigidez dielétrica mede $3\times 10^6 \text{ V/m}$, ou seja, quando o campo elétrico excede esse valor, o **ar se torna um condutor e um raio acontece!**
 
@@ -76,7 +75,7 @@ No caso do ar, sua rigidez dielétrica mede $3\times 10^6 \text{ V/m}$, ou seja,
 
 ---
 
-A **densidade superficial de carga** $(\sigma)$ de um material mede, seguindo seu nome bem intuitivo, a *densidade* de carga na superfície de um corpo, ou seja, quantas cargas eu tenho por cada metro quadrado de área. Assim, $\sigma$ é medida em $\dfrac{C}{m^2}$. 
+A **densidade superficial de carga** $(\sigma)$ de um material mede, seguindo seu nome bem intuitivo, a *densidade* de carga na superfície de um corpo, ou seja, quantas cargas eu tenho por cada metro quadrado de área. Assim, $\sigma$ é medida em $\dfrac{\text{C}}{\text{m}^2}$. 
 
 Essa medida serve para nos ajudar a entender o motivo de para-raios serem pontudos, por exemplo: **superfícies pontudas eletrizadas conservam mais carga em suas regiões pontudas**, por conta da geometria da situação: o corpo precisa entrar em equilíbrio eletrostático, com suas cargas livres precisando estar o mais afastadas possível entre elas próprias, porém as pontas forçam elas a se tornarem mais próximas. 
 

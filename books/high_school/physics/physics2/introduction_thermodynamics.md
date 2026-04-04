@@ -61,7 +61,7 @@ $$
 A unidade no Sistema Internacional de Unidades para a pressão é o **Pascal** (Pa).
 
 $$
-\text{1 Pa} = \frac{\text{N}}{\text{m²}}
+\text{1 Pa} = \dfrac{\text{N}}{\text{m²}}
 $$
 
 </aside>

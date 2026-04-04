@@ -39,16 +39,20 @@ Duas leis, comumente interpretadas em conjunto, que formam a base dos **transfor
 Faraday primeiro declara que: 
 
 <blockquote>
+
 <i>A força eletromotriz de um circuito fechado é igual a taxa de variação do campo magnético no tempo.</i>
+
 </blockquote>
 
 E Lenz completa que: 
 
 <blockquote>
+
 <i>A variação do fluxo magnético numa espira fechada faz surgir uma corrente elétrica induzida. Essa corrente induzida gera um campo magnético induzida que se opõe a variação do fluxo magnético.</i>
+
 </blockquote>
 
-Levando essas duas afirmações em conjunto, chegamos na expressão matemática $\varepsilon = -\dfrac{\Delta \phi}{\Delta t}$ — o sinal negativo vem justamente dessa oposição do campo induzido em relação ao campo indutor. 
+Levando essas duas afirmações em conjunto, chegamos na expressão matemática $\varepsilon = -\dfrac{\Delta \phi}{\Delta t}$. O sinal negativo vem justamente dessa oposição do campo induzido em relação ao campo indutor. 
 
 ![Originalmente na Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/7/72/Electromagnetic_induction_-_solenoid_to_loop_-_animation.gif)
 
@@ -84,7 +88,7 @@ Por sua vez, essa mudança provoca uma corrente elétrica de sentido variável, 
 De forma matemática, podemos dizer que entre os dois solenoides, temos que 
 
 $$
-\frac{U_1}{N_1}=\frac{U_2}{N_2}
+\dfrac{U_1}{N_1}=\dfrac{U_2}{N_2}
 $$
 
 onde $N_E$ é o número de voltas do solenoide $E$. 

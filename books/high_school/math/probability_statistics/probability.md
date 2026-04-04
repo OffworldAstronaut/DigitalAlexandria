@@ -225,7 +225,7 @@ A <b>distribuição binomial</b> pode ser entendida como uma extensão da distri
 Matemáticamente, dizemos que uma variável aleatória $X$ é de distribuição binomial de parâmetros $(n,p)$ se 
 
 $$
-P(X=k)={n \choose k}p^k(1-p)^{n-k}
+P(X=k)=\binom{n}{k}p^k(1-p)^{n-k}
 $$
 
 <aside>
@@ -234,7 +234,7 @@ Exemplo: Em $10$ lançamentos, qual a probabilidade de sair exatamente $8$ caras
 
 $$ 
 \begin{align*}
-   P(X=8)&={10 \choose 8}\left(\dfrac{1}{2}\right)^{8}\left(1-\dfrac{1}{2}\right)^{10-8} \\\\
+   P(X=8)&=\binom{10}{8}\left(\dfrac{1}{2}\right)^{8}\left(1-\dfrac{1}{2}\right)^{10-8} \\\\
    &=\dfrac{10!}{(10-8)!8!}\cdot\dfrac{1}{2^8}\cdot\dfrac{1}{2^2} \\\\
    &=\dfrac{10!}{2!8!}\cdot \dfrac{1}{2^{10}} \\\\
    &=\dfrac{45}{2^{10}}
@@ -253,7 +253,7 @@ Como podemos calcular a esperança de uma binomial?
 Pela <b>definição</b> de esperança, temos que: 
 
 $$
-E(X)=\sum_{k=0}^{n}k{n \choose k}p^k(1-p)^{n-k}
+E(X)=\sum_{k=0}^{n}k\binom{n}{k}p^k(1-p)^{n-k}
 $$
 
 Ou simplesmente, 
@@ -265,43 +265,43 @@ $$
 Como podemos demonstrar esta relação simples a partir da binomial? Vamos começar pela definição de esperança e ir trabalhando com ela. 
 
 $$
-\sum_{k=0}^{n}k{n \choose k}p^k(1-p)^{n-k}=np
+\sum_{k=0}^{n}k\binom{n}{k}p^k(1-p)^{n-k}=np
 $$
 
 Primeiro, vamos reescrever o primeiro membro com o índice na parte de baixo sendo $k=1$, já que quando $k=0$, o termo resultante é zero e isso não altera nossa soma. 
 
 $$
-\sum_{k=1}^{n}k{n \choose k}p^k(1-p)^{n-k}
+\sum_{k=1}^{n}k\binom{n}{k}p^k(1-p)^{n-k}
 $$
 
-Por meio de propriedades binomiais, temos que $k {n \choose k}=n {n-1 \choose k-1}$. 
+Por meio de propriedades binomiais, temos que $k \binom{n}{k}=n \binom{n-1}{k-1}$. 
 
 $$
-\sum_{k=1}^{n}n{n-1 \choose k-1}p^k(1-p)^{n-k}
+\sum_{k=1}^{n}n\binom{n-1}{k-1}p^k(1-p)^{n-k}
 $$
 
 Agora, vamos reescrever espertamente $p^k$ como $p\cdot p^{k-1}$.
 
 $$
-\sum_{k=1}^{n}n{n-1 \choose k-1}p\cdot p^{k-1}(1-p)^{n-k}
+\sum_{k=1}^{n}n\binom{n-1}{k-1}p\cdot p^{k-1}(1-p)^{n-k}
 $$
 
 Reorganizando… 
 
 $$
-\sum_{k=1}^{n}np{n-1 \choose k-1}p^{k-1}(1-p)^{n-k}
+\sum_{k=1}^{n}np\binom{n-1}{k-1}p^{k-1}(1-p)^{n-k}
 $$
 
 Como $np$ é um termo constante, podemos jogar ele para fora do somatório. 
 
 $$
-np\sum_{k=1}^{n}{n-1 \choose k-1}p^{k-1}(1-p)^{n-k}
+np\sum_{k=1}^{n}\binom{n-1}{k-1}p^{k-1}(1-p)^{n-k}
 $$
 
-Agora, vamos nos utilizar de uma propriedade de somatório (*index shift*). 
+Agora, vamos nos utilizar de uma propriedade de somatório para deslocar o índice da operação. 
 
 $$
-np\sum_{k=0}^{n-1}{n-1 \choose k}p^{k}(1-p)^{n-1-k}
+np\sum_{k=0}^{n-1}\binom{n-1}{k}p^{k}(1-p)^{n-1-k}
 $$
 
 E pronto! Perceba que o somatório que chegamos é um Binômio de Newton! 

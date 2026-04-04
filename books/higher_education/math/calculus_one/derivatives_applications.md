@@ -2,6 +2,8 @@
 
 # Teorema de Rolle & T.V.M.
 
+---
+
 O **teorema de Rolle**, também conhecido pela denominação **lema de Rolle** (em homenagem ao matemático francês <a href="https://en.wikipedia.org/wiki/Michel_Rolle" target="_blank">Michel Rolle</a>), é geralmente 
 
 Dada uma função real $f$, contínua num intervalo fechado $[a,b]$ e diferenciável num intervalo $(a,b)$, de forma que $f(a)=f(b)$, existe um valor $c \in (a,b)$ de forma que $f'(c)=0$.
@@ -70,20 +72,18 @@ Podemos citar como exemplo a questão abaixo, formulada pelo prof. Dr. José Car
 
 <aside>
 
-Bombeando o ar para dentro de um balão esférico, observamos que seu volume aumenta a uma taxa de $100 \text{ m}^3 \text{ / s}$. Quão rápido o raio do balão está aumentando quando o diâmetro do balão por 25 cm?
+Bombeando o ar para dentro de um balão esférico, observamos que seu volume aumenta a uma taxa de $100 \text{ m}^3 \text{/s}$. Quão rápido o raio do balão está aumentando quando o diâmetro do balão por 25 cm?
 
 </aside>
 
 Vamos anotar algumas informações. 
 
 $$
-\begin{align}
-
-V(R)&=\dfrac{4}{3}\pi R^3 \\\\ 
-\dfrac{dV}{dt}&=100 m^3 / s \\\\ 
-\dfrac{dR}{dt} &= \text{ ?}
-
-\end{align}
+\begin{align*}
+    V(R)&=\dfrac{4}{3}\pi R^3 \\\\ 
+    \dfrac{dV}{dt}&=100 m^3 \text{/s} \\\\ 
+    \dfrac{dR}{dt} &= \text{ ?}
+\end{align*}
 $$
 
 A chave para a resolução desse problema e outros do mesmo tipo é o estabelecimento de relação entre essas taxas, explicitando a taxa procurada.
@@ -96,4 +96,4 @@ $$
 \dfrac{dR}{dt}=\dfrac{100^3}{4\pi 25^2} = \dfrac{400}{\pi}
 $$
 
-Ou seja, quando o diâmetro do balão for 50 cm, seu raio está crescendo numa taxa de $400 / \pi$  centímetros por segundo.
+Ou seja, quando o diâmetro do balão for 50 cm, seu raio está crescendo numa taxa de $400 \text{/} \pi$ centímetros por segundo.

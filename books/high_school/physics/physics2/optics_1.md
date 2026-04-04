@@ -1,4 +1,4 @@
-# Fundamentos da Óptica Geométrica I — Reflexão e Espelhos
+# Óptica Geométrica I — Reflexão e Espelhos
 
 # Definições iniciais
 
@@ -188,7 +188,7 @@ O espelho convexo, ao contrário das múltiplas possibilidades do espelho cônca
 O “aumento” da imagem é definido como sendo a razão entre o **tamanho da imagem ($i$)** e o **tamanho do objeto ($o$)**, sendo assim um número adimensional. 
 
 $$
-A=\frac{i}{o}
+A=\dfrac{i}{o}
 $$
 
 Como veremos a seguir, essa relação simples nos consegue fornecer bastante informação sobre a imagem formada em um certo espelho côncavo. 
@@ -200,7 +200,7 @@ Como veremos a seguir, essa relação simples nos consegue fornecer bastante inf
 A Equação de Gauss relaciona três medidas num espelho: a distância focal ($f$), a distância entre o objeto e o vértice ($p$) e a distância entre a imagem e o vértice ($p'$). 
 
 $$
-\frac{1}{f}=\frac{1}{p}+\frac{1}{p'}
+\dfrac{1}{f}=\dfrac{1}{p}+\dfrac{1}{p'}
 $$
 
 Para os valores de $f$, $p$ e $p'$ nós estabelecemos algumas convenções: 
@@ -217,7 +217,7 @@ Para os valores de $f$, $p$ e $p'$ nós estabelecemos algumas convenções:
 A Equação de Gauss possui uma relação com o cálculo do aumento da imagem, que é o seguinte: 
 
 $$
-A=\frac{i}{o}=-\frac{p'}{p}
+A=\dfrac{i}{o}=-\dfrac{p'}{p}
 $$
 
 Portanto, por meio dessa relação podemos concluir que: 

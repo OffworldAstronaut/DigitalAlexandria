@@ -381,7 +381,7 @@ Vale lembrar que ao analisarmos funções compostas de outras funções, seu dom
 
 ## Teorema do Valor Intermediário
 
-O **teorema do valor intermediário**, também conhecido por **teorema de Bolzano** ou ainda **teorema de Bolzano-Cauchy**, ****é um importante teorema da análise real e do cálculo, servindo de boa ferramenta para a resolução de vários problemas que podem surgir. 
+O **teorema do valor intermediário**, também conhecido por **teorema de Bolzano** ou ainda **teorema de Bolzano-Cauchy**, é um importante teorema da análise real e do cálculo, servindo de boa ferramenta para a resolução de vários problemas que podem surgir. 
 
 Uma de suas aplicações, por exemplo, é demonstrar que expressões complexas possuem raízes, fato que poderemos também demonstrar com o conceito de **derivada**, no futuro. 
 

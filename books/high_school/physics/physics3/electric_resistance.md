@@ -25,7 +25,9 @@ As **Leis de Ohm** são leis formuladas pelo físico alemão **Georg Simons Ohm*
 Enunciada da seguinte forma…
 
 <blockquote>
+
 “Mantendo-se a temperatura de um resistor constante, a tensão aplicada em seus extremos é diretamente proporcional a corrente que o percorre.”
+
 </blockquote>
 
 …essa lei pode ser resumida na expressão: 
@@ -43,7 +45,9 @@ Foi descoberto posteriormente que nem todos os resistores obedecem à Primeira L
 A Segunda Lei é enunciada da seguinte forma: 
 
 <blockquote>
+
 “A resistência de um material é diretamente proporcional ao seu comprimento e inversamente proporcional a área de sua seção transversal.”
+
 </blockquote>
 
 Ou, de forma matemática: 
@@ -55,7 +59,9 @@ $$
 Com $R$ sendo a resistência elétrica, medida em ohms, $L$ sendo o comprimento do material, em metros, $A$ sendo a área da seção transversal, em metros quadrados, e $\rho$ (lê-se “rô”) a **resistividade elétrica** do material, medida em **ohm-metros**. 
 
 <aside>
-A <strong>resistividade elétrica</strong> de um material é uma <strong>resistência elétrica intrínseca</strong>, que não depende da forma do resistor.
+
+A <b>resistividade elétrica</b> de um material é uma <b>resistência elétrica intrínseca</b>, que não depende da forma do resistor.
+
 </aside>
 
 # Associação de resistores

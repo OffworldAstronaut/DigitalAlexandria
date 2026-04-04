@@ -4,15 +4,15 @@
 
 ---
 
-Chamamos **momento** $(\overrightarrow{p})$ a grandeza associada ao movimento de um corpo, dependente de sua massa e velocidade. Originalmente, ao definí-la, Newton a chamou de "quantidade de movimento". 
+Chamamos <b>momento</b> $(\vec{p})$ a grandeza associada ao movimento de um corpo, dependente de sua massa e velocidade. Originalmente, ao definí-la, Newton a chamou de "quantidade de movimento". 
 
-Chamada **momento linear** quando considerada em apenas uma única dimensão, como escalar, a grandeza do momento pode ser compreendida como a "inércia" da mudança de movimento de um corpo. Essa "dificuldade" é classicamente ilustrada pelo exemplo do automóvel e do carrinho de bebê — é infinitamente mais fácil parar um carrinho de bebê com as mãos do que o automóvel. 
+Chamada <b>momento linear</b> quando considerada em apenas uma única dimensão, como escalar, a grandeza do momento pode ser compreendida como a "inércia" da mudança de movimento de um corpo. Essa "dificuldade" é classicamente ilustrada pelo exemplo do automóvel e do carrinho de bebê — é infinitamente mais fácil parar um carrinho de bebê com as mãos do que o automóvel. 
 
 # Impulso
 
 ---
 
-O **impulso** $(\overrightarrow{I})$ é a grandeza oriunda duma força e de seu tempo de atuação sobre um corpo. O impulso de uma força mede a variação do momento deste corpo sob a atuação daquela força, com esta conclusão sendo chamada **Teorema Impulso-Momento** ou, simplesmente, **Teorema do Impulso**. 
+O <b>impulso</b> $(\overrightarrow{I})$ é a grandeza oriunda duma força e de seu tempo de atuação sobre um corpo. O impulso de uma força mede a variação do momento deste corpo sob a atuação daquela força, com esta conclusão sendo chamada <b>Teorema Impulso-Momento</b> ou, simplesmente, <b>Teorema do Impulso</b>.
 
 $$ 
 I = \int_{t_1}^{t_2} F(t) \text{ dt} = \Delta p
@@ -22,9 +22,9 @@ $$
 
 ---
 
-A **Terceira Lei de Newton**, comumente conhecida pela denominação **Lei da Ação e Reação**, também pode ser chamada pela alcunha de **Lei da Conservação do Momento** por razões já previamente demonstradas <a href="/books/higher_education/physics/physics_one/newtons_laws.html">aqui</a>. 
+A <b>Terceira Lei de Newton</b>, comumente conhecida pela denominação <b>Lei da Ação e Reação</b>, também pode ser chamada pela alcunha de <b>Lei da Conservação do Momento</b> por razões já previamente demonstradas <a href="/books/higher_education/physics/physics_one/newtons_laws.html">aqui</a>. 
 
-Entretanto, é importante deixar claro que a conclusão enunciada pela Lei vale apenas para **sistemas fechados**, isto é, sistemas físicos sem interação com forças externas ao sistema estudado. De fato, além dessa condição, é necessário que a massa permaneça constante ao longo do tempo. 
+Entretanto, é importante deixar claro que a conclusão enunciada pela Lei vale apenas para <b>sistemas fechados</b>, isto é, sistemas físicos sem interação com forças externas ao sistema estudado. De fato, além dessa condição, é necessário que a massa permaneça constante ao longo do tempo. 
 
 Podemos também escrever que, dado um sistema fechado com $n$ partículas, a soma de todos os seus momentos é constante, ou seja: 
 
